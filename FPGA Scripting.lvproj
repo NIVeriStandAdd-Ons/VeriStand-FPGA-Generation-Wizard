@@ -14,9 +14,6 @@
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Input" Type="Folder">
 				<Item Name="FPGA Addon" Type="Folder">
-					<Item Name="Digital PWM Input.lvclass" Type="LVClass" URL="../Classes/IO/FPGA Addon Digital PWM Input/Digital PWM Input.lvclass"/>
-					<Item Name="Analog PWM Input.lvclass" Type="LVClass" URL="../Classes/IO/FPGA Addon Analog PWM Input/Analog PWM Input.lvclass"/>
-					<Item Name="Digital Static Input.lvclass" Type="LVClass" URL="../Classes/IO/FPGA Addon Digital Static Input/Digital Static Input.lvclass"/>
 					<Item Name="FPGA Addon Input.lvclass" Type="LVClass" URL="../Classes/IO/FPGA Addon Input/FPGA Addon Input.lvclass"/>
 				</Item>
 				<Item Name="EST" Type="Folder">
@@ -32,9 +29,6 @@
 				</Item>
 				<Item Name="EST" Type="Folder">
 					<Item Name="EST Output.lvclass" Type="LVClass" URL="../Classes/IO/EST Output/EST Output.lvclass"/>
-					<Item Name="EST Analog Replay.lvclass" Type="LVClass" URL="../Classes/IO/EST Analog Replay/EST Analog Replay.lvclass"/>
-					<Item Name="EST Digital Pattern.lvclass" Type="LVClass" URL="../Classes/IO/EST Digital Pattern/EST Digital Pattern.lvclass"/>
-					<Item Name="EST Bidirectional Sensor.lvclass" Type="LVClass" URL="../Classes/IO/EST Bidirectional Sensor/EST Bidirectional Sensor.lvclass"/>
 					<Item Name="EST Knock Sensor.lvclass" Type="LVClass" URL="../Classes/IO/EST Knock Sensor/EST Knock Sensor.lvclass"/>
 				</Item>
 				<Item Name="Digital Control.lvclass" Type="LVClass" URL="../Classes/IO/Digital Control/Digital Control.lvclass"/>
@@ -64,12 +58,9 @@
 			<Item Name="Structures.lvclass" Type="LVClass" URL="../Classes/Loop/Structures/Structures.lvclass"/>
 			<Item Name="Block Diagram.lvclass" Type="LVClass" URL="../Classes/Loop/Block Diagram/Block Diagram.lvclass"/>
 		</Item>
-		<Item Name="Configuration.ctl" Type="VI" URL="../Classes/IO/IO Class/Configuration.ctl"/>
 		<Item Name="FPGA Settings.ctl" Type="VI" URL="../Classes/Project/FPGA Settings.ctl"/>
 		<Item Name="FPGA Wizard.vi" Type="VI" URL="../FPGA Wizard.vi"/>
-		<Item Name="Module Settings.ctl" Type="VI" URL="../Classes/Module/Module Class/Module Settings.ctl"/>
 		<Item Name="Playing.vi" Type="VI" URL="../Playing.vi"/>
-		<Item Name="Signal Settings.ctl" Type="VI" URL="../Classes/IO/IO Class/Signal Settings.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Build Error Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Build Error Cluster__ogtk.vi"/>
