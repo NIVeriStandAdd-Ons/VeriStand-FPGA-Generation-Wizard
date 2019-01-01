@@ -35,7 +35,7 @@
 				<Item Name="Digital Control.lvclass" Type="LVClass" URL="../Classes/IO/Digital Control/Digital Control.lvclass"/>
 				<Item Name="Numeric Control.lvclass" Type="LVClass" URL="../Classes/IO/Numeric Control/Numeric Control.lvclass"/>
 			</Item>
-			<Item Name="IO Class.lvclass" Type="LVClass" URL="../Classes/IO/IO Class/IO Class.lvclass"/>
+			<Item Name="Signal.lvclass" Type="LVClass" URL="../Classes/IO/IO Class/Signal.lvclass"/>
 			<Item Name="Input Signal.lvclass" Type="LVClass" URL="../Classes/IO/Input Signal/Input Signal.lvclass"/>
 			<Item Name="Output Signal.lvclass" Type="LVClass" URL="../Classes/IO/Output Signal/Output Signal.lvclass"/>
 		</Item>
@@ -49,13 +49,13 @@
 		</Item>
 		<Item Name="Structures" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="Analog Input Loop.lvclass" Type="LVClass" URL="../Classes/Loop/Analog Input Loop/Analog Input Loop.lvclass"/>
-			<Item Name="Analog Output Loop.lvclass" Type="LVClass" URL="../Classes/Loop/Analog Output Loop/Analog Output Loop.lvclass"/>
-			<Item Name="Digital High Speed Loop.lvclass" Type="LVClass" URL="../Classes/Loop/Digital High Speed Loop/Digital High Speed Loop.lvclass"/>
-			<Item Name="Digital Slow Speed Loop.lvclass" Type="LVClass" URL="../Classes/Loop/Digital Slow Speed Loop/Digital Slow Speed Loop.lvclass"/>
-			<Item Name="DMA Loop.lvclass" Type="LVClass" URL="../Classes/Loop/DMA Loop/DMA Loop.lvclass"/>
-			<Item Name="Initial Sequence.lvclass" Type="LVClass" URL="../Classes/Loop/Initial Sequence/Initial Sequence.lvclass"/>
-			<Item Name="Module Loop.lvclass" Type="LVClass" URL="../Classes/Loop/Module Loop/Module Loop.lvclass"/>
+			<Item Name="Loops" Type="Folder">
+				<Item Name="Digital High Speed Loop.lvclass" Type="LVClass" URL="../Classes/Loop/Digital High Speed Loop/Digital High Speed Loop.lvclass"/>
+				<Item Name="DMA Loop.lvclass" Type="LVClass" URL="../Classes/Loop/DMA Loop/DMA Loop.lvclass"/>
+				<Item Name="Module Loop.lvclass" Type="LVClass" URL="../Classes/Loop/Module Loop/Module Loop.lvclass"/>
+				<Item Name="Loop.lvclass" Type="LVClass" URL="../Classes/Loop/Loop/Loop.lvclass"/>
+			</Item>
+			<Item Name="Main Sequence.lvclass" Type="LVClass" URL="../Classes/Loop/Initial Sequence/Main Sequence.lvclass"/>
 			<Item Name="Structures.lvclass" Type="LVClass" URL="../Classes/Loop/Structures/Structures.lvclass"/>
 			<Item Name="Block Diagram.lvclass" Type="LVClass" URL="../Classes/Loop/Block Diagram/Block Diagram.lvclass"/>
 		</Item>
@@ -91,14 +91,6 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="EST.Controls.Generate.vi" Type="VI" URL="../SubVIs/EST.Controls.Generate.vi"/>
-			<Item Name="FPGAAddon.SpecialityInputs.Generate.Parameters.ctl" Type="VI" URL="../SubVIs/FPGAAddon.SpecialityInputs.Generate.Parameters.ctl"/>
-			<Item Name="FPGAAddon.SpecialityInputs.Generate.vi" Type="VI" URL="../SubVIs/FPGAAddon.SpecialityInputs.Generate.vi"/>
-			<Item Name="FPGAAddon.SpecialityOutputs.Generate.Parameters.ctl" Type="VI" URL="../SubVIs/FPGAAddon.SpecialityOutputs.Generate.Parameters.ctl"/>
-			<Item Name="FPGAAddon.SpecialityOutputs.Generate.vi" Type="VI" URL="../SubVIs/FPGAAddon.SpecialityOutputs.Generate.vi"/>
-			<Item Name="FPGAAddon.WSS.Generate.vi" Type="VI" URL="../Classes/IO/Wheel Speed Sensor/FPGAAddon.WSS.Generate.vi"/>
-			<Item Name="Location.Horizontal.Update.vi" Type="VI" URL="../Classes/Loop/Structures/Location.Horizontal.Update.vi"/>
-			<Item Name="Location.Vertical.Update.vi" Type="VI" URL="../Classes/Loop/Structures/Location.Vertical.Update.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
