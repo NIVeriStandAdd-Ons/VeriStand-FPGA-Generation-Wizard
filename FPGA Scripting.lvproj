@@ -14,35 +14,35 @@
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Input" Type="Folder">
 				<Item Name="FPGA Addon" Type="Folder">
-					<Item Name="FPGA Addon Input.lvclass" Type="LVClass" URL="../Classes/IO/FPGA Addon Input/FPGA Addon Input.lvclass"/>
+					<Item Name="FPGA Addon Input.lvclass" Type="LVClass" URL="../Classes/Signal/FPGA Addon Input/FPGA Addon Input.lvclass"/>
 				</Item>
 				<Item Name="EST" Type="Folder">
-					<Item Name="EST Input.lvclass" Type="LVClass" URL="../Classes/IO/EST Input/EST Input.lvclass"/>
-					<Item Name="Digital Event.lvclass" Type="LVClass" URL="../Classes/IO/EST Digital Event/Digital Event.lvclass"/>
+					<Item Name="EST Input.lvclass" Type="LVClass" URL="../Classes/Signal/EST Input/EST Input.lvclass"/>
+					<Item Name="Digital Event.lvclass" Type="LVClass" URL="../Classes/Signal/EST Digital Event/Digital Event.lvclass"/>
 				</Item>
-				<Item Name="Digital Indicator.lvclass" Type="LVClass" URL="../Classes/IO/Digital Indicator/Digital Indicator.lvclass"/>
-				<Item Name="Numeric Indicator.lvclass" Type="LVClass" URL="../Classes/IO/Numeric Indicator/Numeric Indicator.lvclass"/>
+				<Item Name="Digital Indicator.lvclass" Type="LVClass" URL="../Classes/Signal/Digital Indicator/Digital Indicator.lvclass"/>
+				<Item Name="Analog Indicator.lvclass" Type="LVClass" URL="../Classes/Signal/Analog Indicator/Analog Indicator.lvclass"/>
 			</Item>
 			<Item Name="Output" Type="Folder">
 				<Item Name="FPGA Addon" Type="Folder">
-					<Item Name="FPGA Addon Output.lvclass" Type="LVClass" URL="../Classes/IO/FPGA Addon Output/FPGA Addon Output.lvclass"/>
-					<Item Name="Wheel Speed Sensor.lvclass" Type="LVClass" URL="../Classes/IO/Wheel Speed Sensor/Wheel Speed Sensor.lvclass"/>
+					<Item Name="FPGA Addon Output.lvclass" Type="LVClass" URL="../Classes/Signal/FPGA Addon Output/FPGA Addon Output.lvclass"/>
+					<Item Name="Wheel Speed Sensor.lvclass" Type="LVClass" URL="../Classes/Signal/Wheel Speed Sensor/Wheel Speed Sensor.lvclass"/>
 				</Item>
 				<Item Name="EST" Type="Folder">
-					<Item Name="EST Output.lvclass" Type="LVClass" URL="../Classes/IO/EST Output/EST Output.lvclass"/>
-					<Item Name="EST Knock Sensor.lvclass" Type="LVClass" URL="../Classes/IO/EST Knock Sensor/EST Knock Sensor.lvclass"/>
+					<Item Name="EST Output.lvclass" Type="LVClass" URL="../Classes/Signal/EST Output/EST Output.lvclass"/>
+					<Item Name="Knock Sensor.lvclass" Type="LVClass" URL="../Classes/Signal/EST Knock Sensor/Knock Sensor.lvclass"/>
 				</Item>
-				<Item Name="Digital Control.lvclass" Type="LVClass" URL="../Classes/IO/Digital Control/Digital Control.lvclass"/>
-				<Item Name="Numeric Control.lvclass" Type="LVClass" URL="../Classes/IO/Numeric Control/Numeric Control.lvclass"/>
+				<Item Name="Digital Control.lvclass" Type="LVClass" URL="../Classes/Signal/Digital Control/Digital Control.lvclass"/>
+				<Item Name="Analog Control.lvclass" Type="LVClass" URL="../Classes/Signal/Analog Control/Analog Control.lvclass"/>
 			</Item>
-			<Item Name="Signal.lvclass" Type="LVClass" URL="../Classes/IO/IO Class/Signal.lvclass"/>
-			<Item Name="Input Signal.lvclass" Type="LVClass" URL="../Classes/IO/Input Signal/Input Signal.lvclass"/>
-			<Item Name="Output Signal.lvclass" Type="LVClass" URL="../Classes/IO/Output Signal/Output Signal.lvclass"/>
+			<Item Name="Signal.lvclass" Type="LVClass" URL="../Classes/Signal/Signal/Signal.lvclass"/>
+			<Item Name="Input Signal.lvclass" Type="LVClass" URL="../Classes/Signal/Input Signal/Input Signal.lvclass"/>
+			<Item Name="Output Signal.lvclass" Type="LVClass" URL="../Classes/Signal/Output Signal/Output Signal.lvclass"/>
 		</Item>
 		<Item Name="Modules" Type="Folder">
-			<Item Name="Input.lvclass" Type="LVClass" URL="../Classes/Module/Input Module/Input.lvclass"/>
-			<Item Name="Module.lvclass" Type="LVClass" URL="../Classes/Module/Module Class/Module.lvclass"/>
-			<Item Name="Output.lvclass" Type="LVClass" URL="../Classes/Module/Output Module/Output.lvclass"/>
+			<Item Name="Input Module.lvclass" Type="LVClass" URL="../Classes/Module/Input Module/Input Module.lvclass"/>
+			<Item Name="Module.lvclass" Type="LVClass" URL="../Classes/Module/Module/Module.lvclass"/>
+			<Item Name="Output Module.lvclass" Type="LVClass" URL="../Classes/Module/Output Module/Output Module.lvclass"/>
 		</Item>
 		<Item Name="Project" Type="Folder">
 			<Item Name="Project.lvclass" Type="LVClass" URL="../Classes/Project/Project.lvclass"/>
@@ -50,16 +50,15 @@
 		<Item Name="Structures" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Loops" Type="Folder">
-				<Item Name="Digital High Speed Loop.lvclass" Type="LVClass" URL="../Classes/Loop/Digital High Speed Loop/Digital High Speed Loop.lvclass"/>
-				<Item Name="DMA Loop.lvclass" Type="LVClass" URL="../Classes/Loop/DMA Loop/DMA Loop.lvclass"/>
-				<Item Name="Module Loop.lvclass" Type="LVClass" URL="../Classes/Loop/Module Loop/Module Loop.lvclass"/>
-				<Item Name="Loop.lvclass" Type="LVClass" URL="../Classes/Loop/Loop/Loop.lvclass"/>
+				<Item Name="Digital High Speed Loop.lvclass" Type="LVClass" URL="../Classes/Block Diagram/Digital High Speed Loop/Digital High Speed Loop.lvclass"/>
+				<Item Name="DMA Loop.lvclass" Type="LVClass" URL="../Classes/Block Diagram/DMA Loop/DMA Loop.lvclass"/>
+				<Item Name="Module Loop.lvclass" Type="LVClass" URL="../Classes/Block Diagram/Module Loop/Module Loop.lvclass"/>
+				<Item Name="Loop.lvclass" Type="LVClass" URL="../Classes/Block Diagram/Loop/Loop.lvclass"/>
 			</Item>
-			<Item Name="Main Sequence.lvclass" Type="LVClass" URL="../Classes/Loop/Initial Sequence/Main Sequence.lvclass"/>
-			<Item Name="Structures.lvclass" Type="LVClass" URL="../Classes/Loop/Structures/Structures.lvclass"/>
-			<Item Name="Block Diagram.lvclass" Type="LVClass" URL="../Classes/Loop/Block Diagram/Block Diagram.lvclass"/>
+			<Item Name="Main Sequence.lvclass" Type="LVClass" URL="../Classes/Block Diagram/Main Sequence/Main Sequence.lvclass"/>
+			<Item Name="Structures.lvclass" Type="LVClass" URL="../Classes/Block Diagram/Structures/Structures.lvclass"/>
+			<Item Name="Block Diagram.lvclass" Type="LVClass" URL="../Classes/Block Diagram/Block Diagram/Block Diagram.lvclass"/>
 		</Item>
-		<Item Name="FPGA Settings.ctl" Type="VI" URL="../Classes/Project/FPGA Settings.ctl"/>
 		<Item Name="FPGA Wizard.vi" Type="VI" URL="../FPGA Wizard.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
