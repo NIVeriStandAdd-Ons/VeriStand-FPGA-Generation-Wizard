@@ -50,14 +50,14 @@
 		<Item Name="Structures" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Loops" Type="Folder">
-				<Item Name="Digital High Speed Loop.lvclass" Type="LVClass" URL="../Classes/Block Diagram/Digital High Speed Loop/Digital High Speed Loop.lvclass"/>
-				<Item Name="DMA Loop.lvclass" Type="LVClass" URL="../Classes/Block Diagram/DMA Loop/DMA Loop.lvclass"/>
-				<Item Name="Module Loop.lvclass" Type="LVClass" URL="../Classes/Block Diagram/Module Loop/Module Loop.lvclass"/>
-				<Item Name="Loop.lvclass" Type="LVClass" URL="../Classes/Block Diagram/Loop/Loop.lvclass"/>
+				<Item Name="Digital High Speed Loop.lvclass" Type="LVClass" URL="../Classes/VI/Digital High Speed Loop/Digital High Speed Loop.lvclass"/>
+				<Item Name="DMA Loop.lvclass" Type="LVClass" URL="../Classes/VI/DMA Loop/DMA Loop.lvclass"/>
+				<Item Name="Module Loop.lvclass" Type="LVClass" URL="../Classes/VI/Module Loop/Module Loop.lvclass"/>
+				<Item Name="Loop.lvclass" Type="LVClass" URL="../Classes/VI/Loop/Loop.lvclass"/>
 			</Item>
-			<Item Name="Main Sequence.lvclass" Type="LVClass" URL="../Classes/Block Diagram/Main Sequence/Main Sequence.lvclass"/>
-			<Item Name="Structures.lvclass" Type="LVClass" URL="../Classes/Block Diagram/Structures/Structures.lvclass"/>
-			<Item Name="Block Diagram.lvclass" Type="LVClass" URL="../Classes/Block Diagram/Block Diagram/Block Diagram.lvclass"/>
+			<Item Name="Main Sequence.lvclass" Type="LVClass" URL="../Classes/VI/Main Sequence/Main Sequence.lvclass"/>
+			<Item Name="Structures.lvclass" Type="LVClass" URL="../Classes/VI/Structures/Structures.lvclass"/>
+			<Item Name="VI.lvclass" Type="LVClass" URL="../Classes/VI/VI/VI.lvclass"/>
 		</Item>
 		<Item Name="FPGA Wizard.vi" Type="VI" URL="../FPGA Wizard.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
