@@ -152,13 +152,13 @@
 		<Property Name="NI.ClassItem.State" Type="Int">1350574594</Property>
 	</Item>
 	<Item Name="Signal Constructor.vi" Type="VI" URL="../Signal Constructor.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!')!!!!$1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#R!=!!?!!!1$F.J:WZB&lt;#ZM&gt;G.M98.T!!!135]A1WRB=X-O&lt;(:D&lt;'&amp;T=Q!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!51$$`````#V.J:WZB&lt;#"/97VF!""!-0````](35]A4G&amp;N:1!51$$`````#V.J:WZB&lt;#"5?8"F!"J!-0````]25WFH&lt;G&amp;M)&amp;"B=G&amp;N:82F=H-!41$R!!!!!!!!!!)/5WFH&lt;G&amp;M,GRW9WRB=X-45WFH&lt;G&amp;M)&amp;.F&gt;(2J&lt;G&gt;T,G.U&lt;!!C1&amp;!!"!!(!!A!#1!+$V.J:WZB&lt;#"4:82U;7ZH=Q"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!#Q-!!(A!!!U)!!!!!!!!!!!!!!E!!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!#!!!!!!"!!Q!!!!!</Property>
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'?!!!!$A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#R!=!!?!!!1$F.J:WZB&lt;#ZM&gt;G.M98.T!!!135]A1WRB=X-O&lt;(:D&lt;'&amp;T=Q!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!51$$`````#V.J:WZB&lt;#"/97VF!""!-0````](35]A4G&amp;N:1!51$$`````#V.J:WZB&lt;#"5?8"F!"J!-0````]25WFH&lt;G&amp;M)&amp;"B=G&amp;N:82F=H-!&amp;%!Q`````QN*4S"3:8.P&gt;8*D:1"0!0%!!!!!!!!!!AZ4;7&gt;O97QO&lt;(:D&lt;'&amp;T=R.4;7&gt;O97QA5W6U&gt;'FO:X-O9X2M!#2!5!!&amp;!!=!#!!*!!I!#Q^4;7&gt;O97QA5W6U&gt;'FO:X-!6!$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!Q$!!"Y!!!.#!!!!!!!!!!!!!!*!!!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!!A!!!!!!1!.!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1350574610</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1350574608</Property>
 	</Item>
 	<Item Name="Signal Settings.ctl" Type="VI" URL="../Signal Settings.ctl">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#J!!!!"1!51$$`````#V.J:WZB&lt;#"/97VF!""!-0````](35]A4G&amp;N:1!51$$`````#V.J:WZB&lt;#"5?8"F!"J!-0````]25WFH&lt;G&amp;M)&amp;"B=G&amp;N:82F=H-!4Q$R!!!!!!!!!!)135]A1WRB=X-O&lt;(:D&lt;'&amp;T=R.4;7&gt;O97QA5W6U&gt;'FO:X-O9X2M!#*!5!!%!!!!!1!#!!-05WFH&lt;G&amp;M)&amp;.F&gt;(2J&lt;G&gt;T!!%!"!!!!!!</Property>
