@@ -182,8 +182,17 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
 	</Item>
-	<Item Name="Sort.vi" Type="VI" URL="../Sort.vi">
+	<Item Name="Sort 2D Array.vi" Type="VI" URL="../Sort 2D Array.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%"!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!""!-0````](35]A4G&amp;N:1!;1%!!!P``````````!!5*18*S98EA&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!'E"!!!,``````````Q!&amp;#%&amp;S=G&amp;Z)'FO!!"5!0!!$!!$!!1!"!!'!!1!"!!%!!1!"Q!%!!1!#!-!!(A!!!U)!!!!!!!!!!!!!!E!!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!##!!!!!!"!!E!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
+	</Item>
+	<Item Name="Sort Cluster.vi" Type="VI" URL="../Sort Cluster.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*\!!!!&amp;A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"J!-0````]12F"(13"598*H:81A4G&amp;N:1!!&amp;%!Q`````QJ(=G^V=#"/97VF!!!71$$`````$%VP:'6M)%ZV&lt;7*F=A!!&amp;%!Q`````QN4;7&gt;O97QA4G&amp;N:1!11$$`````"UF0)%ZB&lt;75!&amp;%!Q`````QN4;7&gt;O97QA6(FQ:1!;1$$`````%6.J:WZB&lt;#"198*B&lt;76U:8*T!"2!-0````],35]A5G6T&lt;X6S9W5!0Q$R!!!!!!!!!!)/5WFH&lt;G&amp;M,GRW9WRB=X-45WFH&lt;G&amp;M)&amp;.F&gt;(2J&lt;G&gt;T,G.U&lt;!!5!&amp;!!"1!)!!E!#A!,!!Q!&amp;%"!!!(`````!!U(5WFH&lt;G&amp;M=Q!\!0%!!!!!!!!!!AZ.&lt;W2V&lt;'5O&lt;(:D&lt;'&amp;T=R..&lt;W2V&lt;'5A5W6U&gt;'FO:X-O9X2M!"!!5!!$!!9!"Q!/!"2!1!!"`````Q!0"UVP:(6M:8-!2A$R!!!!!!!!!!)05(*P;G6D&gt;#ZM&gt;G.M98.T%5:12U%A5W6U&gt;'FO:X-O9X2M!"R!5!!#!!5!%!V'5%&gt;")&amp;.F&gt;(2J&lt;G&gt;T!":!1!!"`````Q!2#5&amp;S=G&amp;Z)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!":!1!!"`````Q!2#%&amp;S=G&amp;Z)'FO!!"5!0!!$!!$!!1!"!!3!!1!"!!%!!1!%Q!%!!1!&amp;!-!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!"#A!!!!!"!"5!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
