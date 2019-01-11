@@ -1,0 +1,41 @@
+IO Name,Signal
+Connector1/AI0,Pressure1
+Connector1/AI1,Pressure2
+Connector1/AI2,Injector3
+Connector1/AI3,Injector4
+Connector1/AI4,Pressure3
+Connector1/AI5,Pressure4
+Connector1/AI6,Temp1
+Connector1/AI7,Temp2
+Connector1/AO0,Knock1
+Connector1/AO1,Knock2
+Connector1/AO2,Dyno Setpoint
+Connector1/AO3,Power Supply Setpoint
+Connector1/AO4,VR Sensor1
+Connector1/AO5,VR Sensor2
+Connector1/AO6,Simple Knock 1
+Connector1/AO7,Simple Knock 2
+Connector0/DIO0,PWM Out 1
+Connector0/DIO1,PWM Out 2
+Connector0/DIO2,Intake CAM 1
+Connector0/DIO3,Exhaust CAM 1
+Connector0/DIO4,Key
+Connector0/DIO5,Switch
+Connector0/DIO6,Crank_Temp
+Connector0/DIO7,Crank
+Connector0/DIO8,Front Driver WS_0
+Connector0/DIO9,Front Driver WS_1
+Connector0/DIO10,Front Passenger WS_0
+Connector0/DIO11,Front Passenger WS_1
+Connector0/DIO12,Rear Driver WS_0
+Connector0/DIO13,Rear Driver WS_1
+Connector0/DIO14,Read Passenger WS_0
+Connector0/DIO15,Read Passenger WS_1
+Connector0/DIO16,Relay State
+Connector0/DIO17,Switch State
+Connector0/DIO18,Key State
+Connector0/DIO19,PWM IN 1
+Connector0/DIO20,PWM IN 2
+Connector0/DIO21,Cyl Inj 1
+Connector0/DIO22,Cyl Inj 2
+Connector0/DIO23,Cyl Inj 3
