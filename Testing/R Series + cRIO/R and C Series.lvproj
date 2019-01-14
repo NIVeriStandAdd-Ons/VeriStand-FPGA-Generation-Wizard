@@ -1753,8 +1753,8 @@
 				<Item Name="Convert.I16toFXP.vi" Type="VI" URL="../../../Templates/Convert.I16toFXP.vi"/>
 				<Item Name="Digital_Input_8Channels.vi" Type="VI" URL="../../../Templates/Digital_Input_8Channels.vi"/>
 				<Item Name="Digital_Output_8Channels.vi" Type="VI" URL="../../../Templates/Digital_Output_8Channels.vi"/>
-				<Item Name="DMA.Command.Handler.vi" Type="VI" URL="../../../SubVIs/DMA.Command.Handler.vi"/>
-				<Item Name="Loop.Timer.vi" Type="VI" URL="../../../SubVIs/Loop.Timer.vi"/>
+				<Item Name="DMA.Command.Handler.vi" Type="VI" URL="../../../Templates/SubVIs/DMA.Command.Handler.vi"/>
+				<Item Name="Loop.Timer.vi" Type="VI" URL="../../../Templates/SubVIs/Loop.Timer.vi"/>
 				<Item Name="Memory.AnalogReplay.Selection.vi" Type="VI" URL="../../../Templates/Memory.AnalogReplay.Selection.vi"/>
 				<Item Name="Memory.Digital.Selection.vi" Type="VI" URL="../../../Templates/Memory.Digital.Selection.vi"/>
 			</Item>
@@ -3434,9 +3434,8 @@
 						<Item Name="Engine Simulation Toolkit.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/Engine Simulation Toolkit.lvlib"/>
 						<Item Name="Speciality FPGA IO.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/FPGA Addon IP/Speciality IO/Speciality FPGA IO.lvlib"/>
 						<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
+						<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
 					</Item>
-					<Item Name="DMA.Command.Handler.vi" Type="VI" URL="../../../SubVIs/DMA.Command.Handler.vi"/>
-					<Item Name="Loop.Timer.vi" Type="VI" URL="../../../SubVIs/Loop.Timer.vi"/>
 					<Item Name="Memory.Digital.Selection.vi" Type="VI" URL="../../../Templates/Memory.Digital.Selection.vi"/>
 					<Item Name="Memory.AnalogReplay.Selection.vi" Type="VI" URL="../../../Templates/Memory.AnalogReplay.Selection.vi"/>
 					<Item Name="Analog_Input_16Channels_W24I5.vi" Type="VI" URL="../../../Templates/Analog_Input_16Channels_W24I5.vi"/>
@@ -3444,6 +3443,8 @@
 					<Item Name="Analog_Output_16Channels_W20I5.vi" Type="VI" URL="../../../Templates/Analog_Output_16Channels_W20I5.vi"/>
 					<Item Name="Digital_Output_8Channels.vi" Type="VI" URL="../../../Templates/Digital_Output_8Channels.vi"/>
 					<Item Name="Digital_Input_8Channels.vi" Type="VI" URL="../../../Templates/Digital_Input_8Channels.vi"/>
+					<Item Name="DMA.Command.Handler.vi" Type="VI" URL="../../../Templates/SubVIs/DMA.Command.Handler.vi"/>
+					<Item Name="Loop.Timer.vi" Type="VI" URL="../../../Templates/SubVIs/Loop.Timer.vi"/>
 				</Item>
 				<Item Name="Build Specifications" Type="Build">
 					<Item Name="FPGA Target" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">

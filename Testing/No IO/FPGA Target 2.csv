@@ -50,7 +50,7 @@ Mod2/DIO7,Mod2_DIO7
 Mod3/DIO0,PWM Out 1 Loopback
 Mod3/DIO1,PWM Out 2 Loopback
 Mod3/DIO2,Intake CAM 1 Loopback
-Mod3/DIO3,Exhaust CAM 1
+Mod3/DIO3,Exhaust CAM 1 Loopback
 Mod3/DIO4,Key Loopback
 Mod3/DIO5,Switch Loopback
 Mod3/DIO6,Crank_Temp Loopback

@@ -18,7 +18,7 @@ FPGA Target 2,9401,Mod2,DIO7,Mod2/DIO7,,,
 FPGA Target 2,9401,Mod3,DIO0,Mod3/DIO0,PWM Out 1 Loopback,Digital PWM Input,
 FPGA Target 2,9401,Mod3,DIO1,Mod3/DIO1,PWM Out 2 Loopback,Digital PWM Input,
 FPGA Target 2,9401,Mod3,DIO2,Mod3/DIO2,Intake CAM 1 Loopback,Digital Event,Events:4
-FPGA Target 2,9401,Mod3,DIO3,Mod3/DIO3,Exhaust CAM 1,Digital Event,Events:4
+FPGA Target 2,9401,Mod3,DIO3,Mod3/DIO3,Exhaust CAM 1 Loopback,Digital Event,Events:4
 FPGA Target 2,9401,Mod3,DIO4,Mod3/DIO4,Key Loopback,Digital Indicator,
 FPGA Target 2,9401,Mod3,DIO5,Mod3/DIO5,Switch Loopback,Digital Indicator,
 FPGA Target 2,9401,Mod3,DIO6,Mod3/DIO6,Crank_Temp Loopback,Digital Static Input,
