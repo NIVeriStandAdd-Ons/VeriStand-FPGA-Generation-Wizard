@@ -10,7 +10,7 @@
 				<String>Test Scripted IO</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.43</String>
+				<String>1.0.0.61</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
@@ -468,6 +468,9 @@ WARNING: This snaps the angle processing unit position and will cause undefined 
 											<Property Name="user.CD.DataReplay.MemSize">
 												<U16>2</U16>
 											</Property>
+											<Property Name="user.CD.DataReplay.VatMax">
+												<Double>5</Double>
+											</Property>
 										</Properties>
 										<Errors />
 										<Channel Name="Offset" TypeGUID="CAB9E886-793C-6FFE-E190-E227CA9E28A0" RowDim="1" ColDim="1" Units="deg" BitFields="11">
@@ -651,28 +654,16 @@ WARNING: This snaps the angle processing unit position and will cause undefined 
 												<String>Exhaust CAM 1</String>
 											</Property>
 											<Property Name="user.CD.DigPattrn.Length">
-												<Double>360</Double>
+												<Double>720</Double>
 											</Property>
 											<Property Name="user.CD.DigPattrn.Teeth">
-												<U16>60</U16>
+												<U16>6</U16>
 											</Property>
 											<Property Name="user.CD.DigPattrn.Width">
-												<Double>1</Double>
+												<Double>10</Double>
 											</Property>
 											<Property Name="user.CD.DigPattrn.Offset">
-												<Double>-0.5</Double>
-											</Property>
-											<Property Name="user.CD.DigPattrn.Rem_Tooth_0">
-												<U16>58</U16>
-											</Property>
-											<Property Name="user.CD.DigPattrn.Rem_Edge_0">
-												<Boolean>false</Boolean>
-											</Property>
-											<Property Name="user.CD.DigPattrn.Rem_Tooth_1">
-												<U16>59</U16>
-											</Property>
-											<Property Name="user.CD.DigPattrn.Rem_Edge_1">
-												<Boolean>false</Boolean>
+												<Double>0</Double>
 											</Property>
 										</Properties>
 										<Errors />
@@ -756,16 +747,16 @@ WARNING: This snaps the angle processing unit position and will cause undefined 
 												<String>Intake CAM 1</String>
 											</Property>
 											<Property Name="user.CD.DigPattrn.Length">
-												<Double>360</Double>
+												<Double>720</Double>
 											</Property>
 											<Property Name="user.CD.DigPattrn.Teeth">
-												<U16>60</U16>
+												<U16>6</U16>
 											</Property>
 											<Property Name="user.CD.DigPattrn.Width">
-												<Double>1</Double>
+												<Double>20</Double>
 											</Property>
 											<Property Name="user.CD.DigPattrn.Offset">
-												<Double>-0.5</Double>
+												<Double>0</Double>
 											</Property>
 											<Property Name="user.CD.DigPattrn.Rem_Tooth_0">
 												<U16>58</U16>
@@ -880,7 +871,7 @@ WARNING: This snaps the angle processing unit position and will cause undefined 
 												<Properties />
 												<Errors />
 												<DefaultValue>
-													<Elem>0</Elem>
+													<Elem>50</Elem>
 												</DefaultValue>
 											</Channel>
 											<Channel Name="Amplitude" TypeGUID="CAB9E886-793C-6FFE-E190-E227CA9E28A0" RowDim="1" ColDim="1" Units="V" BitFields="11">
@@ -913,7 +904,7 @@ WARNING: This snaps the angle processing unit position and will cause undefined 
 												<Properties />
 												<Errors />
 												<DefaultValue>
-													<Elem>0</Elem>
+													<Elem>50</Elem>
 												</DefaultValue>
 											</Channel>
 											<Channel Name="Amplitude" TypeGUID="CAB9E886-793C-6FFE-E190-E227CA9E28A0" RowDim="1" ColDim="1" Units="V" BitFields="11">
@@ -929,7 +920,7 @@ WARNING: This snaps the angle processing unit position and will cause undefined 
 												<Properties />
 												<Errors />
 												<DefaultValue>
-													<Elem>0</Elem>
+													<Elem>59.996337890625</Elem>
 												</DefaultValue>
 											</Channel>
 										</Section>
@@ -946,7 +937,7 @@ WARNING: This snaps the angle processing unit position and will cause undefined 
 												<Properties />
 												<Errors />
 												<DefaultValue>
-													<Elem>0</Elem>
+													<Elem>50</Elem>
 												</DefaultValue>
 											</Channel>
 											<Channel Name="Amplitude" TypeGUID="CAB9E886-793C-6FFE-E190-E227CA9E28A0" RowDim="1" ColDim="1" Units="V" BitFields="11">
@@ -962,7 +953,7 @@ WARNING: This snaps the angle processing unit position and will cause undefined 
 												<Properties />
 												<Errors />
 												<DefaultValue>
-													<Elem>0</Elem>
+													<Elem>120.003662109375</Elem>
 												</DefaultValue>
 											</Channel>
 										</Section>
@@ -979,7 +970,7 @@ WARNING: This snaps the angle processing unit position and will cause undefined 
 												<Properties />
 												<Errors />
 												<DefaultValue>
-													<Elem>0</Elem>
+													<Elem>50</Elem>
 												</DefaultValue>
 											</Channel>
 											<Channel Name="Amplitude" TypeGUID="CAB9E886-793C-6FFE-E190-E227CA9E28A0" RowDim="1" ColDim="1" Units="V" BitFields="11">
@@ -995,7 +986,7 @@ WARNING: This snaps the angle processing unit position and will cause undefined 
 												<Properties />
 												<Errors />
 												<DefaultValue>
-													<Elem>0</Elem>
+													<Elem>180</Elem>
 												</DefaultValue>
 											</Channel>
 										</Section>
@@ -1012,7 +1003,7 @@ WARNING: This snaps the angle processing unit position and will cause undefined 
 												<Properties />
 												<Errors />
 												<DefaultValue>
-													<Elem>0</Elem>
+													<Elem>50</Elem>
 												</DefaultValue>
 											</Channel>
 											<Channel Name="Amplitude" TypeGUID="CAB9E886-793C-6FFE-E190-E227CA9E28A0" RowDim="1" ColDim="1" Units="V" BitFields="11">
@@ -1028,7 +1019,7 @@ WARNING: This snaps the angle processing unit position and will cause undefined 
 												<Properties />
 												<Errors />
 												<DefaultValue>
-													<Elem>0</Elem>
+													<Elem>239.996337890625</Elem>
 												</DefaultValue>
 											</Channel>
 										</Section>
@@ -1045,7 +1036,7 @@ WARNING: This snaps the angle processing unit position and will cause undefined 
 												<Properties />
 												<Errors />
 												<DefaultValue>
-													<Elem>0</Elem>
+													<Elem>50</Elem>
 												</DefaultValue>
 											</Channel>
 											<Channel Name="Amplitude" TypeGUID="CAB9E886-793C-6FFE-E190-E227CA9E28A0" RowDim="1" ColDim="1" Units="V" BitFields="11">
@@ -1061,7 +1052,7 @@ WARNING: This snaps the angle processing unit position and will cause undefined 
 												<Properties />
 												<Errors />
 												<DefaultValue>
-													<Elem>0</Elem>
+													<Elem>300.003662109375</Elem>
 												</DefaultValue>
 											</Channel>
 										</Section>
@@ -1095,7 +1086,7 @@ WARNING: This snaps the angle processing unit position and will cause undefined 
 												<Properties />
 												<Errors />
 												<DefaultValue>
-													<Elem>0</Elem>
+													<Elem>50</Elem>
 												</DefaultValue>
 											</Channel>
 											<Channel Name="Amplitude" TypeGUID="CAB9E886-793C-6FFE-E190-E227CA9E28A0" RowDim="1" ColDim="1" Units="V" BitFields="11">
@@ -1103,7 +1094,7 @@ WARNING: This snaps the angle processing unit position and will cause undefined 
 												<Properties />
 												<Errors />
 												<DefaultValue>
-													<Elem>5</Elem>
+													<Elem>10</Elem>
 												</DefaultValue>
 											</Channel>
 											<Channel Name="Trigger Angle" TypeGUID="CAB9E886-793C-6FFE-E190-E227CA9E28A0" RowDim="1" ColDim="1" Units="deg" BitFields="11">
@@ -1111,7 +1102,7 @@ WARNING: This snaps the angle processing unit position and will cause undefined 
 												<Properties />
 												<Errors />
 												<DefaultValue>
-													<Elem>0</Elem>
+													<Elem>30.003662109375</Elem>
 												</DefaultValue>
 											</Channel>
 										</Section>
@@ -1128,7 +1119,7 @@ WARNING: This snaps the angle processing unit position and will cause undefined 
 												<Properties />
 												<Errors />
 												<DefaultValue>
-													<Elem>0</Elem>
+													<Elem>50</Elem>
 												</DefaultValue>
 											</Channel>
 											<Channel Name="Amplitude" TypeGUID="CAB9E886-793C-6FFE-E190-E227CA9E28A0" RowDim="1" ColDim="1" Units="V" BitFields="11">
@@ -1136,7 +1127,7 @@ WARNING: This snaps the angle processing unit position and will cause undefined 
 												<Properties />
 												<Errors />
 												<DefaultValue>
-													<Elem>5</Elem>
+													<Elem>10</Elem>
 												</DefaultValue>
 											</Channel>
 											<Channel Name="Trigger Angle" TypeGUID="CAB9E886-793C-6FFE-E190-E227CA9E28A0" RowDim="1" ColDim="1" Units="deg" BitFields="11">
@@ -1144,7 +1135,7 @@ WARNING: This snaps the angle processing unit position and will cause undefined 
 												<Properties />
 												<Errors />
 												<DefaultValue>
-													<Elem>0</Elem>
+													<Elem>90</Elem>
 												</DefaultValue>
 											</Channel>
 										</Section>
@@ -1161,7 +1152,7 @@ WARNING: This snaps the angle processing unit position and will cause undefined 
 												<Properties />
 												<Errors />
 												<DefaultValue>
-													<Elem>0</Elem>
+													<Elem>50</Elem>
 												</DefaultValue>
 											</Channel>
 											<Channel Name="Amplitude" TypeGUID="CAB9E886-793C-6FFE-E190-E227CA9E28A0" RowDim="1" ColDim="1" Units="V" BitFields="11">
@@ -1169,7 +1160,7 @@ WARNING: This snaps the angle processing unit position and will cause undefined 
 												<Properties />
 												<Errors />
 												<DefaultValue>
-													<Elem>5</Elem>
+													<Elem>10</Elem>
 												</DefaultValue>
 											</Channel>
 											<Channel Name="Trigger Angle" TypeGUID="CAB9E886-793C-6FFE-E190-E227CA9E28A0" RowDim="1" ColDim="1" Units="deg" BitFields="11">
@@ -1177,7 +1168,7 @@ WARNING: This snaps the angle processing unit position and will cause undefined 
 												<Properties />
 												<Errors />
 												<DefaultValue>
-													<Elem>0</Elem>
+													<Elem>149.996337890625</Elem>
 												</DefaultValue>
 											</Channel>
 										</Section>
@@ -1194,7 +1185,7 @@ WARNING: This snaps the angle processing unit position and will cause undefined 
 												<Properties />
 												<Errors />
 												<DefaultValue>
-													<Elem>0</Elem>
+													<Elem>50</Elem>
 												</DefaultValue>
 											</Channel>
 											<Channel Name="Amplitude" TypeGUID="CAB9E886-793C-6FFE-E190-E227CA9E28A0" RowDim="1" ColDim="1" Units="V" BitFields="11">
@@ -1202,7 +1193,7 @@ WARNING: This snaps the angle processing unit position and will cause undefined 
 												<Properties />
 												<Errors />
 												<DefaultValue>
-													<Elem>5</Elem>
+													<Elem>10</Elem>
 												</DefaultValue>
 											</Channel>
 											<Channel Name="Trigger Angle" TypeGUID="CAB9E886-793C-6FFE-E190-E227CA9E28A0" RowDim="1" ColDim="1" Units="deg" BitFields="11">
@@ -1210,7 +1201,7 @@ WARNING: This snaps the angle processing unit position and will cause undefined 
 												<Properties />
 												<Errors />
 												<DefaultValue>
-													<Elem>0</Elem>
+													<Elem>210.003662109375</Elem>
 												</DefaultValue>
 											</Channel>
 										</Section>
@@ -1227,7 +1218,7 @@ WARNING: This snaps the angle processing unit position and will cause undefined 
 												<Properties />
 												<Errors />
 												<DefaultValue>
-													<Elem>0</Elem>
+													<Elem>50</Elem>
 												</DefaultValue>
 											</Channel>
 											<Channel Name="Amplitude" TypeGUID="CAB9E886-793C-6FFE-E190-E227CA9E28A0" RowDim="1" ColDim="1" Units="V" BitFields="11">
@@ -1235,7 +1226,7 @@ WARNING: This snaps the angle processing unit position and will cause undefined 
 												<Properties />
 												<Errors />
 												<DefaultValue>
-													<Elem>5</Elem>
+													<Elem>10</Elem>
 												</DefaultValue>
 											</Channel>
 											<Channel Name="Trigger Angle" TypeGUID="CAB9E886-793C-6FFE-E190-E227CA9E28A0" RowDim="1" ColDim="1" Units="deg" BitFields="11">
@@ -1243,7 +1234,7 @@ WARNING: This snaps the angle processing unit position and will cause undefined 
 												<Properties />
 												<Errors />
 												<DefaultValue>
-													<Elem>0</Elem>
+													<Elem>270</Elem>
 												</DefaultValue>
 											</Channel>
 										</Section>
@@ -1260,7 +1251,7 @@ WARNING: This snaps the angle processing unit position and will cause undefined 
 												<Properties />
 												<Errors />
 												<DefaultValue>
-													<Elem>0</Elem>
+													<Elem>50</Elem>
 												</DefaultValue>
 											</Channel>
 											<Channel Name="Amplitude" TypeGUID="CAB9E886-793C-6FFE-E190-E227CA9E28A0" RowDim="1" ColDim="1" Units="V" BitFields="11">
@@ -1268,7 +1259,7 @@ WARNING: This snaps the angle processing unit position and will cause undefined 
 												<Properties />
 												<Errors />
 												<DefaultValue>
-													<Elem>5</Elem>
+													<Elem>10</Elem>
 												</DefaultValue>
 											</Channel>
 											<Channel Name="Trigger Angle" TypeGUID="CAB9E886-793C-6FFE-E190-E227CA9E28A0" RowDim="1" ColDim="1" Units="deg" BitFields="11">
@@ -1276,7 +1267,7 @@ WARNING: This snaps the angle processing unit position and will cause undefined 
 												<Properties />
 												<Errors />
 												<DefaultValue>
-													<Elem>0</Elem>
+													<Elem>329.996337890625</Elem>
 												</DefaultValue>
 											</Channel>
 										</Section>
@@ -2490,7 +2481,7 @@ WARNING: This snaps the angle processing unit position and will cause undefined 
 										</Properties>
 										<Errors />
 										<DefaultValue>
-											<Elem>0</Elem>
+											<Elem>100</Elem>
 										</DefaultValue>
 									</Channel>
 									<Channel Name="DATA" TypeGUID="6db3f02b-654f-4ed6-bd84-80bb5242a557" RowDim="1" ColDim="1" Units="" BitFields="15">
@@ -2785,7 +2776,7 @@ Value = 2; Continental Bidirectional
 										</Properties>
 										<Errors />
 										<DefaultValue>
-											<Elem>0</Elem>
+											<Elem>1</Elem>
 										</DefaultValue>
 									</Channel>
 									<Channel Name="OFFSET" TypeGUID="6db3f02b-654f-4ed6-bd84-80bb5242a557" RowDim="1" ColDim="1" Units="V" BitFields="15">
@@ -2809,7 +2800,7 @@ Value = 2; Continental Bidirectional
 										</Properties>
 										<Errors />
 										<DefaultValue>
-											<Elem>999.998291015625</Elem>
+											<Elem>100</Elem>
 										</DefaultValue>
 									</Channel>
 								</Section>
@@ -2830,7 +2821,7 @@ Value = 2; Continental Bidirectional
 										</Properties>
 										<Errors />
 										<DefaultValue>
-											<Elem>0</Elem>
+											<Elem>2</Elem>
 										</DefaultValue>
 									</Channel>
 									<Channel Name="OFFSET" TypeGUID="6db3f02b-654f-4ed6-bd84-80bb5242a557" RowDim="1" ColDim="1" Units="V" BitFields="15">
@@ -2854,7 +2845,7 @@ Value = 2; Continental Bidirectional
 										</Properties>
 										<Errors />
 										<DefaultValue>
-											<Elem>999.998291015625</Elem>
+											<Elem>200</Elem>
 										</DefaultValue>
 									</Channel>
 								</Section>
@@ -2899,7 +2890,7 @@ Value = 2; Continental Bidirectional
 										</Properties>
 										<Errors />
 										<DefaultValue>
-											<Elem>50</Elem>
+											<Elem>2.5</Elem>
 										</DefaultValue>
 									</Channel>
 								</Section>
@@ -2944,7 +2935,7 @@ Value = 2; Continental Bidirectional
 										</Properties>
 										<Errors />
 										<DefaultValue>
-											<Elem>50</Elem>
+											<Elem>2.5</Elem>
 										</DefaultValue>
 									</Channel>
 								</Section>
@@ -2957,7 +2948,7 @@ Value = 2; Continental Bidirectional
 									</Properties>
 									<Errors />
 									<DefaultValue>
-										<Elem>0</Elem>
+										<Elem>10</Elem>
 									</DefaultValue>
 								</Channel>
 								<Channel Name="Analog Output Loop Timer (uSec)" TypeGUID="625afbbf-e929-46eb-93d1-fe7033ba1e7b" RowDim="1" ColDim="1" Units="" BitFields="15">
@@ -2969,7 +2960,7 @@ Value = 2; Continental Bidirectional
 									</Properties>
 									<Errors />
 									<DefaultValue>
-										<Elem>0</Elem>
+										<Elem>10</Elem>
 									</DefaultValue>
 								</Channel>
 								<Channel Name="DMA Loop Timer (uSec)" TypeGUID="625afbbf-e929-46eb-93d1-fe7033ba1e7b" RowDim="1" ColDim="1" Units="" BitFields="15">
@@ -3029,7 +3020,7 @@ Value = 2; Continental Bidirectional
 									</Properties>
 									<Errors />
 									<DefaultValue>
-										<Elem>0</Elem>
+										<Elem>10</Elem>
 									</DefaultValue>
 								</Channel>
 								<Channel Name="Dyno Setpoint" TypeGUID="ddc5186b-4b14-4629-b48a-cef4575f789c" RowDim="1" ColDim="1" Units="" BitFields="15">
