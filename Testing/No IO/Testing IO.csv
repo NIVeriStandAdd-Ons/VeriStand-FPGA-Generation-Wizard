@@ -31,8 +31,8 @@ FPGA Target 2,9401,Mod4,DIO4,Mod4/DIO4,,,
 FPGA Target 2,9401,Mod4,DIO5,Mod4/DIO5,,,
 FPGA Target 2,9401,Mod4,DIO6,Mod4/DIO6,,,
 FPGA Target 2,9401,Mod4,DIO7,Mod4/DIO7,,,
-FPGA Target 2,9264,Mod5,AO0,Mod5/AO0,Knock1,Knock Sensor,Cyclinders:6
-FPGA Target 2,9264,Mod5,AO1,Mod5/AO1,Knock2,Knock Sensor,Cyclinders:6
+FPGA Target 2,9264,Mod5,AO0,Mod5/AO0,Knock1,Knock Sensor,Cylinders:6
+FPGA Target 2,9264,Mod5,AO1,Mod5/AO1,Knock2,Knock Sensor,Cylinders:6
 FPGA Target 2,9264,Mod5,AO2,Mod5/AO2,Dyno Setpoint,Analog Control,
 FPGA Target 2,9264,Mod5,AO3,Mod5/AO3,Power Supply Setpoint,Analog Control,
 FPGA Target 2,9264,Mod5,AO4,Mod5/AO4,VR Sensor1,Analog Replay,

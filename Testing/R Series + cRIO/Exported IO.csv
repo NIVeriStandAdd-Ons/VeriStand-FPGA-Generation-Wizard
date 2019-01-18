@@ -23,8 +23,8 @@ FPGA Target,9401,Mod3,DIO4,Mod3/DIO4,Key,Digital Control,
 FPGA Target,9401,Mod3,DIO5,Mod3/DIO5,Switch,Digital Control,
 FPGA Target,9401,Mod3,DIO6,Mod3/DIO6,Crank_Temp,Digital Pattern,
 FPGA Target,9401,Mod3,DIO7,Mod3/DIO7,Crank,Directional Sensor,
-FPGA Target,9264,Mod4,AO0,Mod4/AO0,Knock1,Knock Sensor,Cyclinders:6
-FPGA Target,9264,Mod4,AO1,Mod4/AO1,Knock2,Knock Sensor,Cyclinders:7
+FPGA Target,9264,Mod4,AO0,Mod4/AO0,Knock1,Knock Sensor,Cylinders:6
+FPGA Target,9264,Mod4,AO1,Mod4/AO1,Knock2,Knock Sensor,Cylinders:6
 FPGA Target,9264,Mod4,AO2,Mod4/AO2,Dyno Setpoint,Analog Control,
 FPGA Target,9264,Mod4,AO3,Mod4/AO3,Power Supply Setpoint,Analog Control,
 FPGA Target,9264,Mod4,AO4,Mod4/AO4,VR Sensor1,Analog Replay,
@@ -95,8 +95,8 @@ FPGA Target 2,USB-7856R,Connector1 AI Bank0,AI4,Connector1/AI4,Pressure3,Analog 
 FPGA Target 2,USB-7856R,Connector1 AI Bank0,AI5,Connector1/AI5,Pressure4,Analog Indicator,
 FPGA Target 2,USB-7856R,Connector1 AI Bank0,AI6,Connector1/AI6,Temp1,Analog Indicator,
 FPGA Target 2,USB-7856R,Connector1 AI Bank0,AI7,Connector1/AI7,Temp2,Analog Indicator,
-FPGA Target 2,USB-7856R,Connector1 AO Bank0,AO0,Connector1/AO0,Knock1,Knock Sensor,Cyclinders:6
-FPGA Target 2,USB-7856R,Connector1 AO Bank0,AO1,Connector1/AO1,Knock2,Knock Sensor,Cyclinders:7
+FPGA Target 2,USB-7856R,Connector1 AO Bank0,AO0,Connector1/AO0,Knock1,Knock Sensor,Cylinders:6
+FPGA Target 2,USB-7856R,Connector1 AO Bank0,AO1,Connector1/AO1,Knock2,Knock Sensor,Cylinders:6
 FPGA Target 2,USB-7856R,Connector1 AO Bank0,AO2,Connector1/AO2,Dyno Setpoint,Analog Control,
 FPGA Target 2,USB-7856R,Connector1 AO Bank0,AO3,Connector1/AO3,Power Supply Setpoint,Analog Control,
 FPGA Target 2,USB-7856R,Connector1 AO Bank0,AO4,Connector1/AO4,VR Sensor1,Analog Replay,

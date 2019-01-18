@@ -1,6 +1,6 @@
 FPGA.Name,Mod.Number,Group.Name,IO.Resource,IO.Name,Signal.Name,Signal.Type,Signal.Parameters
-FPGA Target 2,9269,Mod1,AO0,Mod1/AO0,Knock1,Knock Sensor,Cyclinders:6
-FPGA Target 2,9269,Mod1,AO1,Mod1/AO1,Knock2,Knock Sensor,Cyclinders:7
+FPGA Target 2,9269,Mod1,AO0,Mod1/AO0,Knock1,Knock Sensor,Cylinders:6
+FPGA Target 2,9269,Mod1,AO1,Mod1/AO1,Knock2,Knock Sensor,Cylinders:6
 FPGA Target 2,9269,Mod1,AO2,Mod1/AO2,Dyno Setpoint,Analog Control,
 FPGA Target 2,9269,Mod1,AO3,Mod1/AO3,Power Supply Setpoint,Analog Control,
 FPGA Target 2,9263,Mod2,AO0,Mod2/AO0,VR Sensor1,Analog Replay,
