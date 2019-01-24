@@ -1,0 +1,6 @@
+[submodule "Source/SubModules/FPGA Addon Speciality IO"]
+	path = Source/SubModules/FPGA Addon Speciality IO
+	url = https://github.com/NIVeriStandAdd-Ons/FPGA-Addon-Speciality-IO.git
+[submodule "Source/SubModules/Engine Simulation Toolkit FPGA IP"]
+	path = Source/SubModules/Engine Simulation Toolkit FPGA IP
+	url = https://github.com/NIVeriStandAdd-Ons/Engine-Simulation-Toolkit-FPGA-IP.git
