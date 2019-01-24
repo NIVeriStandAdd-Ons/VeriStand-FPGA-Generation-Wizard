@@ -1878,10 +1878,59 @@
 				</Item>
 				<Item Name="Dependencies" Type="Dependencies">
 					<Item Name="vi.lib" Type="Folder">
-						<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
-						<Item Name="Engine Simulation Toolkit.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/Engine Simulation Toolkit.lvlib"/>
+						<Item Name="Analog Replay.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/Analog Replay/Analog Replay.vi"/>
+						<Item Name="Angle Processing Unit.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/APU/Angle Processing Unit.vi"/>
+						<Item Name="Capture Event.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/ECU Event/Timing/Capture Event.vi"/>
+						<Item Name="Capture Output.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/ECU Event/Timing/Capture Output.ctl"/>
+						<Item Name="Capture Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/ECU Event/Timing/Capture Settings.ctl"/>
+						<Item Name="Create APU Register Bus.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/APU/Create APU Register Bus.vi"/>
+						<Item Name="Cylinder Input.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/Knock Sensor/Cylinder Input.ctl"/>
+						<Item Name="Cylinder Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/Knock Sensor/Cylinder Settings.ctl"/>
+						<Item Name="Cylinder Trigger.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/Knock Sensor/Cylinder Trigger.vi"/>
+						<Item Name="Digital Pattern Generation.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/Digital Pattern Generation/Digital Pattern Generation.vi"/>
+						<Item Name="Directional Speed Sensor.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/Directional Speed/Directional Speed Sensor.vi"/>
+						<Item Name="Generate Input.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/Knock Sensor/Generate Input.ctl"/>
+						<Item Name="Generate Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/Knock Sensor/Generate Settings.ctl"/>
+						<Item Name="Generate Signal.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/Knock Sensor/Generate Signal.vi"/>
+						<Item Name="Input.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/Analog Replay/Input.ctl"/>
+						<Item Name="Input.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/APU/Input.ctl"/>
+						<Item Name="Input.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/Digital Pattern Generation/Input.ctl"/>
+						<Item Name="Input.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/Directional Speed/Input.ctl"/>
+						<Item Name="Load Analog Replay.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/Analog Replay/Load Analog Replay.vi"/>
+						<Item Name="Load Digital Pattern Generation.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/Digital Pattern Generation/Load Digital Pattern Generation.vi"/>
+						<Item Name="Load Directional Speed Sensor.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/Directional Speed/Load Directional Speed Sensor.vi"/>
+						<Item Name="Load Input.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/Analog Replay/Load Input.ctl"/>
+						<Item Name="Load Input.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/Digital Pattern Generation/Load Input.ctl"/>
+						<Item Name="Load Input.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/Directional Speed/Load Input.ctl"/>
 						<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
-						<Item Name="Speciality FPGA IO.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/FPGA Addon IP/Speciality IO/Speciality FPGA IO.lvlib"/>
+						<Item Name="Measure Events (Non-40MHz).vi" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/ECU Event/Timing/Measure Events (Non-40MHz).vi"/>
+						<Item Name="Measure Events.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/ECU Event/Timing/Measure Events.vi"/>
+						<Item Name="Measure Output.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/ECU Event/Timing/Measure Output.ctl"/>
+						<Item Name="Measure Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/ECU Event/Timing/Measure Settings.ctl"/>
+						<Item Name="Output.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/APU/Output.ctl"/>
+						<Item Name="PWM.Generate.Digital.Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/FPGA Addon IP/Speciality IO/Types/PWM.Generate.Digital.Settings.ctl"/>
+						<Item Name="PWM.Generate.Digital.vi" Type="VI" URL="/&lt;vilib&gt;/NI/FPGA Addon IP/Speciality IO/SubVIs/PWM.Generate.Digital.vi"/>
+						<Item Name="PWM.Measure.Analog.Measurement.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/FPGA Addon IP/Speciality IO/Types/PWM.Measure.Analog.Measurement.ctl"/>
+						<Item Name="PWM.Measure.Analog.Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/FPGA Addon IP/Speciality IO/Types/PWM.Measure.Analog.Settings.ctl"/>
+						<Item Name="PWM.Measure.Analog.vi" Type="VI" URL="/&lt;vilib&gt;/NI/FPGA Addon IP/Speciality IO/SubVIs/PWM.Measure.Analog.vi"/>
+						<Item Name="PWM.Measure.Digital.Measurement.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/FPGA Addon IP/Speciality IO/Types/PWM.Measure.Digital.Measurement.ctl"/>
+						<Item Name="PWM.Measure.Digital.Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/FPGA Addon IP/Speciality IO/Types/PWM.Measure.Digital.Settings.ctl"/>
+						<Item Name="PWM.Measure.Digital.vi" Type="VI" URL="/&lt;vilib&gt;/NI/FPGA Addon IP/Speciality IO/SubVIs/PWM.Measure.Digital.vi"/>
+						<Item Name="Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/Analog Replay/Settings.ctl"/>
+						<Item Name="Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/APU/Settings.ctl"/>
+						<Item Name="Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/Digital Pattern Generation/Settings.ctl"/>
+						<Item Name="Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/Directional Speed/Settings.ctl"/>
+						<Item Name="Shared Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/APU/Shared Settings.ctl"/>
+						<Item Name="Sine.Generate.Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/FPGA Addon IP/Speciality IO/Types/Sine.Generate.Settings.ctl"/>
+						<Item Name="Sine.Generate.vi" Type="VI" URL="/&lt;vilib&gt;/NI/FPGA Addon IP/Speciality IO/SubVIs/Sine.Generate.vi"/>
+						<Item Name="Static.Generate.Digital.Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/FPGA Addon IP/Speciality IO/Types/Static.Generate.Digital.Settings.ctl"/>
+						<Item Name="Static.Generate.Digital.vi" Type="VI" URL="/&lt;vilib&gt;/NI/FPGA Addon IP/Speciality IO/SubVIs/Static.Generate.Digital.vi"/>
+						<Item Name="Static.Measure.Digital.Measurement.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/FPGA Addon IP/Speciality IO/Types/Static.Measure.Digital.Measurement.ctl"/>
+						<Item Name="Static.Measure.Digital.Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/FPGA Addon IP/Speciality IO/Types/Static.Measure.Digital.Settings.ctl"/>
+						<Item Name="Static.Measure.Digital.vi" Type="VI" URL="/&lt;vilib&gt;/NI/FPGA Addon IP/Speciality IO/SubVIs/Static.Measure.Digital.vi"/>
+						<Item Name="Version Token.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/Version Token.ctl"/>
+						<Item Name="WSS.Generate.Digital.Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/FPGA Addon IP/Speciality IO/Types/WSS.Generate.Digital.Settings.ctl"/>
+						<Item Name="WSS.Generate.Digital.vi" Type="VI" URL="/&lt;vilib&gt;/NI/FPGA Addon IP/Speciality IO/SubVIs/WSS.Generate.Digital.vi"/>
 					</Item>
 					<Item Name="Analog_Input_16Channels_W24I5.vi" Type="VI" URL="../../../Templates/Analog_Input_16Channels_W24I5.vi"/>
 					<Item Name="Analog_Output_16Channels_W20I5.vi" Type="VI" URL="../../../Templates/Analog_Output_16Channels_W20I5.vi"/>
@@ -2133,10 +2182,59 @@
 			</Item>
 			<Item Name="Dependencies" Type="Dependencies">
 				<Item Name="vi.lib" Type="Folder">
-					<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
-					<Item Name="Engine Simulation Toolkit.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/Engine Simulation Toolkit.lvlib"/>
+					<Item Name="Analog Replay.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/Analog Replay/Analog Replay.vi"/>
+					<Item Name="Angle Processing Unit.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/APU/Angle Processing Unit.vi"/>
+					<Item Name="Capture Event.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/ECU Event/Timing/Capture Event.vi"/>
+					<Item Name="Capture Output.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/ECU Event/Timing/Capture Output.ctl"/>
+					<Item Name="Capture Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/ECU Event/Timing/Capture Settings.ctl"/>
+					<Item Name="Create APU Register Bus.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/APU/Create APU Register Bus.vi"/>
+					<Item Name="Cylinder Input.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/Knock Sensor/Cylinder Input.ctl"/>
+					<Item Name="Cylinder Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/Knock Sensor/Cylinder Settings.ctl"/>
+					<Item Name="Cylinder Trigger.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/Knock Sensor/Cylinder Trigger.vi"/>
+					<Item Name="Digital Pattern Generation.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/Digital Pattern Generation/Digital Pattern Generation.vi"/>
+					<Item Name="Directional Speed Sensor.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/Directional Speed/Directional Speed Sensor.vi"/>
+					<Item Name="Generate Input.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/Knock Sensor/Generate Input.ctl"/>
+					<Item Name="Generate Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/Knock Sensor/Generate Settings.ctl"/>
+					<Item Name="Generate Signal.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/Knock Sensor/Generate Signal.vi"/>
+					<Item Name="Input.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/Analog Replay/Input.ctl"/>
+					<Item Name="Input.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/APU/Input.ctl"/>
+					<Item Name="Input.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/Digital Pattern Generation/Input.ctl"/>
+					<Item Name="Input.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/Directional Speed/Input.ctl"/>
+					<Item Name="Load Analog Replay.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/Analog Replay/Load Analog Replay.vi"/>
+					<Item Name="Load Digital Pattern Generation.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/Digital Pattern Generation/Load Digital Pattern Generation.vi"/>
+					<Item Name="Load Directional Speed Sensor.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/Directional Speed/Load Directional Speed Sensor.vi"/>
+					<Item Name="Load Input.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/Analog Replay/Load Input.ctl"/>
+					<Item Name="Load Input.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/Digital Pattern Generation/Load Input.ctl"/>
+					<Item Name="Load Input.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/Directional Speed/Load Input.ctl"/>
 					<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
-					<Item Name="Speciality FPGA IO.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/FPGA Addon IP/Speciality IO/Speciality FPGA IO.lvlib"/>
+					<Item Name="Measure Events (Non-40MHz).vi" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/ECU Event/Timing/Measure Events (Non-40MHz).vi"/>
+					<Item Name="Measure Events.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/ECU Event/Timing/Measure Events.vi"/>
+					<Item Name="Measure Output.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/ECU Event/Timing/Measure Output.ctl"/>
+					<Item Name="Measure Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/ECU Event/Timing/Measure Settings.ctl"/>
+					<Item Name="Output.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/APU/Output.ctl"/>
+					<Item Name="PWM.Generate.Digital.Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/FPGA Addon IP/Speciality IO/Types/PWM.Generate.Digital.Settings.ctl"/>
+					<Item Name="PWM.Generate.Digital.vi" Type="VI" URL="/&lt;vilib&gt;/NI/FPGA Addon IP/Speciality IO/SubVIs/PWM.Generate.Digital.vi"/>
+					<Item Name="PWM.Measure.Analog.Measurement.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/FPGA Addon IP/Speciality IO/Types/PWM.Measure.Analog.Measurement.ctl"/>
+					<Item Name="PWM.Measure.Analog.Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/FPGA Addon IP/Speciality IO/Types/PWM.Measure.Analog.Settings.ctl"/>
+					<Item Name="PWM.Measure.Analog.vi" Type="VI" URL="/&lt;vilib&gt;/NI/FPGA Addon IP/Speciality IO/SubVIs/PWM.Measure.Analog.vi"/>
+					<Item Name="PWM.Measure.Digital.Measurement.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/FPGA Addon IP/Speciality IO/Types/PWM.Measure.Digital.Measurement.ctl"/>
+					<Item Name="PWM.Measure.Digital.Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/FPGA Addon IP/Speciality IO/Types/PWM.Measure.Digital.Settings.ctl"/>
+					<Item Name="PWM.Measure.Digital.vi" Type="VI" URL="/&lt;vilib&gt;/NI/FPGA Addon IP/Speciality IO/SubVIs/PWM.Measure.Digital.vi"/>
+					<Item Name="Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/Analog Replay/Settings.ctl"/>
+					<Item Name="Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/APU/Settings.ctl"/>
+					<Item Name="Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/Digital Pattern Generation/Settings.ctl"/>
+					<Item Name="Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/Directional Speed/Settings.ctl"/>
+					<Item Name="Shared Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/APU/Shared Settings.ctl"/>
+					<Item Name="Sine.Generate.Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/FPGA Addon IP/Speciality IO/Types/Sine.Generate.Settings.ctl"/>
+					<Item Name="Sine.Generate.vi" Type="VI" URL="/&lt;vilib&gt;/NI/FPGA Addon IP/Speciality IO/SubVIs/Sine.Generate.vi"/>
+					<Item Name="Static.Generate.Digital.Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/FPGA Addon IP/Speciality IO/Types/Static.Generate.Digital.Settings.ctl"/>
+					<Item Name="Static.Generate.Digital.vi" Type="VI" URL="/&lt;vilib&gt;/NI/FPGA Addon IP/Speciality IO/SubVIs/Static.Generate.Digital.vi"/>
+					<Item Name="Static.Measure.Digital.Measurement.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/FPGA Addon IP/Speciality IO/Types/Static.Measure.Digital.Measurement.ctl"/>
+					<Item Name="Static.Measure.Digital.Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/FPGA Addon IP/Speciality IO/Types/Static.Measure.Digital.Settings.ctl"/>
+					<Item Name="Static.Measure.Digital.vi" Type="VI" URL="/&lt;vilib&gt;/NI/FPGA Addon IP/Speciality IO/SubVIs/Static.Measure.Digital.vi"/>
+					<Item Name="Version Token.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/Version Token.ctl"/>
+					<Item Name="WSS.Generate.Digital.Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/FPGA Addon IP/Speciality IO/Types/WSS.Generate.Digital.Settings.ctl"/>
+					<Item Name="WSS.Generate.Digital.vi" Type="VI" URL="/&lt;vilib&gt;/NI/FPGA Addon IP/Speciality IO/SubVIs/WSS.Generate.Digital.vi"/>
 				</Item>
 				<Item Name="Convert.I16toFXP.vi" Type="VI" URL="../../../Templates/Convert.I16toFXP.vi"/>
 				<Item Name="DMA.Command.Handler.vi" Type="VI" URL="../../../Templates/SubVIs/DMA.Command.Handler.vi"/>
@@ -2473,10 +2571,59 @@
 			</Item>
 			<Item Name="Dependencies" Type="Dependencies">
 				<Item Name="vi.lib" Type="Folder">
-					<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
-					<Item Name="Engine Simulation Toolkit.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/Engine Simulation Toolkit.lvlib"/>
+					<Item Name="Analog Replay.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/Analog Replay/Analog Replay.vi"/>
+					<Item Name="Angle Processing Unit.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/APU/Angle Processing Unit.vi"/>
+					<Item Name="Capture Event.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/ECU Event/Timing/Capture Event.vi"/>
+					<Item Name="Capture Output.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/ECU Event/Timing/Capture Output.ctl"/>
+					<Item Name="Capture Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/ECU Event/Timing/Capture Settings.ctl"/>
+					<Item Name="Create APU Register Bus.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/APU/Create APU Register Bus.vi"/>
+					<Item Name="Cylinder Input.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/Knock Sensor/Cylinder Input.ctl"/>
+					<Item Name="Cylinder Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/Knock Sensor/Cylinder Settings.ctl"/>
+					<Item Name="Cylinder Trigger.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/Knock Sensor/Cylinder Trigger.vi"/>
+					<Item Name="Digital Pattern Generation.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/Digital Pattern Generation/Digital Pattern Generation.vi"/>
+					<Item Name="Directional Speed Sensor.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/Directional Speed/Directional Speed Sensor.vi"/>
+					<Item Name="Generate Input.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/Knock Sensor/Generate Input.ctl"/>
+					<Item Name="Generate Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/Knock Sensor/Generate Settings.ctl"/>
+					<Item Name="Generate Signal.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/Knock Sensor/Generate Signal.vi"/>
+					<Item Name="Input.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/Analog Replay/Input.ctl"/>
+					<Item Name="Input.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/APU/Input.ctl"/>
+					<Item Name="Input.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/Digital Pattern Generation/Input.ctl"/>
+					<Item Name="Input.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/Directional Speed/Input.ctl"/>
+					<Item Name="Load Analog Replay.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/Analog Replay/Load Analog Replay.vi"/>
+					<Item Name="Load Digital Pattern Generation.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/Digital Pattern Generation/Load Digital Pattern Generation.vi"/>
+					<Item Name="Load Directional Speed Sensor.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/Directional Speed/Load Directional Speed Sensor.vi"/>
+					<Item Name="Load Input.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/Analog Replay/Load Input.ctl"/>
+					<Item Name="Load Input.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/Digital Pattern Generation/Load Input.ctl"/>
+					<Item Name="Load Input.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/Directional Speed/Load Input.ctl"/>
 					<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
-					<Item Name="Speciality FPGA IO.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/FPGA Addon IP/Speciality IO/Speciality FPGA IO.lvlib"/>
+					<Item Name="Measure Events (Non-40MHz).vi" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/ECU Event/Timing/Measure Events (Non-40MHz).vi"/>
+					<Item Name="Measure Events.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/ECU Event/Timing/Measure Events.vi"/>
+					<Item Name="Measure Output.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/ECU Event/Timing/Measure Output.ctl"/>
+					<Item Name="Measure Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/ECU Event/Timing/Measure Settings.ctl"/>
+					<Item Name="Output.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/APU/Output.ctl"/>
+					<Item Name="PWM.Generate.Digital.Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/FPGA Addon IP/Speciality IO/Types/PWM.Generate.Digital.Settings.ctl"/>
+					<Item Name="PWM.Generate.Digital.vi" Type="VI" URL="/&lt;vilib&gt;/NI/FPGA Addon IP/Speciality IO/SubVIs/PWM.Generate.Digital.vi"/>
+					<Item Name="PWM.Measure.Analog.Measurement.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/FPGA Addon IP/Speciality IO/Types/PWM.Measure.Analog.Measurement.ctl"/>
+					<Item Name="PWM.Measure.Analog.Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/FPGA Addon IP/Speciality IO/Types/PWM.Measure.Analog.Settings.ctl"/>
+					<Item Name="PWM.Measure.Analog.vi" Type="VI" URL="/&lt;vilib&gt;/NI/FPGA Addon IP/Speciality IO/SubVIs/PWM.Measure.Analog.vi"/>
+					<Item Name="PWM.Measure.Digital.Measurement.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/FPGA Addon IP/Speciality IO/Types/PWM.Measure.Digital.Measurement.ctl"/>
+					<Item Name="PWM.Measure.Digital.Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/FPGA Addon IP/Speciality IO/Types/PWM.Measure.Digital.Settings.ctl"/>
+					<Item Name="PWM.Measure.Digital.vi" Type="VI" URL="/&lt;vilib&gt;/NI/FPGA Addon IP/Speciality IO/SubVIs/PWM.Measure.Digital.vi"/>
+					<Item Name="Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/Analog Replay/Settings.ctl"/>
+					<Item Name="Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/APU/Settings.ctl"/>
+					<Item Name="Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/Digital Pattern Generation/Settings.ctl"/>
+					<Item Name="Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/Directional Speed/Settings.ctl"/>
+					<Item Name="Shared Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/APU/Shared Settings.ctl"/>
+					<Item Name="Sine.Generate.Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/FPGA Addon IP/Speciality IO/Types/Sine.Generate.Settings.ctl"/>
+					<Item Name="Sine.Generate.vi" Type="VI" URL="/&lt;vilib&gt;/NI/FPGA Addon IP/Speciality IO/SubVIs/Sine.Generate.vi"/>
+					<Item Name="Static.Generate.Digital.Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/FPGA Addon IP/Speciality IO/Types/Static.Generate.Digital.Settings.ctl"/>
+					<Item Name="Static.Generate.Digital.vi" Type="VI" URL="/&lt;vilib&gt;/NI/FPGA Addon IP/Speciality IO/SubVIs/Static.Generate.Digital.vi"/>
+					<Item Name="Static.Measure.Digital.Measurement.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/FPGA Addon IP/Speciality IO/Types/Static.Measure.Digital.Measurement.ctl"/>
+					<Item Name="Static.Measure.Digital.Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/FPGA Addon IP/Speciality IO/Types/Static.Measure.Digital.Settings.ctl"/>
+					<Item Name="Static.Measure.Digital.vi" Type="VI" URL="/&lt;vilib&gt;/NI/FPGA Addon IP/Speciality IO/SubVIs/Static.Measure.Digital.vi"/>
+					<Item Name="Version Token.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/Version Token.ctl"/>
+					<Item Name="WSS.Generate.Digital.Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/FPGA Addon IP/Speciality IO/Types/WSS.Generate.Digital.Settings.ctl"/>
+					<Item Name="WSS.Generate.Digital.vi" Type="VI" URL="/&lt;vilib&gt;/NI/FPGA Addon IP/Speciality IO/SubVIs/WSS.Generate.Digital.vi"/>
 				</Item>
 				<Item Name="Convert.I16toFXP.vi" Type="VI" URL="../../../Templates/Convert.I16toFXP.vi"/>
 				<Item Name="DMA.Command.Handler.vi" Type="VI" URL="../../../Templates/SubVIs/DMA.Command.Handler.vi"/>
