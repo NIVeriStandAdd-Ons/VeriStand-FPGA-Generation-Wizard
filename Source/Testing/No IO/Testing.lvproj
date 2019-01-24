@@ -1883,6 +1883,7 @@
 						<Item Name="Capture Event.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/ECU Event/Timing/Capture Event.vi"/>
 						<Item Name="Capture Output.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/ECU Event/Timing/Capture Output.ctl"/>
 						<Item Name="Capture Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/ECU Event/Timing/Capture Settings.ctl"/>
+						<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 						<Item Name="Create APU Register Bus.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/APU/Create APU Register Bus.vi"/>
 						<Item Name="Cylinder Input.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/Knock Sensor/Cylinder Input.ctl"/>
 						<Item Name="Cylinder Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/Knock Sensor/Cylinder Settings.ctl"/>
@@ -1932,15 +1933,9 @@
 						<Item Name="WSS.Generate.Digital.Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/FPGA Addon IP/Speciality IO/Types/WSS.Generate.Digital.Settings.ctl"/>
 						<Item Name="WSS.Generate.Digital.vi" Type="VI" URL="/&lt;vilib&gt;/NI/FPGA Addon IP/Speciality IO/SubVIs/WSS.Generate.Digital.vi"/>
 					</Item>
-					<Item Name="Analog_Input_16Channels_W24I5.vi" Type="VI" URL="../../../Templates/Analog_Input_16Channels_W24I5.vi"/>
-					<Item Name="Analog_Output_16Channels_W20I5.vi" Type="VI" URL="../../../Templates/Analog_Output_16Channels_W20I5.vi"/>
-					<Item Name="Convert.I16toFXP.vi" Type="VI" URL="../../../Templates/Convert.I16toFXP.vi"/>
-					<Item Name="Digital_Input_8Channels.vi" Type="VI" URL="../../../Templates/Digital_Input_8Channels.vi"/>
-					<Item Name="Digital_Output_8Channels.vi" Type="VI" URL="../../../Templates/Digital_Output_8Channels.vi"/>
-					<Item Name="DMA.Command.Handler.vi" Type="VI" URL="../../../Templates/SubVIs/DMA.Command.Handler.vi"/>
-					<Item Name="Loop.Timer.vi" Type="VI" URL="../../../Templates/SubVIs/Loop.Timer.vi"/>
-					<Item Name="Memory.AnalogReplay.Selection.vi" Type="VI" URL="../../../Templates/Memory.AnalogReplay.Selection.vi"/>
-					<Item Name="Memory.Digital.Selection.vi" Type="VI" URL="../../../Templates/Memory.Digital.Selection.vi"/>
+					<Item Name="Engine Simulation Toolkit.lvlib" Type="Library" URL="../../../SubModules/Engine Simulation Toolkit FPGA IP/IP Source/Engine Simulation Toolkit.lvlib"/>
+					<Item Name="FPGA Wizard Templates.lvlib" Type="Library" URL="../../../Templates/FPGA Wizard Templates.lvlib"/>
+					<Item Name="Speciality FPGA IO.lvlib" Type="Library" URL="../../../SubModules/FPGA Addon Speciality IO/Source/Speciality FPGA IO.lvlib"/>
 				</Item>
 				<Item Name="Build Specifications" Type="Build"/>
 			</Item>
@@ -2187,6 +2182,7 @@
 					<Item Name="Capture Event.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/ECU Event/Timing/Capture Event.vi"/>
 					<Item Name="Capture Output.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/ECU Event/Timing/Capture Output.ctl"/>
 					<Item Name="Capture Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/ECU Event/Timing/Capture Settings.ctl"/>
+					<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 					<Item Name="Create APU Register Bus.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/APU/Create APU Register Bus.vi"/>
 					<Item Name="Cylinder Input.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/Knock Sensor/Cylinder Input.ctl"/>
 					<Item Name="Cylinder Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/Knock Sensor/Cylinder Settings.ctl"/>
@@ -2236,11 +2232,8 @@
 					<Item Name="WSS.Generate.Digital.Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/FPGA Addon IP/Speciality IO/Types/WSS.Generate.Digital.Settings.ctl"/>
 					<Item Name="WSS.Generate.Digital.vi" Type="VI" URL="/&lt;vilib&gt;/NI/FPGA Addon IP/Speciality IO/SubVIs/WSS.Generate.Digital.vi"/>
 				</Item>
-				<Item Name="Convert.I16toFXP.vi" Type="VI" URL="../../../Templates/Convert.I16toFXP.vi"/>
-				<Item Name="DMA.Command.Handler.vi" Type="VI" URL="../../../Templates/SubVIs/DMA.Command.Handler.vi"/>
-				<Item Name="Loop.Timer.vi" Type="VI" URL="../../../Templates/SubVIs/Loop.Timer.vi"/>
-				<Item Name="Memory.AnalogReplay.Selection.vi" Type="VI" URL="../../../Templates/Memory.AnalogReplay.Selection.vi"/>
-				<Item Name="Memory.Digital.Selection.vi" Type="VI" URL="../../../Templates/Memory.Digital.Selection.vi"/>
+				<Item Name="Engine Simulation Toolkit.lvlib" Type="Library" URL="../../../SubModules/Engine Simulation Toolkit FPGA IP/IP Source/Engine Simulation Toolkit.lvlib"/>
+				<Item Name="FPGA Wizard Templates.lvlib" Type="Library" URL="../../../Templates/FPGA Wizard Templates.lvlib"/>
 			</Item>
 			<Item Name="Build Specifications" Type="Build">
 				<Item Name="FPGA Target" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
@@ -2576,6 +2569,7 @@
 					<Item Name="Capture Event.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/ECU Event/Timing/Capture Event.vi"/>
 					<Item Name="Capture Output.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/ECU Event/Timing/Capture Output.ctl"/>
 					<Item Name="Capture Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/ECU Event/Timing/Capture Settings.ctl"/>
+					<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 					<Item Name="Create APU Register Bus.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/APU/Create APU Register Bus.vi"/>
 					<Item Name="Cylinder Input.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/Knock Sensor/Cylinder Input.ctl"/>
 					<Item Name="Cylinder Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/Knock Sensor/Cylinder Settings.ctl"/>
@@ -2625,11 +2619,8 @@
 					<Item Name="WSS.Generate.Digital.Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/FPGA Addon IP/Speciality IO/Types/WSS.Generate.Digital.Settings.ctl"/>
 					<Item Name="WSS.Generate.Digital.vi" Type="VI" URL="/&lt;vilib&gt;/NI/FPGA Addon IP/Speciality IO/SubVIs/WSS.Generate.Digital.vi"/>
 				</Item>
-				<Item Name="Convert.I16toFXP.vi" Type="VI" URL="../../../Templates/Convert.I16toFXP.vi"/>
-				<Item Name="DMA.Command.Handler.vi" Type="VI" URL="../../../Templates/SubVIs/DMA.Command.Handler.vi"/>
-				<Item Name="Loop.Timer.vi" Type="VI" URL="../../../Templates/SubVIs/Loop.Timer.vi"/>
-				<Item Name="Memory.AnalogReplay.Selection.vi" Type="VI" URL="../../../Templates/Memory.AnalogReplay.Selection.vi"/>
-				<Item Name="Memory.Digital.Selection.vi" Type="VI" URL="../../../Templates/Memory.Digital.Selection.vi"/>
+				<Item Name="Engine Simulation Toolkit.lvlib" Type="Library" URL="../../../SubModules/Engine Simulation Toolkit FPGA IP/IP Source/Engine Simulation Toolkit.lvlib"/>
+				<Item Name="FPGA Wizard Templates.lvlib" Type="Library" URL="../../../Templates/FPGA Wizard Templates.lvlib"/>
 			</Item>
 			<Item Name="Build Specifications" Type="Build">
 				<Item Name="FPGA Target" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
