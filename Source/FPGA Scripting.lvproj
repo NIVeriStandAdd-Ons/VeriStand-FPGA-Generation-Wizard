@@ -108,8 +108,14 @@
 			</Item>
 			<Item Name="Dependencies" Type="Dependencies">
 				<Item Name="vi.lib" Type="Folder">
-					<Item Name="Engine Simulation Toolkit.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/Engine Simulation Toolkit.lvlib"/>
+					<Item Name="Angle Processing Unit.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/APU/Angle Processing Unit.vi"/>
+					<Item Name="Create APU Register Bus.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/APU/Create APU Register Bus.vi"/>
+					<Item Name="Input.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/APU/Input.ctl"/>
 					<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
+					<Item Name="Output.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/APU/Output.ctl"/>
+					<Item Name="Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/APU/Settings.ctl"/>
+					<Item Name="Shared Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/APU/Shared Settings.ctl"/>
+					<Item Name="Version Token.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/Version Token.ctl"/>
 				</Item>
 			</Item>
 			<Item Name="Build Specifications" Type="Build"/>
