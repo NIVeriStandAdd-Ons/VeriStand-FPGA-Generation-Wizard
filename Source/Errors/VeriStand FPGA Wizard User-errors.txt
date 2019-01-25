@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nidocument>
+<nicomment>
+
+<nifamily familyname="VeriStand FPGA Wizard Error Codes" displayname="VeriStand FPGA Wizard Error Codes">
+</nifamily>
+</nicomment>
+<nierror code="5000">
+Signal.Type not supported
+</nierror>
+<nierror code="5001">
+Module not supported
+</nierror>
+<nierror code="5002">
+Parameter not supported
+</nierror>
+<nierror code="5003">
+Code generation error. Check signal configuration.
+</nierror>
+</nidocument>

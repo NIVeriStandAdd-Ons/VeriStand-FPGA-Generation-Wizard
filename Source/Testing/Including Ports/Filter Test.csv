@@ -1,0 +1,49 @@
+FPGA.Name,Mod.Number,Group.Name,IO.Resource,IO.Name,Signal.Name,Signal.Type,Signal.Parameters,,,Supported Signal Types,Associated Parameters,IO Requirements
+FPGA Target,PCI-7811R,Connector0 DIO Bank0,DIO0,Connector0/DIO0,,,,,,Digital Indicator,,Any Digital Input
+FPGA Target,PCI-7811R,Connector0 DIO Bank0,DIO1,Connector0/DIO1,,,,,,Digital Static Input,,Any Digital Input
+FPGA Target,PCI-7811R,Connector0 DIO Bank0,DIO2,Connector0/DIO2,,,,,,Digital Control,,Any Digital Output
+FPGA Target,PCI-7811R,Connector0 DIO Bank0,DIO3,Connector0/DIO3,,,,,,Digital Static Output,,Any Digital Output
+FPGA Target,PCI-7811R,Connector0 DIO Bank0,DIO4,Connector0/DIO4,,,,,,Digital PWM Input,,Any Digital Input
+FPGA Target,PCI-7811R,Connector0 DIO Bank0,DIO5,Connector0/DIO5,,,,,,Digital PWM Output,,Any Digital Output
+FPGA Target,PCI-7811R,Connector0 DIO Bank0,DIO6,Connector0/DIO6,,,,,,Digital Pattern,,SCTL Supported Digital Output
+FPGA Target,PCI-7811R,Connector0 DIO Bank0,DIO7,Connector0/DIO7,,,,,,Directional Sensor,,SCTL Supported Digital Output
+FPGA Target,PCI-7811R,Connector0 DIO Bank1,DIO8,Connector0/DIO8,,,,,,Wheel Speed Sensor,,SCTL Supported Digital Output Pair
+FPGA Target,PCI-7811R,Connector0 DIO Bank1,DIO9,Connector0/DIO9,,,,,,Digital Event,Events:#,SCTL Supported Digital Input
+FPGA Target,PCI-7811R,Connector0 DIO Bank1,DIO10,Connector0/DIO10,,,,,,Analog Indicator,,Any Analog Input
+FPGA Target,PCI-7811R,Connector0 DIO Bank1,DIO11,Connector0/DIO11,,,,,,Analog Control,,Any Analog Output
+FPGA Target,PCI-7811R,Connector0 DIO Bank1,DIO12,Connector0/DIO12,,,,,,Analog PWM Input,,Any Analog Input
+FPGA Target,PCI-7811R,Connector0 DIO Bank1,DIO13,Connector0/DIO13,,,,,,Sine Output,,Any Analog Output
+FPGA Target,PCI-7811R,Connector0 DIO Bank1,DIO14,Connector0/DIO14,,,,,,Analog Replay,,Any Analog Output
+FPGA Target,PCI-7811R,Connector0 DIO Bank1,DIO15,Connector0/DIO15,,,,,,Knock Sensor,Cylinders:#,Any Analog Output
+FPGA Target,PCI-7811R,Connector0 DIO Bank2,DIO16,Connector0/DIO16,,,,,,,,
+FPGA Target,PCI-7811R,Connector0 DIO Bank2,DIO17,Connector0/DIO17,,,,,,,,
+FPGA Target,PCI-7811R,Connector0 DIO Bank2,DIO18,Connector0/DIO18,,,,,,,,
+FPGA Target,PCI-7811R,Connector0 DIO Bank2,DIO19,Connector0/DIO19,,,,,,,,
+FPGA Target,PCI-7811R,Connector0 DIO Bank2,DIO20,Connector0/DIO20,,,,,,,,
+FPGA Target,PCI-7811R,Connector0 DIO Bank2,DIO21,Connector0/DIO21,,,,,,,,
+FPGA Target,PCI-7811R,Connector0 DIO Bank2,DIO22,Connector0/DIO22,,,,,,,,
+FPGA Target,PCI-7811R,Connector0 DIO Bank2,DIO23,Connector0/DIO23,,,,,,,,
+FPGA Target,PCI-7811R,Connector0 DIO Bank3,DIO24,Connector0/DIO24,,,,,,,,
+FPGA Target,PCI-7811R,Connector0 DIO Bank3,DIO25,Connector0/DIO25,,,,,,,,
+FPGA Target,PCI-7811R,Connector0 DIO Bank3,DIO26,Connector0/DIO26,,,,,,,,
+FPGA Target,PCI-7811R,Connector0 DIO Bank3,DIO27,Connector0/DIO27,,,,,,,,
+FPGA Target,PCI-7811R,Connector0 DIO Bank3,DIO28,Connector0/DIO28,,,,,,,,
+FPGA Target,PCI-7811R,Connector0 DIO Bank3,DIO29,Connector0/DIO29,,,,,,,,
+FPGA Target,PCI-7811R,Connector0 DIO Bank3,DIO30,Connector0/DIO30,,,,,,,,
+FPGA Target,PCI-7811R,Connector0 DIO Bank3,DIO31,Connector0/DIO31,,,,,,,,
+FPGA Target,PCI-7811R,Connector0 DIO Bank4,DIO32,Connector0/DIO32,,,,,,,,
+FPGA Target,PCI-7811R,Connector0 DIO Bank4,DIO33,Connector0/DIO33,,,,,,,,
+FPGA Target,PCI-7811R,Connector0 DIO Bank4,DIO34,Connector0/DIO34,,,,,,,,
+FPGA Target,PCI-7811R,Connector0 DIO Bank4,DIO35,Connector0/DIO35,,,,,,,,
+FPGA Target,PCI-7811R,Connector0 DIO Bank4,DIO36,Connector0/DIO36,,,,,,,,
+FPGA Target,PCI-7811R,Connector0 DIO Bank4,DIO37,Connector0/DIO37,,,,,,,,
+FPGA Target,PCI-7811R,Connector0 DIO Bank4,DIO38,Connector0/DIO38,,,,,,,,
+FPGA Target,PCI-7811R,Connector0 DIO Bank4,DIO39,Connector0/DIO39,,,,,,,,
+FPGA Target 2,9401,Mod1,DIO0,Mod1/DIO0,,,,,,,,
+FPGA Target 2,9401,Mod1,DIO1,Mod1/DIO1,,,,,,,,
+FPGA Target 2,9401,Mod1,DIO2,Mod1/DIO2,,,,,,,,
+FPGA Target 2,9401,Mod1,DIO3,Mod1/DIO3,,,,,,,,
+FPGA Target 2,9401,Mod1,DIO4,Mod1/DIO4,,,,,,,,
+FPGA Target 2,9401,Mod1,DIO5,Mod1/DIO5,,,,,,,,
+FPGA Target 2,9401,Mod1,DIO6,Mod1/DIO6,,,,,,,,
+FPGA Target 2,9401,Mod1,DIO7,Mod1/DIO7,,,,,,,,

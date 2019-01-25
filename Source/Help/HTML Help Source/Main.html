@@ -15,15 +15,54 @@
 		<hr width="100%" noshade>
 	</noscript>
 <h1>VeriStand FPGA Wizard</h1>
-<p class="Body">The VeriStand FPGA Wizard </p>
-<h2>What do you want to do?</h2>
-<h3>Change CAN Settings</h3>
-<p class="Body">The default CAN settings are imported from the database, and can be changed when first adding the custom device to the VeriStand system definition.  You can also change the CAN port settings in the <strong>CAN Settings</strong> section of this page.  Note:  Check the <strong>Legacy?</strong> checkbox for VeriStand 2017 (and earlier) implementations of CAN FD.  CAN frame generation is handled in an Asynchronous loop with a priority set by the <strong>Loop Priority</strong> setting.  Please see the LabVIEW Help for additional information on applicable values.</p>
-<h3>Add A Frame Configuration</h3>
-<p class="Body">To add a frame configuration, right-click on the 'Cyclic' message type in the configuration tree, and select <strong>Import Frames</strong>.</p>
-<h3>Disable Add-on</h3>
-<p class="Body">To disable this add-on, right-click on the add-on instance and select <strong>Disable</strong> from the shortcut menu.</p>
-<h3>Delete multiple items</h3>
-<p class="Body">To delete multiple items, right-click the object in the configuration tree and select <strong>Delete Multiple Items</strong> from the shortcut menu.</p>
+<p class="Body">The VeriStand FPGA Wizard removes the need to program with LabVIEW FPGA when using FPGAs with VeriStand. The wizard generates the LabVIEW FPGA VI for the user. The user simply compiles it and configures VeriStand. Currently, it supports generating FPGAs utiltize FPGA IP from the FPGA Addon and the Engine Simulation Toolkit.</p>
+<h2>VeriStand FPGA Wizard Workflow</h2>
+<h3>Configure a LabVIEW Project</h3>
+<p class="Body">The first thing the user needs to do is to create a LabVIEW project that represents their FPGA(s). Specifically, the user needs to discover their target(s) and add the available IO. Then set any IO properties like range, channel direction, etc.</p>
+<p>NOTE: Add all the individual IO. Do not add ports. Do not delete unused channels. The wizard expects all cards and modules to have all the individual channels.</p>
+<h3>Export your LabVIEW project to a csv spreadsheet</h3>
+<p class="Body">In the FPGA Wizard, select the path of your configured project in the <strong>Project Path</strong>. Enter the desired path for the exported csv spreadsheet in <strong>IO CSV Path</strong>. Select the <strong>Export</strong> button. This will have created a spreadsheet/CSV file on disk. Open the file in your editor of choice.</p>
+<h3>Edit the spreadsheet</h3>
+<p class="Body">The spreadsheet will list all the individual FPGA channels in your LabVIEW Project. The user can then give the channels application specific names in <strong>Signal.Name</strong>. Next, the user can define any special functionality to the signal using <strong>Signal.Type</strong>. The valid types, associated parameters, and IO requirements are provided for reference on the right side of the spreadsheet. The signal types are as follows:
+<ul>
+    <li><strong>Digital Indicator</strong> - FPGA Addon IP. Returns current channel value. Works on any digital input.
+    <li><strong>Digital Static Input</strong> - FPGA Addon IP. Returns current channel value. Allows user to invert signal. Works on any digital input.
+    <li><strong>Digital Control</strong> - FPGA Addon IP. Generates current channel value. Works on any digital output.
+    <li><strong>Digital Static Output</strong> - FPGA Addon IP. Generates current channel value. Allows user to invert signal. Works on any digital output.
+    <li><strong>Digital PWM Input</strong> - FPGA Addon IP. Returns duty cycle and frequency. Works on any digital input. SCTL supported digital inputs increase accurracy.
+    <li><strong>Digital PWM Output</strong> - FPGA Addon IP. Generates duty cycle and frequency. Works on any digital output. SCTL supported digital outputs increase accurracy.
+    <li><strong>Digital Pattern</strong> - Engine Simulation IP. Generates a pre-configured pattern based on engine angle. SCTL supported digital output required. 
+    <li><strong>Directional Sensor</strong> - Engine Simulation IP. Generates a directional pulse based on a digital pattern based on engine angle. SCTL supported digital output required.
+    <li><strong>Wheel Speed Sensor</strong> - FPGA Addon IP. Generates a two bit pattern to a SLSC wheel speed card based on a requested wheel speed. Two SCTL supported digital outputs required. Use a channel pair (e.g DIO0 & DIO1) on the same module/bank/port. Use the same signal name and signal type in both lines of the spreadsheet.
+    <li><strong>Digital Event</strong> - Engine Simulation IP. Records engine angle of an event. Parameter of Event:# where # is the maximum number of events to capture per engine cycle. SCTL supported digital input required. 
+    <li><strong>Analog Indicator</strong> - FPGA Addon IP. Returns current channel value. Works on any analog input.
+    <li><strong>Analog Control</strong> - FPGA Addon IP. Generates current channel value. Works on any analog output.
+    <li><strong>Analog PWM Input</strong> - FPGA Addon IP. Returns duty cycle and frequency. Works on any analog input. 
+    <li><strong>Sine Output</strong> - FPGA Addon IP. Generates a simple sine wave with an amplitude, frequency and offset. Works on any analog output.
+    <li><strong>Analog Replay</strong> - Engine Simulation IP. Generates a pre-configured pattern based on engine angle. Works on any analog output.
+    <li><strong>Knock Sensor</strong> - Engine Simulation IP. Generates a simulated knock sensor signal. Parameter of Cylinders:# where # is the number of expected engine cylinders. Works on any analog output.
+</ul>
+</p>
+<h4>Spreadsheet Data Validation</h4>
+<p>It is critical that your spreadsheet has the correct format, signal types, associated parameters, and spelling. If it isn't correct, errors will occur in the generation process. Here are some rules/tips that will help.</p>
+<ul>
+    <li>Do not delete any rows. If you are not using a channel, just leave it empty.
+    <li>Only edit the columns that contain Signal in the column header name. If you modify any of the first 5 columns, errors will occur.
+    <li>Do not use the same signal name more than once (unless configuring two channels for a wheel speed sensor simulation) per FPGA target.
+    <li>The spreadsheet will let you make configuration errors. It will let you put input signal types on outputs or digital signal types on analog channels. You need to use the signal requirements and knowledge of the channels to place the signals intelligently.
+    <li>The list of supported siganls are provided to the right of the spreadsheet. This is to help through documentation but can also be used for data validation. In Microsoft Excel, you can use the Supported Signal Types column as a list of valid options with correct spelling. For more information visit this link:
+    <p>"https://support.office.com/en-us/article/create-a-drop-down-list-7693307a-59ef-400a-b769-c5402dce407b"</p>
+</ul>
+<h3>Generate your FPGA program</h3>
+<p class="Body">In the FPGA Wizard, select the path of your configured project in the <strong>Project Path</strong>. Enter the path of your editted csv spreadsheet in <strong>IO CSV Path</strong>. Select the <strong>Build</strong> button. This will generate the FPGA VIs, memory items, and DMA. It will add them to your LabVIEW project</p>
+<h3>Customizing your FPGA program</h3>
+<p>If you want to add or change any of the default functionality, you can now edit your FPGA VI.</p>
+<p>NOTE: IF YOU REBUILD THE FPGA VI USING THE WIZARD, ANY CHANGES WILL BE DELETED!! Plan accordingly.</p>
+<h3>Compile your FPGA program</h3>
+<p class="Body">In your LabVIEW Project, right click on the FPGA VI and select <strong>Create Build Specification</strong>. Go to the <strong>Build Specifications</strong> under your FPGA target(s) and find the new build specification. Right click on the new build specification and select <strong>Build</strong>.</p>
+<p>Note: You will only need to create the build specification for a target once. If you decide to change the spreadsheet and rebuild the FPGA VI, the build specification will remain and can be re-used.</p>
+<h3>Configure the FPGA Addon and/or Engine Simulation Addon in VeriStand</h3>
+<p>The last step is to configure VeriStand to use your bitfile. Use the help provided with the FPGA Addon and/or the Engine Simulation Addon.</p>
+<p>NOTE: The wizard does generate a waveform list that allows for easy import and configuration of the debug DMA channel. By default, the DMA channel should be configured for Finite Acquisition with 100k Samples @ 10 usecs.</p>
 </body>
 </html> 

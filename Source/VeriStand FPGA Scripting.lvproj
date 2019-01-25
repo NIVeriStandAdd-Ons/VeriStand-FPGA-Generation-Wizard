@@ -119,9 +119,6 @@
 			</Item>
 			<Item Name="Build Specifications" Type="Build"/>
 		</Item>
-		<Item Name="GUI.Disable.vi" Type="VI" URL="../SubVIs/GUI.Disable.vi"/>
-		<Item Name="GUI.Enable.vi" Type="VI" URL="../SubVIs/GUI.Enable.vi"/>
-		<Item Name="Help.Load.vi" Type="VI" URL="../SubVIs/Help.Load.vi"/>
 		<Item Name="VeriStand FPGA Wizard.vi" Type="VI" URL="../VeriStand FPGA Wizard.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
@@ -188,6 +185,9 @@
 				<Item Name="Unset Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Unset Busy.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="GUI.Disable.vi" Type="VI" URL="../SubVIs/GUI.Disable.vi"/>
+			<Item Name="GUI.Enable.vi" Type="VI" URL="../SubVIs/GUI.Enable.vi"/>
+			<Item Name="Help.Load.vi" Type="VI" URL="../SubVIs/Help.Load.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="My Application" Type="EXE">
