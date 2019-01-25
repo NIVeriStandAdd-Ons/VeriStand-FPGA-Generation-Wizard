@@ -119,7 +119,7 @@
 			</Item>
 			<Item Name="Build Specifications" Type="Build"/>
 		</Item>
-		<Item Name="VeriStand FPGA Wizard.vi" Type="VI" URL="../VeriStand FPGA Wizard.vi"/>
+		<Item Name="VeriStand FPGA Generation Wizard.vi" Type="VI" URL="../VeriStand FPGA Generation Wizard.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Build Error Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Build Error Cluster__ogtk.vi"/>
@@ -222,7 +222,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{21F6A25F-FA0E-4069-80A0-E00DC2A69B63}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/VeriStand FPGA Wizard.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/VeriStand FPGA Generation Wizard.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">3</Property>
