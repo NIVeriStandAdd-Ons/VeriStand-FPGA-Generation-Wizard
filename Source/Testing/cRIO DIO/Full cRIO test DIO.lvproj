@@ -419,17 +419,7 @@
 					<Property Name="cRIOModule.NumSyncRegs" Type="Str">11111111</Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{27ADCE48-6749-4A8A-8F8D-4A697D23FE8D}</Property>
 				</Item>
-				<Item Name="Dependencies" Type="Dependencies">
-					<Item Name="vi.lib" Type="Folder">
-						<Item Name="Engine Simulation Toolkit.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/Engine Simulation Toolkit.lvlib"/>
-						<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
-						<Item Name="Speciality FPGA IO.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/FPGA Addon IP/Speciality IO/Speciality FPGA IO.lvlib"/>
-					</Item>
-					<Item Name="Digital_Output_4Channels.vi" Type="VI" URL="../../../Templates/Digital_Output_4Channels.vi"/>
-					<Item Name="Digital_Output_8Channels.vi" Type="VI" URL="../../../Templates/Digital_Output_8Channels.vi"/>
-					<Item Name="DMA.Command.Handler.vi" Type="VI" URL="../../../Templates/SubVIs/DMA.Command.Handler.vi"/>
-					<Item Name="Loop.Timer.vi" Type="VI" URL="../../../Templates/SubVIs/Loop.Timer.vi"/>
-				</Item>
+				<Item Name="Dependencies" Type="Dependencies"/>
 				<Item Name="Build Specifications" Type="Build">
 					<Item Name="FPGA1" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
 						<Property Name="AllowEnableRemoval" Type="Bool">false</Property>
@@ -4214,23 +4204,7 @@
 					<Property Name="cRIOModule.kInitRefreshPeriod" Type="Str">0</Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{491D9ACB-9E80-4396-9D92-FA50ADA9C0B8}</Property>
 				</Item>
-				<Item Name="Dependencies" Type="Dependencies">
-					<Item Name="vi.lib" Type="Folder">
-						<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
-						<Item Name="Engine Simulation Toolkit.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/Engine Simulation Toolkit.lvlib"/>
-						<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
-						<Item Name="Speciality FPGA IO.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/FPGA Addon IP/Speciality IO/Speciality FPGA IO.lvlib"/>
-					</Item>
-					<Item Name="Digital_Input_4Channels.vi" Type="VI" URL="../../../Templates/Digital_Input_4Channels.vi"/>
-					<Item Name="Digital_Input_8Channels.vi" Type="VI" URL="../../../Templates/Digital_Input_8Channels.vi"/>
-					<Item Name="Digital_Input_32Channels.vi" Type="VI" URL="../../../Templates/Digital_Input_32Channels.vi"/>
-					<Item Name="Digital_Output_8Channels.vi" Type="VI" URL="../../../Templates/Digital_Output_8Channels.vi"/>
-					<Item Name="Digital_Output_16Channels.vi" Type="VI" URL="../../../Templates/Digital_Output_16Channels.vi"/>
-					<Item Name="Digital_Output_32Channels.vi" Type="VI" URL="../../../Templates/Digital_Output_32Channels.vi"/>
-					<Item Name="DMA.Command.Handler.vi" Type="VI" URL="../../../Templates/SubVIs/DMA.Command.Handler.vi"/>
-					<Item Name="Loop.Timer.vi" Type="VI" URL="../../../Templates/SubVIs/Loop.Timer.vi"/>
-					<Item Name="Memory.Digital.Selection.vi" Type="VI" URL="../../../Templates/Memory.Digital.Selection.vi"/>
-				</Item>
+				<Item Name="Dependencies" Type="Dependencies"/>
 				<Item Name="Build Specifications" Type="Build">
 					<Item Name="FPGA2" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
 						<Property Name="AllowEnableRemoval" Type="Bool">false</Property>

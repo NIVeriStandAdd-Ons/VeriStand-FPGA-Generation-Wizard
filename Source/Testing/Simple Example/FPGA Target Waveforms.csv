@@ -1,0 +1,17 @@
+IO Name,Signal
+Mod4/AI0,Crank VR Loopback
+Mod4/AI1,Pressure 1
+Mod4/AI2,Pressure 2
+Mod4/AI3,Pressure 3
+Mod3/AO0,Crank VR
+Mod3/AO1,Knock 1
+Mod3/AO2,Spare AO 1
+Mod3/AO3,Spare AO 2
+Mod1/DIO0,Crank Temp
+Mod1/DIO1,Cam Intake
+Mod1/DIO2,Cam Exhaust
+Mod1/DIO3,Crank
+Mod1/DIO4,PWM Output 1
+Mod1/DIO5,PWM Output 2
+Mod1/DIO6,Key
+Mod1/DIO7,Accessory

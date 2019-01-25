@@ -1,0 +1,17 @@
+FPGA.Name,Mod.Number,Group.Name,IO.Resource,IO.Name,Signal.Name,Signal.Type,Signal.Parameters,,,Supported Signal Types,Associated Parameters,IO Requirements
+FPGA Target,9401,Mod1,DIO0,Mod1/DIO0,,,,,,Digital Indicator,,Any Digital Input
+FPGA Target,9401,Mod1,DIO1,Mod1/DIO1,,,,,,Digital Static Input,,Any Digital Input
+FPGA Target,9401,Mod1,DIO2,Mod1/DIO2,,,,,,Digital Control,,Any Digital Output
+FPGA Target,9401,Mod1,DIO3,Mod1/DIO3,,,,,,Digital Static Output,,Any Digital Output
+FPGA Target,9401,Mod1,DIO4,Mod1/DIO4,,,,,,Digital PWM Input,,Any Digital Input
+FPGA Target,9401,Mod1,DIO5,Mod1/DIO5,,,,,,Digital PWM Output,,Any Digital Output
+FPGA Target,9401,Mod1,DIO6,Mod1/DIO6,,,,,,Digital Pattern,,SCTL Supported Digital Output
+FPGA Target,9401,Mod1,DIO7,Mod1/DIO7,,,,,,Directional Sensor,,SCTL Supported Digital Output
+FPGA Target,9263,Mod3,AO0,Mod3/AO0,,,,,,Wheel Speed Sensor,,SCTL Supported Digital Output Pair
+FPGA Target,9263,Mod3,AO1,Mod3/AO1,,,,,,Digital Event,Events:#,SCTL Supported Digital Input
+FPGA Target,9263,Mod3,AO2,Mod3/AO2,,,,,,Analog Indicator,,Any Analog Input
+FPGA Target,9263,Mod3,AO3,Mod3/AO3,,,,,,Analog Control,,Any Analog Output
+FPGA Target,9215,Mod4,AI0,Mod4/AI0,,,,,,Analog PWM Input,,Any Analog Input
+FPGA Target,9215,Mod4,AI1,Mod4/AI1,,,,,,Sine Output,,Any Analog Output
+FPGA Target,9215,Mod4,AI2,Mod4/AI2,,,,,,Analog Replay,,Any Analog Output
+FPGA Target,9215,Mod4,AI3,Mod4/AI3,,,,,,Knock Sensor,Cylinders:#,Any Analog Output

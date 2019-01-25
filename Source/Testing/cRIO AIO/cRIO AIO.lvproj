@@ -729,19 +729,12 @@
 				</Item>
 				<Item Name="Dependencies" Type="Dependencies">
 					<Item Name="vi.lib" Type="Folder">
-						<Item Name="Engine Simulation Toolkit.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Engine Simulation Toolkit (EST)/Engine Simulation Toolkit.lvlib"/>
-						<Item Name="Speciality FPGA IO.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/FPGA Addon IP/Speciality IO/Speciality FPGA IO.lvlib"/>
 						<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 						<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
 					</Item>
-					<Item Name="DMA.Command.Handler.vi" Type="VI" URL="../../../Templates/SubVIs/DMA.Command.Handler.vi"/>
-					<Item Name="Loop.Timer.vi" Type="VI" URL="../../../Templates/SubVIs/Loop.Timer.vi"/>
-					<Item Name="Memory.AnalogReplay.Selection.vi" Type="VI" URL="../../../Templates/Memory.AnalogReplay.Selection.vi"/>
-					<Item Name="Analog_Input_8Channels_W16I5.vi" Type="VI" URL="../../../Templates/Analog_Input_8Channels_W16I5.vi"/>
-					<Item Name="Analog_Input_8Channels_W16I7.vi" Type="VI" URL="../../../Templates/Analog_Input_8Channels_W16I7.vi"/>
-					<Item Name="Analog_Input_4Channels_W24I5.vi" Type="VI" URL="../../../Templates/Analog_Input_4Channels_W24I5.vi"/>
-					<Item Name="Convert.I16toFXP.vi" Type="VI" URL="../../../Templates/Convert.I16toFXP.vi"/>
-					<Item Name="Analog_Output_4Channels_W20I5.vi" Type="VI" URL="../../../Templates/Analog_Output_4Channels_W20I5.vi"/>
+					<Item Name="Engine Simulation Toolkit.lvlib" Type="Library" URL="../../../SubModules/Engine Simulation Toolkit FPGA IP/IP Source/Engine Simulation Toolkit.lvlib"/>
+					<Item Name="Speciality FPGA IO.lvlib" Type="Library" URL="../../../SubModules/FPGA Addon Speciality IO/Source/Speciality FPGA IO.lvlib"/>
+					<Item Name="FPGA Wizard Templates.lvlib" Type="Library" URL="../../../Templates/FPGA Wizard Templates.lvlib"/>
 				</Item>
 				<Item Name="Build Specifications" Type="Build">
 					<Item Name="FPGA1" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
