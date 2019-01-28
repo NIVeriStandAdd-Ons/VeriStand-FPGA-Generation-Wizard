@@ -26,8 +26,6 @@ LabVIEW FPGA 2015 or later
 
 NI RIO 18.0
 
-OpenG LabVIEW Data Library 4.2.0.21 or later
-
 SubModules: 
 
 FPGA Addon Speciality IO (https://github.com/NIVeriStandAdd-Ons/FPGA-Addon-Speciality-IO)
