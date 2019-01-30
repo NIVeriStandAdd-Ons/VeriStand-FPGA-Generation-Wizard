@@ -20,6 +20,7 @@
 			<Item Name="Input" Type="Folder">
 				<Item Name="FPGA Addon" Type="Folder">
 					<Item Name="FPGA Addon Input.lvclass" Type="LVClass" URL="../Classes/Signal/FPGA Addon Input/FPGA Addon Input.lvclass"/>
+					<Item Name="Quadrature Encoder Input.lvclass" Type="LVClass" URL="../Classes/Signal/Quadrature Encoder Input/Quadrature Encoder Input.lvclass"/>
 				</Item>
 				<Item Name="EST" Type="Folder">
 					<Item Name="EST Input.lvclass" Type="LVClass" URL="../Classes/Signal/EST Input/EST Input.lvclass"/>

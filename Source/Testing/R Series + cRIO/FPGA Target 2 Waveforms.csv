@@ -39,3 +39,11 @@ Connector0/DIO20,PWM IN 2
 Connector0/DIO21,Cyl Inj 1
 Connector0/DIO22,Cyl Inj 2
 Connector0/DIO23,Cyl Inj 3
+Connector1/DIO0,Measured Engine Position_0
+Connector1/DIO1,Measured Engine Position_1
+Connector1/DIO2,Measured Engine Position_2
+Connector1/DIO3,Check The Channel 1
+Connector1/DIO4,Measured CAM Position_0
+Connector1/DIO5,Measured CAM Position_1
+Connector1/DIO6,Measured CAM Position_2
+Connector1/DIO7,Check The Channel 2

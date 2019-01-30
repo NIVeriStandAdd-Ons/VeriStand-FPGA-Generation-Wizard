@@ -1,4 +1,4 @@
-FPGA.Name,Mod.Number,Group.Name,IO.Resource,IO.Name,Signal.Name,Signal.Type,Signal.Parameters,,,Supported Signal Types,Associated Parameters,IO Requirements
+,Mod.Number,Group.Name,IO.Resource,IO.Name,Signal.Name,Signal.Type,Signal.Parameters,,,Supported Signal Types,Associated Parameters,IO Requirements
 FPGA Target,9220,Mod2,AI0,Mod2/AI0,Pressure1,Analog Indicator,,,,Digital Indicator,,Any Digital Input
 FPGA Target,9220,Mod2,AI1,Mod2/AI1,Pressure2,Analog Indicator,,,,Digital Static Input,,Any Digital Input
 FPGA Target,9220,Mod2,AI2,Mod2/AI2,Injector3,Analog PWM Input,,,,Digital Control,,Any Digital Output
@@ -9,13 +9,13 @@ FPGA Target,9220,Mod2,AI6,Mod2/AI6,Temp1,Analog Indicator,,,,Digital Pattern,,SC
 FPGA Target,9220,Mod2,AI7,Mod2/AI7,Temp2,Analog Indicator,,,,Directional Sensor,,SCTL Supported Digital Output
 FPGA Target,9220,Mod2,AI8,Mod2/AI8,Temp3,Analog Indicator,,,,Wheel Speed Sensor,,SCTL Supported Digital Output Pair
 FPGA Target,9220,Mod2,AI9,Mod2/AI9,Temp4,Analog Indicator,,,,Digital Event,Events:#,SCTL Supported Digital Input
-FPGA Target,9220,Mod2,AI10,Mod2/AI10,Injector1,Analog PWM Input,,,,Analog Indicator,,Any Analog Input
-FPGA Target,9220,Mod2,AI11,Mod2/AI11,Injector2,Analog PWM Input,,,,Analog Control,,Any Analog Output
-FPGA Target,9220,Mod2,AI12,Mod2/AI12,,,,,,Analog PWM Input,,Any Analog Input
-FPGA Target,9220,Mod2,AI13,Mod2/AI13,,,,,,Sine Output,,Any Analog Output
-FPGA Target,9220,Mod2,AI14,Mod2/AI14,,,,,,Analog Replay,,Any Analog Output
-FPGA Target,9220,Mod2,AI15,Mod2/AI15,,,,,,Knock Sensor,Cylinders:#,Any Analog Output
-FPGA Target,9401,Mod3,DIO0,Mod3/DIO0,PWM Out 1,Digital PWM Output,,,,,,
+FPGA Target,9220,Mod2,AI10,Mod2/AI10,Injector1,Analog PWM Input,,,,Quadrature Encoder Input,,SCTL Supported Digital Input
+FPGA Target,9220,Mod2,AI11,Mod2/AI11,Injector2,Analog PWM Input,,,,Analog Indicator,,Any Analog Input
+FPGA Target,9220,Mod2,AI12,Mod2/AI12,,,,,,Analog Control,,Any Analog Output
+FPGA Target,9220,Mod2,AI13,Mod2/AI13,,,,,,Analog PWM Input,,Any Analog Input
+FPGA Target,9220,Mod2,AI14,Mod2/AI14,,,,,,Sine Output,,Any Analog Output
+FPGA Target,9220,Mod2,AI15,Mod2/AI15,,,,,,Analog Replay,,Any Analog Output
+FPGA Target,9401,Mod3,DIO0,Mod3/DIO0,PWM Out 1,Digital PWM Output,,,,Knock Sensor,Cylinders:#,Any Analog Output
 FPGA Target,9401,Mod3,DIO1,Mod3/DIO1,PWM Out 2,Digital PWM Output,,,,,,
 FPGA Target,9401,Mod3,DIO2,Mod3/DIO2,Intake CAM 1,Digital Pattern,,,,,,
 FPGA Target,9401,Mod3,DIO3,Mod3/DIO3,Exhaust CAM 1,Digital Pattern,,,,,,
@@ -103,14 +103,14 @@ FPGA Target 2,USB-7856R,Connector1 AO Bank0,AO4,Connector1/AO4,VR Sensor1,Analog
 FPGA Target 2,USB-7856R,Connector1 AO Bank0,AO5,Connector1/AO5,VR Sensor2,Analog Replay,,,,,,
 FPGA Target 2,USB-7856R,Connector1 AO Bank0,AO6,Connector1/AO6,Simple Knock 1,Sine Output,,,,,,
 FPGA Target 2,USB-7856R,Connector1 AO Bank0,AO7,Connector1/AO7,Simple Knock 2,Sine Output,,,,,,
-FPGA Target 2,USB-7856R,Connector1 DIO Bank0,DIO0,Connector1/DIO0,,,,,,,,
-FPGA Target 2,USB-7856R,Connector1 DIO Bank0,DIO1,Connector1/DIO1,,,,,,,,
-FPGA Target 2,USB-7856R,Connector1 DIO Bank0,DIO2,Connector1/DIO2,,,,,,,,
-FPGA Target 2,USB-7856R,Connector1 DIO Bank0,DIO3,Connector1/DIO3,,,,,,,,
-FPGA Target 2,USB-7856R,Connector1 DIO Bank0,DIO4,Connector1/DIO4,,,,,,,,
-FPGA Target 2,USB-7856R,Connector1 DIO Bank0,DIO5,Connector1/DIO5,,,,,,,,
-FPGA Target 2,USB-7856R,Connector1 DIO Bank0,DIO6,Connector1/DIO6,,,,,,,,
-FPGA Target 2,USB-7856R,Connector1 DIO Bank0,DIO7,Connector1/DIO7,,,,,,,,
+FPGA Target 2,USB-7856R,Connector1 DIO Bank0,DIO0,Connector1/DIO0,Measured Engine Position,Quadrature Encoder Input,,,,,,
+FPGA Target 2,USB-7856R,Connector1 DIO Bank0,DIO1,Connector1/DIO1,Measured Engine Position,Quadrature Encoder Input,,,,,,
+FPGA Target 2,USB-7856R,Connector1 DIO Bank0,DIO2,Connector1/DIO2,Measured Engine Position,Quadrature Encoder Input,,,,,,
+FPGA Target 2,USB-7856R,Connector1 DIO Bank0,DIO3,Connector1/DIO3,Check The Channel 1,Digital Indicator,,,,,,
+FPGA Target 2,USB-7856R,Connector1 DIO Bank0,DIO4,Connector1/DIO4,Measured CAM Position,Quadrature Encoder Input,,,,,,
+FPGA Target 2,USB-7856R,Connector1 DIO Bank0,DIO5,Connector1/DIO5,Measured CAM Position,Quadrature Encoder Input,,,,,,
+FPGA Target 2,USB-7856R,Connector1 DIO Bank0,DIO6,Connector1/DIO6,Measured CAM Position,Quadrature Encoder Input,,,,,,
+FPGA Target 2,USB-7856R,Connector1 DIO Bank0,DIO7,Connector1/DIO7,Check The Channel 2,Digital Indicator,,,,,,
 FPGA Target 2,USB-7856R,Connector1 DIO Bank1,DIO8,Connector1/DIO8,,,,,,,,
 FPGA Target 2,USB-7856R,Connector1 DIO Bank1,DIO9,Connector1/DIO9,,,,,,,,
 FPGA Target 2,USB-7856R,Connector1 DIO Bank1,DIO10,Connector1/DIO10,,,,,,,,
