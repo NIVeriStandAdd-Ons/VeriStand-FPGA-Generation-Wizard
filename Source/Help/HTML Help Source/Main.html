@@ -34,8 +34,9 @@
     <li><strong>Digital Pattern</strong> - Engine Simulation IP. Generates a pre-configured pattern based on engine angle. SCTL supported digital output required. 
     <li><strong>Directional Sensor</strong> - Engine Simulation IP. Generates a directional pulse based on a digital pattern based on engine angle. SCTL supported digital output required.
     <li><strong>Wheel Speed Sensor</strong> - FPGA Addon IP. Generates a two bit pattern to a SLSC wheel speed card based on a requested wheel speed. Two SCTL supported digital outputs required. Use a channel pair (e.g DIO0 & DIO1) on the same module/bank/port. Use the same signal name and signal type in both lines of the spreadsheet.
-    <li><strong>Digital Event</strong> - Engine Simulation IP. Records engine angle of an event. Parameter of Event:# where # is the maximum number of events to capture per engine cycle. SCTL supported digital input required. 
-    <li><strong>Analog Indicator</strong> - FPGA Addon IP. Returns current channel value. Works on any analog input.
+    <li><strong>Digital Event</strong> - Engine Simulation IP. Records engine angle of an event. Parameter of Event:# where # is the maximum number of events to capture per engine cycle. SCTL supported digital input required. Use the same signal name and signal type in the three lines of the spreadsheet.
+    <li><strong>Quadrature Encoder Input</strong> - FPGA Addon IP. Acquires encoder position. Three STCL supported digital inputs required. Use a channel trio (A, B, & Z) on the same module/bank/port.
+	<li><strong>Analog Indicator</strong> - FPGA Addon IP. Returns current channel value. Works on any analog input.
     <li><strong>Analog Control</strong> - FPGA Addon IP. Generates current channel value. Works on any analog output.
     <li><strong>Analog PWM Input</strong> - FPGA Addon IP. Returns duty cycle and frequency. Works on any analog input. 
     <li><strong>Sine Output</strong> - FPGA Addon IP. Generates a simple sine wave with an amplitude, frequency and offset. Works on any analog output.
