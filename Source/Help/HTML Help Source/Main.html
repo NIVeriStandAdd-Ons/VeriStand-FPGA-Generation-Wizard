@@ -15,7 +15,7 @@
 		<hr width="100%" noshade>
 	</noscript>
 <h1>VeriStand FPGA Wizard</h1>
-<p class="Body">The VeriStand FPGA Wizard removes the need to program with LabVIEW FPGA when using FPGAs with VeriStand. The wizard generates the LabVIEW FPGA VI for the user. The user simply compiles it and configures VeriStand. Currently, it supports generating FPGAs utiltize FPGA IP from the FPGA Addon and the Engine Simulation Toolkit.</p>
+<p class="Body">The VeriStand FPGA Wizard removes the need to program with LabVIEW FPGA when using FPGAs with VeriStand. The wizard generates the LabVIEW FPGA VI for the user. The user simply compiles it and configures VeriStand. Currently, it supports generating FPGAs utilizing FPGA IP from the FPGA Addon and the Engine Simulation Toolkit.</p>
 <h2>VeriStand FPGA Wizard Workflow</h2>
 <h3>Configure a LabVIEW Project</h3>
 <p class="Body">The first thing the user needs to do is to create a LabVIEW project that represents their FPGA(s). Specifically, the user needs to discover their target(s) and add the available IO. Then set any IO properties like range, channel direction, etc.</p>
@@ -29,14 +29,14 @@
     <li><strong>Digital Static Input</strong> - FPGA Addon IP. Returns current channel value. Allows user to invert signal. Works on any digital input.
     <li><strong>Digital Control</strong> - FPGA Addon IP. Generates current channel value. Works on any digital output.
     <li><strong>Digital Static Output</strong> - FPGA Addon IP. Generates current channel value. Allows user to invert signal. Works on any digital output.
-    <li><strong>Digital PWM Input</strong> - FPGA Addon IP. Returns duty cycle and frequency. Works on any digital input. SCTL supported digital inputs increase accurracy.
-    <li><strong>Digital PWM Output</strong> - FPGA Addon IP. Generates duty cycle and frequency. Works on any digital output. SCTL supported digital outputs increase accurracy.
+    <li><strong>Digital PWM Input</strong> - FPGA Addon IP. Returns duty cycle and frequency. Works on any digital input. SCTL supported digital inputs increase accuracy.
+    <li><strong>Digital PWM Output</strong> - FPGA Addon IP. Generates duty cycle and frequency. Works on any digital output. SCTL supported digital outputs increase accuracy.
     <li><strong>Digital Pattern</strong> - Engine Simulation IP. Generates a pre-configured pattern based on engine angle. SCTL supported digital output required. 
     <li><strong>Directional Sensor</strong> - Engine Simulation IP. Generates a directional pulse based on a digital pattern based on engine angle. SCTL supported digital output required.
     <li><strong>Wheel Speed Sensor</strong> - FPGA Addon IP. Generates a two bit pattern to a SLSC wheel speed card based on a requested wheel speed. Two SCTL supported digital outputs required. Use a channel pair (e.g DIO0 & DIO1) on the same module/bank/port. Use the same signal name and signal type in both lines of the spreadsheet.
-    <li><strong>Digital Event</strong> - Engine Simulation IP. Records engine angle of an event. Parameter of Event:# where # is the maximum number of events to capture per engine cycle. SCTL supported digital input required. Use the same signal name and signal type in the three lines of the spreadsheet.
-    <li><strong>Quadrature Encoder Input</strong> - FPGA Addon IP. Acquires encoder position. Three STCL supported digital inputs required. Use a channel trio (A, B, & Z) on the same module/bank/port.
-	<li><strong>Analog Indicator</strong> - FPGA Addon IP. Returns current channel value. Works on any analog input.
+    <li><strong>Digital Event</strong> - Engine Simulation IP. Records engine angle of an event. Parameter of Event:# where # is the maximum number of events to capture per engine cycle. SCTL supported digital input required.
+    <li><strong>Quadrature Encoder Input</strong> - FPGA Addon IP. Acquires encoder position. Three STCL supported digital inputs required. Use a channel trio (A, B, & Z) on the same module/bank/port. Use the same signal name and signal type in the three lines of the spreadsheet.
+    <li><strong>Analog Indicator</strong> - FPGA Addon IP. Returns current channel value. Works on any analog input.
     <li><strong>Analog Control</strong> - FPGA Addon IP. Generates current channel value. Works on any analog output.
     <li><strong>Analog PWM Input</strong> - FPGA Addon IP. Returns duty cycle and frequency. Works on any analog input. 
     <li><strong>Sine Output</strong> - FPGA Addon IP. Generates a simple sine wave with an amplitude, frequency and offset. Works on any analog output.
@@ -51,11 +51,11 @@
     <li>Only edit the columns that contain Signal in the column header name. If you modify any of the first 5 columns, errors will occur.
     <li>Do not use the same signal name more than once (unless configuring two channels for a wheel speed sensor simulation) per FPGA target.
     <li>The spreadsheet will let you make configuration errors. It will let you put input signal types on outputs or digital signal types on analog channels. You need to use the signal requirements and knowledge of the channels to place the signals intelligently.
-    <li>The list of supported siganls are provided to the right of the spreadsheet. This is to help through documentation but can also be used for data validation. In Microsoft Excel, you can use the Supported Signal Types column as a list of valid options with correct spelling. For more information visit this link:
+    <li>The list of supported signals is provided on the right side of the spreadsheet. This is to help through documentation but can also be used for data validation. In Microsoft Excel, you can use the Supported Signal Types column as a list of valid options with correct spelling. For more information visit this link:
     <p>"https://support.office.com/en-us/article/create-a-drop-down-list-7693307a-59ef-400a-b769-c5402dce407b"</p>
 </ul>
 <h3>Generate your FPGA program</h3>
-<p class="Body">In the FPGA Wizard, select the path of your configured project in the <strong>Project Path</strong>. Enter the path of your editted csv spreadsheet in <strong>IO CSV Path</strong>. Select the <strong>Build</strong> button. This will generate the FPGA VIs, memory items, and DMA. It will add them to your LabVIEW project</p>
+<p class="Body">In the FPGA Wizard, select the path of your configured project in the <strong>Project Path</strong>. Enter the path of your edited csv spreadsheet in <strong>IO CSV Path</strong>. Select the <strong>Build</strong> button. This will generate the FPGA VIs, memory items, and DMA. It will add them to your LabVIEW project</p>
 <h3>Customizing your FPGA program</h3>
 <p>If you want to add or change any of the default functionality, you can now edit your FPGA VI.</p>
 <p>NOTE: IF YOU REBUILD THE FPGA VI USING THE WIZARD, ANY CHANGES WILL BE DELETED!! Plan accordingly.</p>

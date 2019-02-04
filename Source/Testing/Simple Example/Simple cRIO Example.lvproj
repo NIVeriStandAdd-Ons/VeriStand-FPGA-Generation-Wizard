@@ -230,9 +230,6 @@
 					<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 					<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
 				</Item>
-				<Item Name="Engine Simulation Toolkit.lvlib" Type="Library" URL="../../../SubModules/Engine Simulation Toolkit FPGA IP/IP Source/Engine Simulation Toolkit.lvlib"/>
-				<Item Name="FPGA Wizard Templates.lvlib" Type="Library" URL="../../../Templates/FPGA Wizard Templates.lvlib"/>
-				<Item Name="Speciality FPGA IO.lvlib" Type="Library" URL="../../../SubModules/FPGA Addon Speciality IO/Source/Speciality FPGA IO.lvlib"/>
 			</Item>
 			<Item Name="Build Specifications" Type="Build">
 				<Item Name="FPGA Target No IO" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
@@ -1046,15 +1043,7 @@
 					<Property Name="cRIOModule.EnableSpecialtyDigital" Type="Str">false</Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{1CBD9C2C-3EA3-4F66-A263-72B86FAC6C60}</Property>
 				</Item>
-				<Item Name="Dependencies" Type="Dependencies">
-					<Item Name="vi.lib" Type="Folder">
-						<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
-						<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
-					</Item>
-					<Item Name="Engine Simulation Toolkit.lvlib" Type="Library" URL="../../../SubModules/Engine Simulation Toolkit FPGA IP/IP Source/Engine Simulation Toolkit.lvlib"/>
-					<Item Name="FPGA Wizard Templates.lvlib" Type="Library" URL="../../../Templates/FPGA Wizard Templates.lvlib"/>
-					<Item Name="Speciality FPGA IO.lvlib" Type="Library" URL="../../../SubModules/FPGA Addon Speciality IO/Source/Speciality FPGA IO.lvlib"/>
-				</Item>
+				<Item Name="Dependencies" Type="Dependencies"/>
 				<Item Name="Build Specifications" Type="Build">
 					<Item Name="FPGA Target" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
 						<Property Name="AllowEnableRemoval" Type="Bool">false</Property>
