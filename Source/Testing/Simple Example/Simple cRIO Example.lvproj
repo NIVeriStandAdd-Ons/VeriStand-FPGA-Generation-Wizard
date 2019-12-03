@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="15008000">
+<Project Type="Project" LVVersion="19008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -230,6 +230,9 @@
 					<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 					<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
 				</Item>
+				<Item Name="Engine Simulation Toolkit.lvlib" Type="Library" URL="../../../SubModules/Engine Simulation Toolkit FPGA IP/IP Source/Engine Simulation Toolkit.lvlib"/>
+				<Item Name="FPGA Wizard Templates.lvlib" Type="Library" URL="../../../Templates/FPGA Wizard Templates.lvlib"/>
+				<Item Name="Speciality FPGA IO.lvlib" Type="Library" URL="../../../SubModules/FPGA Addon Speciality IO/Source/Speciality FPGA IO.lvlib"/>
 			</Item>
 			<Item Name="Build Specifications" Type="Build">
 				<Item Name="FPGA Target No IO" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
@@ -297,12 +300,12 @@
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
-				<Item Name="MergeError.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/Execution/Shared/MergeError.vi"/>
-				<Item Name="NI_VS Project ExecutionAPI.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Execution/Project/NI_VS Project ExecutionAPI.lvlib"/>
-				<Item Name="NI_VS Waveform Streaming Interface.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Execution/WaveformStreaming/NI_VS Waveform Streaming Interface.lvlib"/>
-				<Item Name="NI_VS Workspace ExecutionAPI.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Execution/Workspace/NI_VS Workspace ExecutionAPI.lvlib"/>
+				<Item Name="MergeError.vi" Type="VI" URL="/&lt;vilib&gt;/NI VeriStand/Execution/Shared/MergeError.vi"/>
+				<Item Name="NI_VS Project ExecutionAPI.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Execution/Project/NI_VS Project ExecutionAPI.lvlib"/>
+				<Item Name="NI_VS Waveform Streaming Interface.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Execution/WaveformStreaming/NI_VS Waveform Streaming Interface.lvlib"/>
+				<Item Name="NI_VS Workspace ExecutionAPI.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Execution/Workspace/NI_VS Workspace ExecutionAPI.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
-				<Item Name="PackedMatrixToFlatVector.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/Execution/Shared/PackedMatrixToFlatVector.vi"/>
+				<Item Name="PackedMatrixToFlatVector.vi" Type="VI" URL="/&lt;vilib&gt;/NI VeriStand/Execution/Shared/PackedMatrixToFlatVector.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
@@ -311,7 +314,7 @@
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
-				<Item Name="UnpackedFlatVectorToMatrix.vi" Type="VI" URL="/&lt;vilib&gt;/NI Veristand/Execution/Shared/UnpackedFlatVectorToMatrix.vi"/>
+				<Item Name="UnpackedFlatVectorToMatrix.vi" Type="VI" URL="/&lt;vilib&gt;/NI VeriStand/Execution/Shared/UnpackedFlatVectorToMatrix.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
@@ -380,6 +383,7 @@
 			<Property Name="crio.ProgrammingMode" Type="Str">fpga</Property>
 			<Property Name="crio.ResourceID" Type="Str">RIO0</Property>
 			<Property Name="crio.Type" Type="Str">cRIO-9082</Property>
+			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="FPGA Target" Type="FPGA Target">
 				<Property Name="AutoRun" Type="Bool">false</Property>
 				<Property Name="configString.guid" Type="Str">{05D7E2DA-812C-424F-A661-15605DD9FF5C}resource=/crio_Mod4/AI0;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{187FB50A-C8CB-48A4-AC54-DB8828E0571D}resource=/Sleep;0;ReadMethodType=bool;WriteMethodType=bool{1CBD9C2C-3EA3-4F66-A263-72B86FAC6C60}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 4,crio.Type=NI 9215,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.RsiAttributes=[crioConfig.End]{243CEAD5-D6FD-40A6-BAF1-FCA0FE85C891}resource=/Scan Clock;0;ReadMethodType=bool{24A7E396-7B60-4DA6-AD6F-B386AB204B51}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod1/DIO5;0;ReadMethodType=bool;WriteMethodType=bool{28425DA8-59D5-4DAC-81E6-7C593FE2CB0E}resource=/crio_Mod3/AO3;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{2E8FF80E-B08B-4240-B20C-DEDE78EC2494}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod1/DIO0;0;ReadMethodType=bool;WriteMethodType=bool{43D2C6D9-9E30-4F2C-9E9A-27A6F06ED45E}"ControlLogic=0;NumberOfElements=1023;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;FIFO;DataType=100080000000000100094009000353474C000100000000000000000000;DisableOnOverflowUnderflow=FALSE"{4F6D7FFA-7C2A-4CF8-ABAB-8EA68D6A211E}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod1/DIO3;0;ReadMethodType=bool;WriteMethodType=bool{5E98593D-EAD7-4316-B42A-CFF3FB5323C5}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 3,crio.Type=NI 9263,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.HotSwapMode=0,cRIOModule.RsiAttributes=[crioConfig.End]{66F891DB-20EA-4C5D-A213-802020E889A5}resource=/Chassis Temperature;0;ReadMethodType=i16{7031235D-A216-4D7E-A40D-82AA9384F0EF}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod1/DIO6;0;ReadMethodType=bool;WriteMethodType=bool{80C03501-0A31-44F8-BAD7-72F25D68933A}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 1,crio.Type=NI 9401,cRIOModule.DIO3_0InitialDir=1,cRIOModule.DIO7_4InitialDir=1,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.NumSyncRegs=11111111,cRIOModule.RsiAttributes=[crioConfig.End]{85E4C550-BFC5-4EA8-8F22-00051DF3F53C}resource=/USER FPGA LED;0;ReadMethodType=u8;WriteMethodType=u8{902434C4-F8EB-4BDB-AF55-5AB260A2C340}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod1/DIO7;0;ReadMethodType=bool;WriteMethodType=bool{95AA80D5-4FCE-46B1-8746-4FA98821996E}resource=/System Reset;0;ReadMethodType=bool;WriteMethodType=bool{9FFE7949-F27F-4162-92E3-4E060024AECE}resource=/crio_Mod3/AO0;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{B83A6C6E-2856-4D72-A90B-2BABB8DF22DB}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod1/DIO2;0;ReadMethodType=bool;WriteMethodType=bool{BA5DACBD-0F4B-4C36-A215-B9F6925F9788}resource=/crio_Mod3/AO1;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{CD7EB185-1A87-4E78-8C08-5D9A1491F439}Actual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1{CD7EB185-1A87-4E78-8C08-5D9A1491F439}Actual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1{CD7EB185-1A87-4E78-8C08-5D9A1491F439}Actual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1{CD7EB185-1A87-4E78-8C08-5D9A1491F439}Actual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1{CD7EB185-1A87-4E78-8C08-5D9A1491F439}Actual Number of Elements=16384;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094002000349313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1{CDAE47FE-8F48-41BE-A3E6-51DC27FC4044}resource=/crio_Mod4/AI1;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{DBBAD34F-D2F4-4DE1-B51C-A8478A65B7EF}resource=/crio_Mod4/AI3;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{E02EAFFD-1D9B-4180-96F9-D04EDB150855}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod1/DIO4;0;ReadMethodType=bool;WriteMethodType=bool{E382FD64-972D-42D0-81C7-22A8F2E3177F}resource=/crio_Mod3/AO2;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{E70C4978-777B-4ECD-9083-D7A3AF0E01DC}resource=/crio_Mod4/AI2;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{EE46FA06-4F96-4142-A5E4-ABAFE53F3589}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{FF39C5C3-5C9B-4D58-ABD5-EBC5CB13389B}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod1/DIO1;0;ReadMethodType=bool;WriteMethodType=boolcRIO-9082/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9082FPGA_TARGET_FAMILYSPARTAN6TARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]</Property>
@@ -435,149 +439,6 @@
 </AttributeSet>
 </Property>
 						<Property Name="FPGA.PersistentID" Type="Str">{85E4C550-BFC5-4EA8-8F22-00051DF3F53C}</Property>
-					</Item>
-				</Item>
-				<Item Name="GeneratedFPGAItems" Type="Folder">
-					<Item Name="Cam Exhaust" Type="FPGA Memory Block">
-						<Property Name="FPGA.PersistentID" Type="Str">{CD7EB185-1A87-4E78-8C08-5D9A1491F439}</Property>
-						<Property Name="fullEmulation" Type="Bool">true</Property>
-						<Property Name="Memory Latency" Type="UInt">1</Property>
-						<Property Name="Multiple Clock Domains" Type="Bool">false</Property>
-						<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">Actual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1</Property>
-						<Property Name="NI.LV.FPGA.MEMORY.ActualNumberOfElements" Type="UInt">1024</Property>
-						<Property Name="NI.LV.FPGA.MEMORY.DataWidth" Type="UInt">6</Property>
-						<Property Name="NI.LV.FPGA.MEMORY.DramIncludeByteEnables" Type="Bool">false</Property>
-						<Property Name="NI.LV.FPGA.MEMORY.DramMaxOutstandingRequests" Type="Int">64</Property>
-						<Property Name="NI.LV.FPGA.MEMORY.DramSelection" Type="Str">DramBank0</Property>
-						<Property Name="NI.LV.FPGA.MEMORY.Init" Type="Bool">false</Property>
-						<Property Name="NI.LV.FPGA.MEMORY.InitData" Type="Str"></Property>
-						<Property Name="NI.LV.FPGA.MEMORY.InitVIPath" Type="Str"></Property>
-						<Property Name="NI.LV.FPGA.MEMORY.InterfaceAArbitration" Type="UInt">2</Property>
-						<Property Name="NI.LV.FPGA.MEMORY.InterfaceBArbitration" Type="UInt">2</Property>
-						<Property Name="NI.LV.FPGA.MEMORY.InterfaceConfig" Type="UInt">0</Property>
-						<Property Name="NI.LV.FPGA.MEMORY.RequestedNumberOfElements" Type="UInt">1024</Property>
-						<Property Name="NI.LV.FPGA.MEMORY.Type" Type="UInt">2</Property>
-						<Property Name="NI.LV.FPGA.ScriptConfigString" Type="Str">Actual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1Persist Memory ValuesTRUE;</Property>
-						<Property Name="NI.LV.FPGA.Valid" Type="Bool">true</Property>
-						<Property Name="NI.LV.FPGA.Version" Type="Int">10</Property>
-						<Property Name="Type Descriptor" Type="Str">100080000000000100094006000355313600010000000000000000</Property>
-					</Item>
-					<Item Name="Cam Intake" Type="FPGA Memory Block">
-						<Property Name="FPGA.PersistentID" Type="Str">{CD7EB185-1A87-4E78-8C08-5D9A1491F439}</Property>
-						<Property Name="fullEmulation" Type="Bool">true</Property>
-						<Property Name="Memory Latency" Type="UInt">1</Property>
-						<Property Name="Multiple Clock Domains" Type="Bool">false</Property>
-						<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">Actual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1</Property>
-						<Property Name="NI.LV.FPGA.MEMORY.ActualNumberOfElements" Type="UInt">1024</Property>
-						<Property Name="NI.LV.FPGA.MEMORY.DataWidth" Type="UInt">6</Property>
-						<Property Name="NI.LV.FPGA.MEMORY.DramIncludeByteEnables" Type="Bool">false</Property>
-						<Property Name="NI.LV.FPGA.MEMORY.DramMaxOutstandingRequests" Type="Int">64</Property>
-						<Property Name="NI.LV.FPGA.MEMORY.DramSelection" Type="Str">DramBank0</Property>
-						<Property Name="NI.LV.FPGA.MEMORY.Init" Type="Bool">false</Property>
-						<Property Name="NI.LV.FPGA.MEMORY.InitData" Type="Str"></Property>
-						<Property Name="NI.LV.FPGA.MEMORY.InitVIPath" Type="Str"></Property>
-						<Property Name="NI.LV.FPGA.MEMORY.InterfaceAArbitration" Type="UInt">2</Property>
-						<Property Name="NI.LV.FPGA.MEMORY.InterfaceBArbitration" Type="UInt">2</Property>
-						<Property Name="NI.LV.FPGA.MEMORY.InterfaceConfig" Type="UInt">0</Property>
-						<Property Name="NI.LV.FPGA.MEMORY.RequestedNumberOfElements" Type="UInt">1024</Property>
-						<Property Name="NI.LV.FPGA.MEMORY.Type" Type="UInt">2</Property>
-						<Property Name="NI.LV.FPGA.ScriptConfigString" Type="Str">Actual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1Persist Memory ValuesTRUE;</Property>
-						<Property Name="NI.LV.FPGA.Valid" Type="Bool">true</Property>
-						<Property Name="NI.LV.FPGA.Version" Type="Int">10</Property>
-						<Property Name="Type Descriptor" Type="Str">100080000000000100094006000355313600010000000000000000</Property>
-					</Item>
-					<Item Name="Crank" Type="FPGA Memory Block">
-						<Property Name="FPGA.PersistentID" Type="Str">{CD7EB185-1A87-4E78-8C08-5D9A1491F439}</Property>
-						<Property Name="fullEmulation" Type="Bool">true</Property>
-						<Property Name="Memory Latency" Type="UInt">1</Property>
-						<Property Name="Multiple Clock Domains" Type="Bool">false</Property>
-						<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">Actual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1</Property>
-						<Property Name="NI.LV.FPGA.MEMORY.ActualNumberOfElements" Type="UInt">1024</Property>
-						<Property Name="NI.LV.FPGA.MEMORY.DataWidth" Type="UInt">6</Property>
-						<Property Name="NI.LV.FPGA.MEMORY.DramIncludeByteEnables" Type="Bool">false</Property>
-						<Property Name="NI.LV.FPGA.MEMORY.DramMaxOutstandingRequests" Type="Int">64</Property>
-						<Property Name="NI.LV.FPGA.MEMORY.DramSelection" Type="Str">DramBank0</Property>
-						<Property Name="NI.LV.FPGA.MEMORY.Init" Type="Bool">false</Property>
-						<Property Name="NI.LV.FPGA.MEMORY.InitData" Type="Str"></Property>
-						<Property Name="NI.LV.FPGA.MEMORY.InitVIPath" Type="Str"></Property>
-						<Property Name="NI.LV.FPGA.MEMORY.InterfaceAArbitration" Type="UInt">2</Property>
-						<Property Name="NI.LV.FPGA.MEMORY.InterfaceBArbitration" Type="UInt">2</Property>
-						<Property Name="NI.LV.FPGA.MEMORY.InterfaceConfig" Type="UInt">0</Property>
-						<Property Name="NI.LV.FPGA.MEMORY.RequestedNumberOfElements" Type="UInt">1024</Property>
-						<Property Name="NI.LV.FPGA.MEMORY.Type" Type="UInt">2</Property>
-						<Property Name="NI.LV.FPGA.ScriptConfigString" Type="Str">Actual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1Persist Memory ValuesTRUE;</Property>
-						<Property Name="NI.LV.FPGA.Valid" Type="Bool">true</Property>
-						<Property Name="NI.LV.FPGA.Version" Type="Int">10</Property>
-						<Property Name="Type Descriptor" Type="Str">100080000000000100094006000355313600010000000000000000</Property>
-					</Item>
-					<Item Name="Crank Temp" Type="FPGA Memory Block">
-						<Property Name="FPGA.PersistentID" Type="Str">{CD7EB185-1A87-4E78-8C08-5D9A1491F439}</Property>
-						<Property Name="fullEmulation" Type="Bool">true</Property>
-						<Property Name="Memory Latency" Type="UInt">1</Property>
-						<Property Name="Multiple Clock Domains" Type="Bool">false</Property>
-						<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">Actual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1</Property>
-						<Property Name="NI.LV.FPGA.MEMORY.ActualNumberOfElements" Type="UInt">1024</Property>
-						<Property Name="NI.LV.FPGA.MEMORY.DataWidth" Type="UInt">6</Property>
-						<Property Name="NI.LV.FPGA.MEMORY.DramIncludeByteEnables" Type="Bool">false</Property>
-						<Property Name="NI.LV.FPGA.MEMORY.DramMaxOutstandingRequests" Type="Int">64</Property>
-						<Property Name="NI.LV.FPGA.MEMORY.DramSelection" Type="Str">DramBank0</Property>
-						<Property Name="NI.LV.FPGA.MEMORY.Init" Type="Bool">false</Property>
-						<Property Name="NI.LV.FPGA.MEMORY.InitData" Type="Str"></Property>
-						<Property Name="NI.LV.FPGA.MEMORY.InitVIPath" Type="Str"></Property>
-						<Property Name="NI.LV.FPGA.MEMORY.InterfaceAArbitration" Type="UInt">2</Property>
-						<Property Name="NI.LV.FPGA.MEMORY.InterfaceBArbitration" Type="UInt">2</Property>
-						<Property Name="NI.LV.FPGA.MEMORY.InterfaceConfig" Type="UInt">0</Property>
-						<Property Name="NI.LV.FPGA.MEMORY.RequestedNumberOfElements" Type="UInt">1024</Property>
-						<Property Name="NI.LV.FPGA.MEMORY.Type" Type="UInt">2</Property>
-						<Property Name="NI.LV.FPGA.ScriptConfigString" Type="Str">Actual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1Persist Memory ValuesTRUE;</Property>
-						<Property Name="NI.LV.FPGA.Valid" Type="Bool">true</Property>
-						<Property Name="NI.LV.FPGA.Version" Type="Int">10</Property>
-						<Property Name="Type Descriptor" Type="Str">100080000000000100094006000355313600010000000000000000</Property>
-					</Item>
-					<Item Name="Crank VR" Type="FPGA Memory Block">
-						<Property Name="FPGA.PersistentID" Type="Str">{CD7EB185-1A87-4E78-8C08-5D9A1491F439}</Property>
-						<Property Name="fullEmulation" Type="Bool">true</Property>
-						<Property Name="Memory Latency" Type="UInt">1</Property>
-						<Property Name="Multiple Clock Domains" Type="Bool">false</Property>
-						<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">Actual Number of Elements=16384;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094002000349313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1</Property>
-						<Property Name="NI.LV.FPGA.MEMORY.ActualNumberOfElements" Type="UInt">16384</Property>
-						<Property Name="NI.LV.FPGA.MEMORY.DataWidth" Type="UInt">2</Property>
-						<Property Name="NI.LV.FPGA.MEMORY.DramIncludeByteEnables" Type="Bool">false</Property>
-						<Property Name="NI.LV.FPGA.MEMORY.DramMaxOutstandingRequests" Type="Int">64</Property>
-						<Property Name="NI.LV.FPGA.MEMORY.DramSelection" Type="Str">DramBank0</Property>
-						<Property Name="NI.LV.FPGA.MEMORY.Init" Type="Bool">false</Property>
-						<Property Name="NI.LV.FPGA.MEMORY.InitData" Type="Str"></Property>
-						<Property Name="NI.LV.FPGA.MEMORY.InitVIPath" Type="Str"></Property>
-						<Property Name="NI.LV.FPGA.MEMORY.InterfaceAArbitration" Type="UInt">2</Property>
-						<Property Name="NI.LV.FPGA.MEMORY.InterfaceBArbitration" Type="UInt">2</Property>
-						<Property Name="NI.LV.FPGA.MEMORY.InterfaceConfig" Type="UInt">0</Property>
-						<Property Name="NI.LV.FPGA.MEMORY.RequestedNumberOfElements" Type="UInt">16384</Property>
-						<Property Name="NI.LV.FPGA.MEMORY.Type" Type="UInt">2</Property>
-						<Property Name="NI.LV.FPGA.ScriptConfigString" Type="Str">Actual Number of Elements=16384;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094002000349313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1Persist Memory ValuesTRUE;</Property>
-						<Property Name="NI.LV.FPGA.Valid" Type="Bool">true</Property>
-						<Property Name="NI.LV.FPGA.Version" Type="Int">10</Property>
-						<Property Name="Type Descriptor" Type="Str">100080000000000100094002000349313600010000000000000000</Property>
-					</Item>
-					<Item Name="DebugDMA" Type="FPGA FIFO">
-						<Property Name="Actual Number of Elements" Type="UInt">1023</Property>
-						<Property Name="Arbitration for Read" Type="UInt">1</Property>
-						<Property Name="Arbitration for Write" Type="UInt">1</Property>
-						<Property Name="Control Logic" Type="UInt">0</Property>
-						<Property Name="Data Type" Type="UInt">11</Property>
-						<Property Name="Disable on Overflow/Underflow" Type="Bool">false</Property>
-						<Property Name="fifo.configuration" Type="Str">"ControlLogic=0;NumberOfElements=1023;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;FIFO;DataType=100080000000000100094009000353474C000100000000000000000000;DisableOnOverflowUnderflow=FALSE"</Property>
-						<Property Name="fifo.configured" Type="Bool">true</Property>
-						<Property Name="fifo.projectItemValid" Type="Bool">true</Property>
-						<Property Name="fifo.valid" Type="Bool">true</Property>
-						<Property Name="fifo.version" Type="Int">12</Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{43D2C6D9-9E30-4F2C-9E9A-27A6F06ED45E}</Property>
-						<Property Name="Local" Type="Bool">false</Property>
-						<Property Name="Memory Type" Type="UInt">2</Property>
-						<Property Name="Number Of Elements Per Read" Type="UInt">1</Property>
-						<Property Name="Number Of Elements Per Write" Type="UInt">1</Property>
-						<Property Name="Requested Number of Elements" Type="UInt">1023</Property>
-						<Property Name="Type" Type="UInt">2</Property>
-						<Property Name="Type Descriptor" Type="Str">100080000000000100094009000353474C000100000000000000000000</Property>
 					</Item>
 				</Item>
 				<Item Name="Mod1" Type="Folder">
@@ -778,6 +639,149 @@
 						<Property Name="FPGA.PersistentID" Type="Str">{DBBAD34F-D2F4-4DE1-B51C-A8478A65B7EF}</Property>
 					</Item>
 				</Item>
+				<Item Name="GeneratedFPGAItems" Type="Folder">
+					<Item Name="Crank VR" Type="FPGA Memory Block">
+						<Property Name="FPGA.PersistentID" Type="Str">{CD7EB185-1A87-4E78-8C08-5D9A1491F439}</Property>
+						<Property Name="fullEmulation" Type="Bool">true</Property>
+						<Property Name="Memory Latency" Type="UInt">1</Property>
+						<Property Name="Multiple Clock Domains" Type="Bool">false</Property>
+						<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">Actual Number of Elements=16384;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094002000349313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1</Property>
+						<Property Name="NI.LV.FPGA.MEMORY.ActualNumberOfElements" Type="UInt">16384</Property>
+						<Property Name="NI.LV.FPGA.MEMORY.DataWidth" Type="UInt">2</Property>
+						<Property Name="NI.LV.FPGA.MEMORY.DramIncludeByteEnables" Type="Bool">false</Property>
+						<Property Name="NI.LV.FPGA.MEMORY.DramMaxOutstandingRequests" Type="Int">64</Property>
+						<Property Name="NI.LV.FPGA.MEMORY.DramSelection" Type="Str">DramBank0</Property>
+						<Property Name="NI.LV.FPGA.MEMORY.Init" Type="Bool">false</Property>
+						<Property Name="NI.LV.FPGA.MEMORY.InitData" Type="Str"></Property>
+						<Property Name="NI.LV.FPGA.MEMORY.InitVIPath" Type="Str"></Property>
+						<Property Name="NI.LV.FPGA.MEMORY.InterfaceAArbitration" Type="UInt">2</Property>
+						<Property Name="NI.LV.FPGA.MEMORY.InterfaceBArbitration" Type="UInt">2</Property>
+						<Property Name="NI.LV.FPGA.MEMORY.InterfaceConfig" Type="UInt">0</Property>
+						<Property Name="NI.LV.FPGA.MEMORY.RequestedNumberOfElements" Type="UInt">16384</Property>
+						<Property Name="NI.LV.FPGA.MEMORY.Type" Type="UInt">2</Property>
+						<Property Name="NI.LV.FPGA.ScriptConfigString" Type="Str">Actual Number of Elements=16384;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094002000349313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1Persist Memory ValuesTRUE;</Property>
+						<Property Name="NI.LV.FPGA.Valid" Type="Bool">true</Property>
+						<Property Name="NI.LV.FPGA.Version" Type="Int">10</Property>
+						<Property Name="Type Descriptor" Type="Str">100080000000000100094002000349313600010000000000000000</Property>
+					</Item>
+					<Item Name="Crank Temp" Type="FPGA Memory Block">
+						<Property Name="FPGA.PersistentID" Type="Str">{CD7EB185-1A87-4E78-8C08-5D9A1491F439}</Property>
+						<Property Name="fullEmulation" Type="Bool">true</Property>
+						<Property Name="Memory Latency" Type="UInt">1</Property>
+						<Property Name="Multiple Clock Domains" Type="Bool">false</Property>
+						<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">Actual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1</Property>
+						<Property Name="NI.LV.FPGA.MEMORY.ActualNumberOfElements" Type="UInt">1024</Property>
+						<Property Name="NI.LV.FPGA.MEMORY.DataWidth" Type="UInt">6</Property>
+						<Property Name="NI.LV.FPGA.MEMORY.DramIncludeByteEnables" Type="Bool">false</Property>
+						<Property Name="NI.LV.FPGA.MEMORY.DramMaxOutstandingRequests" Type="Int">64</Property>
+						<Property Name="NI.LV.FPGA.MEMORY.DramSelection" Type="Str">DramBank0</Property>
+						<Property Name="NI.LV.FPGA.MEMORY.Init" Type="Bool">false</Property>
+						<Property Name="NI.LV.FPGA.MEMORY.InitData" Type="Str"></Property>
+						<Property Name="NI.LV.FPGA.MEMORY.InitVIPath" Type="Str"></Property>
+						<Property Name="NI.LV.FPGA.MEMORY.InterfaceAArbitration" Type="UInt">2</Property>
+						<Property Name="NI.LV.FPGA.MEMORY.InterfaceBArbitration" Type="UInt">2</Property>
+						<Property Name="NI.LV.FPGA.MEMORY.InterfaceConfig" Type="UInt">0</Property>
+						<Property Name="NI.LV.FPGA.MEMORY.RequestedNumberOfElements" Type="UInt">1024</Property>
+						<Property Name="NI.LV.FPGA.MEMORY.Type" Type="UInt">2</Property>
+						<Property Name="NI.LV.FPGA.ScriptConfigString" Type="Str">Actual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1Persist Memory ValuesTRUE;</Property>
+						<Property Name="NI.LV.FPGA.Valid" Type="Bool">true</Property>
+						<Property Name="NI.LV.FPGA.Version" Type="Int">10</Property>
+						<Property Name="Type Descriptor" Type="Str">100080000000000100094006000355313600010000000000000000</Property>
+					</Item>
+					<Item Name="Cam Intake" Type="FPGA Memory Block">
+						<Property Name="FPGA.PersistentID" Type="Str">{CD7EB185-1A87-4E78-8C08-5D9A1491F439}</Property>
+						<Property Name="fullEmulation" Type="Bool">true</Property>
+						<Property Name="Memory Latency" Type="UInt">1</Property>
+						<Property Name="Multiple Clock Domains" Type="Bool">false</Property>
+						<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">Actual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1</Property>
+						<Property Name="NI.LV.FPGA.MEMORY.ActualNumberOfElements" Type="UInt">1024</Property>
+						<Property Name="NI.LV.FPGA.MEMORY.DataWidth" Type="UInt">6</Property>
+						<Property Name="NI.LV.FPGA.MEMORY.DramIncludeByteEnables" Type="Bool">false</Property>
+						<Property Name="NI.LV.FPGA.MEMORY.DramMaxOutstandingRequests" Type="Int">64</Property>
+						<Property Name="NI.LV.FPGA.MEMORY.DramSelection" Type="Str">DramBank0</Property>
+						<Property Name="NI.LV.FPGA.MEMORY.Init" Type="Bool">false</Property>
+						<Property Name="NI.LV.FPGA.MEMORY.InitData" Type="Str"></Property>
+						<Property Name="NI.LV.FPGA.MEMORY.InitVIPath" Type="Str"></Property>
+						<Property Name="NI.LV.FPGA.MEMORY.InterfaceAArbitration" Type="UInt">2</Property>
+						<Property Name="NI.LV.FPGA.MEMORY.InterfaceBArbitration" Type="UInt">2</Property>
+						<Property Name="NI.LV.FPGA.MEMORY.InterfaceConfig" Type="UInt">0</Property>
+						<Property Name="NI.LV.FPGA.MEMORY.RequestedNumberOfElements" Type="UInt">1024</Property>
+						<Property Name="NI.LV.FPGA.MEMORY.Type" Type="UInt">2</Property>
+						<Property Name="NI.LV.FPGA.ScriptConfigString" Type="Str">Actual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1Persist Memory ValuesTRUE;</Property>
+						<Property Name="NI.LV.FPGA.Valid" Type="Bool">true</Property>
+						<Property Name="NI.LV.FPGA.Version" Type="Int">10</Property>
+						<Property Name="Type Descriptor" Type="Str">100080000000000100094006000355313600010000000000000000</Property>
+					</Item>
+					<Item Name="Cam Exhaust" Type="FPGA Memory Block">
+						<Property Name="FPGA.PersistentID" Type="Str">{CD7EB185-1A87-4E78-8C08-5D9A1491F439}</Property>
+						<Property Name="fullEmulation" Type="Bool">true</Property>
+						<Property Name="Memory Latency" Type="UInt">1</Property>
+						<Property Name="Multiple Clock Domains" Type="Bool">false</Property>
+						<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">Actual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1</Property>
+						<Property Name="NI.LV.FPGA.MEMORY.ActualNumberOfElements" Type="UInt">1024</Property>
+						<Property Name="NI.LV.FPGA.MEMORY.DataWidth" Type="UInt">6</Property>
+						<Property Name="NI.LV.FPGA.MEMORY.DramIncludeByteEnables" Type="Bool">false</Property>
+						<Property Name="NI.LV.FPGA.MEMORY.DramMaxOutstandingRequests" Type="Int">64</Property>
+						<Property Name="NI.LV.FPGA.MEMORY.DramSelection" Type="Str">DramBank0</Property>
+						<Property Name="NI.LV.FPGA.MEMORY.Init" Type="Bool">false</Property>
+						<Property Name="NI.LV.FPGA.MEMORY.InitData" Type="Str"></Property>
+						<Property Name="NI.LV.FPGA.MEMORY.InitVIPath" Type="Str"></Property>
+						<Property Name="NI.LV.FPGA.MEMORY.InterfaceAArbitration" Type="UInt">2</Property>
+						<Property Name="NI.LV.FPGA.MEMORY.InterfaceBArbitration" Type="UInt">2</Property>
+						<Property Name="NI.LV.FPGA.MEMORY.InterfaceConfig" Type="UInt">0</Property>
+						<Property Name="NI.LV.FPGA.MEMORY.RequestedNumberOfElements" Type="UInt">1024</Property>
+						<Property Name="NI.LV.FPGA.MEMORY.Type" Type="UInt">2</Property>
+						<Property Name="NI.LV.FPGA.ScriptConfigString" Type="Str">Actual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1Persist Memory ValuesTRUE;</Property>
+						<Property Name="NI.LV.FPGA.Valid" Type="Bool">true</Property>
+						<Property Name="NI.LV.FPGA.Version" Type="Int">10</Property>
+						<Property Name="Type Descriptor" Type="Str">100080000000000100094006000355313600010000000000000000</Property>
+					</Item>
+					<Item Name="Crank" Type="FPGA Memory Block">
+						<Property Name="FPGA.PersistentID" Type="Str">{CD7EB185-1A87-4E78-8C08-5D9A1491F439}</Property>
+						<Property Name="fullEmulation" Type="Bool">true</Property>
+						<Property Name="Memory Latency" Type="UInt">1</Property>
+						<Property Name="Multiple Clock Domains" Type="Bool">false</Property>
+						<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">Actual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1</Property>
+						<Property Name="NI.LV.FPGA.MEMORY.ActualNumberOfElements" Type="UInt">1024</Property>
+						<Property Name="NI.LV.FPGA.MEMORY.DataWidth" Type="UInt">6</Property>
+						<Property Name="NI.LV.FPGA.MEMORY.DramIncludeByteEnables" Type="Bool">false</Property>
+						<Property Name="NI.LV.FPGA.MEMORY.DramMaxOutstandingRequests" Type="Int">64</Property>
+						<Property Name="NI.LV.FPGA.MEMORY.DramSelection" Type="Str">DramBank0</Property>
+						<Property Name="NI.LV.FPGA.MEMORY.Init" Type="Bool">false</Property>
+						<Property Name="NI.LV.FPGA.MEMORY.InitData" Type="Str"></Property>
+						<Property Name="NI.LV.FPGA.MEMORY.InitVIPath" Type="Str"></Property>
+						<Property Name="NI.LV.FPGA.MEMORY.InterfaceAArbitration" Type="UInt">2</Property>
+						<Property Name="NI.LV.FPGA.MEMORY.InterfaceBArbitration" Type="UInt">2</Property>
+						<Property Name="NI.LV.FPGA.MEMORY.InterfaceConfig" Type="UInt">0</Property>
+						<Property Name="NI.LV.FPGA.MEMORY.RequestedNumberOfElements" Type="UInt">1024</Property>
+						<Property Name="NI.LV.FPGA.MEMORY.Type" Type="UInt">2</Property>
+						<Property Name="NI.LV.FPGA.ScriptConfigString" Type="Str">Actual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1Persist Memory ValuesTRUE;</Property>
+						<Property Name="NI.LV.FPGA.Valid" Type="Bool">true</Property>
+						<Property Name="NI.LV.FPGA.Version" Type="Int">10</Property>
+						<Property Name="Type Descriptor" Type="Str">100080000000000100094006000355313600010000000000000000</Property>
+					</Item>
+					<Item Name="DebugDMA" Type="FPGA FIFO">
+						<Property Name="Actual Number of Elements" Type="UInt">1023</Property>
+						<Property Name="Arbitration for Read" Type="UInt">1</Property>
+						<Property Name="Arbitration for Write" Type="UInt">1</Property>
+						<Property Name="Control Logic" Type="UInt">0</Property>
+						<Property Name="Data Type" Type="UInt">11</Property>
+						<Property Name="Disable on Overflow/Underflow" Type="Bool">false</Property>
+						<Property Name="fifo.configuration" Type="Str">"ControlLogic=0;NumberOfElements=1023;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;FIFO;DataType=100080000000000100094009000353474C000100000000000000000000;DisableOnOverflowUnderflow=FALSE"</Property>
+						<Property Name="fifo.configured" Type="Bool">true</Property>
+						<Property Name="fifo.projectItemValid" Type="Bool">true</Property>
+						<Property Name="fifo.valid" Type="Bool">true</Property>
+						<Property Name="fifo.version" Type="Int">12</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{43D2C6D9-9E30-4F2C-9E9A-27A6F06ED45E}</Property>
+						<Property Name="Local" Type="Bool">false</Property>
+						<Property Name="Memory Type" Type="UInt">2</Property>
+						<Property Name="Number Of Elements Per Read" Type="UInt">1</Property>
+						<Property Name="Number Of Elements Per Write" Type="UInt">1</Property>
+						<Property Name="Requested Number of Elements" Type="UInt">1023</Property>
+						<Property Name="Type" Type="UInt">2</Property>
+						<Property Name="Type Descriptor" Type="Str">100080000000000100094009000353474C000100000000000000000000</Property>
+					</Item>
+				</Item>
 				<Item Name="40 MHz Onboard Clock" Type="FPGA Base Clock">
 					<Property Name="FPGA.PersistentID" Type="Str">{EE46FA06-4F96-4142-A5E4-ABAFE53F3589}</Property>
 					<Property Name="NI.LV.FPGA.BaseTSConfig" Type="Str">ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;</Property>
@@ -795,10 +799,6 @@
 					<Property Name="NI.LV.FPGA.BaseTSConfig.VariableFrequency" Type="Bool">false</Property>
 					<Property Name="NI.LV.FPGA.Valid" Type="Bool">true</Property>
 					<Property Name="NI.LV.FPGA.Version" Type="Int">5</Property>
-				</Item>
-				<Item Name="FPGA Target.vi" Type="VI" URL="../FPGA Target.vi">
-					<Property Name="configString.guid" Type="Str">{05D7E2DA-812C-424F-A661-15605DD9FF5C}resource=/crio_Mod4/AI0;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{187FB50A-C8CB-48A4-AC54-DB8828E0571D}resource=/Sleep;0;ReadMethodType=bool;WriteMethodType=bool{1CBD9C2C-3EA3-4F66-A263-72B86FAC6C60}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 4,crio.Type=NI 9215,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.RsiAttributes=[crioConfig.End]{243CEAD5-D6FD-40A6-BAF1-FCA0FE85C891}resource=/Scan Clock;0;ReadMethodType=bool{24A7E396-7B60-4DA6-AD6F-B386AB204B51}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod1/DIO5;0;ReadMethodType=bool;WriteMethodType=bool{28425DA8-59D5-4DAC-81E6-7C593FE2CB0E}resource=/crio_Mod3/AO3;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{2E8FF80E-B08B-4240-B20C-DEDE78EC2494}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod1/DIO0;0;ReadMethodType=bool;WriteMethodType=bool{43D2C6D9-9E30-4F2C-9E9A-27A6F06ED45E}"ControlLogic=0;NumberOfElements=1023;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;FIFO;DataType=100080000000000100094009000353474C000100000000000000000000;DisableOnOverflowUnderflow=FALSE"{4F6D7FFA-7C2A-4CF8-ABAB-8EA68D6A211E}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod1/DIO3;0;ReadMethodType=bool;WriteMethodType=bool{5E98593D-EAD7-4316-B42A-CFF3FB5323C5}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 3,crio.Type=NI 9263,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.HotSwapMode=0,cRIOModule.RsiAttributes=[crioConfig.End]{66F891DB-20EA-4C5D-A213-802020E889A5}resource=/Chassis Temperature;0;ReadMethodType=i16{7031235D-A216-4D7E-A40D-82AA9384F0EF}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod1/DIO6;0;ReadMethodType=bool;WriteMethodType=bool{80C03501-0A31-44F8-BAD7-72F25D68933A}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 1,crio.Type=NI 9401,cRIOModule.DIO3_0InitialDir=1,cRIOModule.DIO7_4InitialDir=1,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.NumSyncRegs=11111111,cRIOModule.RsiAttributes=[crioConfig.End]{85E4C550-BFC5-4EA8-8F22-00051DF3F53C}resource=/USER FPGA LED;0;ReadMethodType=u8;WriteMethodType=u8{902434C4-F8EB-4BDB-AF55-5AB260A2C340}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod1/DIO7;0;ReadMethodType=bool;WriteMethodType=bool{95AA80D5-4FCE-46B1-8746-4FA98821996E}resource=/System Reset;0;ReadMethodType=bool;WriteMethodType=bool{9FFE7949-F27F-4162-92E3-4E060024AECE}resource=/crio_Mod3/AO0;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{B83A6C6E-2856-4D72-A90B-2BABB8DF22DB}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod1/DIO2;0;ReadMethodType=bool;WriteMethodType=bool{BA5DACBD-0F4B-4C36-A215-B9F6925F9788}resource=/crio_Mod3/AO1;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{CD7EB185-1A87-4E78-8C08-5D9A1491F439}Actual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1{CD7EB185-1A87-4E78-8C08-5D9A1491F439}Actual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1{CD7EB185-1A87-4E78-8C08-5D9A1491F439}Actual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1{CD7EB185-1A87-4E78-8C08-5D9A1491F439}Actual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1{CD7EB185-1A87-4E78-8C08-5D9A1491F439}Actual Number of Elements=16384;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094002000349313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1{CDAE47FE-8F48-41BE-A3E6-51DC27FC4044}resource=/crio_Mod4/AI1;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{DBBAD34F-D2F4-4DE1-B51C-A8478A65B7EF}resource=/crio_Mod4/AI3;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{E02EAFFD-1D9B-4180-96F9-D04EDB150855}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod1/DIO4;0;ReadMethodType=bool;WriteMethodType=bool{E382FD64-972D-42D0-81C7-22A8F2E3177F}resource=/crio_Mod3/AO2;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{E70C4978-777B-4ECD-9083-D7A3AF0E01DC}resource=/crio_Mod4/AI2;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{EE46FA06-4F96-4142-A5E4-ABAFE53F3589}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{FF39C5C3-5C9B-4D58-ABD5-EBC5CB13389B}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod1/DIO1;0;ReadMethodType=bool;WriteMethodType=boolcRIO-9082/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9082FPGA_TARGET_FAMILYSPARTAN6TARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]</Property>
-					<Property Name="configString.name" Type="Str">40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;Cam ExhaustActual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1Cam IntakeActual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1Chassis Temperatureresource=/Chassis Temperature;0;ReadMethodType=i16Crank TempActual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1Crank VRActual Number of Elements=16384;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094002000349313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1CrankActual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1cRIO-9082/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9082FPGA_TARGET_FAMILYSPARTAN6TARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]DebugDMA"ControlLogic=0;NumberOfElements=1023;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;FIFO;DataType=100080000000000100094009000353474C000100000000000000000000;DisableOnOverflowUnderflow=FALSE"Mod1/DIO0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod1/DIO0;0;ReadMethodType=bool;WriteMethodType=boolMod1/DIO1ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod1/DIO1;0;ReadMethodType=bool;WriteMethodType=boolMod1/DIO2ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod1/DIO2;0;ReadMethodType=bool;WriteMethodType=boolMod1/DIO3ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod1/DIO3;0;ReadMethodType=bool;WriteMethodType=boolMod1/DIO4ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod1/DIO4;0;ReadMethodType=bool;WriteMethodType=boolMod1/DIO5ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod1/DIO5;0;ReadMethodType=bool;WriteMethodType=boolMod1/DIO6ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod1/DIO6;0;ReadMethodType=bool;WriteMethodType=boolMod1/DIO7ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod1/DIO7;0;ReadMethodType=bool;WriteMethodType=boolMod1[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 1,crio.Type=NI 9401,cRIOModule.DIO3_0InitialDir=1,cRIOModule.DIO7_4InitialDir=1,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.NumSyncRegs=11111111,cRIOModule.RsiAttributes=[crioConfig.End]Mod3/AO0resource=/crio_Mod3/AO0;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod3/AO1resource=/crio_Mod3/AO1;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod3/AO2resource=/crio_Mod3/AO2;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod3/AO3resource=/crio_Mod3/AO3;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod3[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 3,crio.Type=NI 9263,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.HotSwapMode=0,cRIOModule.RsiAttributes=[crioConfig.End]Mod4/AI0resource=/crio_Mod4/AI0;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod4/AI1resource=/crio_Mod4/AI1;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod4/AI2resource=/crio_Mod4/AI2;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod4/AI3resource=/crio_Mod4/AI3;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod4[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 4,crio.Type=NI 9215,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.RsiAttributes=[crioConfig.End]Scan Clockresource=/Scan Clock;0;ReadMethodType=boolSleepresource=/Sleep;0;ReadMethodType=bool;WriteMethodType=boolSystem Resetresource=/System Reset;0;ReadMethodType=bool;WriteMethodType=boolUSER FPGA LEDresource=/USER FPGA LED;0;ReadMethodType=u8;WriteMethodType=u8</Property>
 				</Item>
 				<Item Name="IP Builder" Type="IP Builder Target">
 					<Item Name="Dependencies" Type="Dependencies"/>
@@ -1043,7 +1043,16 @@
 					<Property Name="cRIOModule.EnableSpecialtyDigital" Type="Str">false</Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{1CBD9C2C-3EA3-4F66-A263-72B86FAC6C60}</Property>
 				</Item>
-				<Item Name="Dependencies" Type="Dependencies"/>
+				<Item Name="FPGA Target.vi" Type="VI" URL="../FPGA Target.vi">
+					<Property Name="configString.guid" Type="Str">{05D7E2DA-812C-424F-A661-15605DD9FF5C}resource=/crio_Mod4/AI0;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{187FB50A-C8CB-48A4-AC54-DB8828E0571D}resource=/Sleep;0;ReadMethodType=bool;WriteMethodType=bool{1CBD9C2C-3EA3-4F66-A263-72B86FAC6C60}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 4,crio.Type=NI 9215,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.RsiAttributes=[crioConfig.End]{243CEAD5-D6FD-40A6-BAF1-FCA0FE85C891}resource=/Scan Clock;0;ReadMethodType=bool{24A7E396-7B60-4DA6-AD6F-B386AB204B51}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod1/DIO5;0;ReadMethodType=bool;WriteMethodType=bool{28425DA8-59D5-4DAC-81E6-7C593FE2CB0E}resource=/crio_Mod3/AO3;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{2E8FF80E-B08B-4240-B20C-DEDE78EC2494}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod1/DIO0;0;ReadMethodType=bool;WriteMethodType=bool{43D2C6D9-9E30-4F2C-9E9A-27A6F06ED45E}"ControlLogic=0;NumberOfElements=1023;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;FIFO;DataType=100080000000000100094009000353474C000100000000000000000000;DisableOnOverflowUnderflow=FALSE"{4F6D7FFA-7C2A-4CF8-ABAB-8EA68D6A211E}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod1/DIO3;0;ReadMethodType=bool;WriteMethodType=bool{5E98593D-EAD7-4316-B42A-CFF3FB5323C5}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 3,crio.Type=NI 9263,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.HotSwapMode=0,cRIOModule.RsiAttributes=[crioConfig.End]{66F891DB-20EA-4C5D-A213-802020E889A5}resource=/Chassis Temperature;0;ReadMethodType=i16{7031235D-A216-4D7E-A40D-82AA9384F0EF}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod1/DIO6;0;ReadMethodType=bool;WriteMethodType=bool{80C03501-0A31-44F8-BAD7-72F25D68933A}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 1,crio.Type=NI 9401,cRIOModule.DIO3_0InitialDir=1,cRIOModule.DIO7_4InitialDir=1,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.NumSyncRegs=11111111,cRIOModule.RsiAttributes=[crioConfig.End]{85E4C550-BFC5-4EA8-8F22-00051DF3F53C}resource=/USER FPGA LED;0;ReadMethodType=u8;WriteMethodType=u8{902434C4-F8EB-4BDB-AF55-5AB260A2C340}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod1/DIO7;0;ReadMethodType=bool;WriteMethodType=bool{95AA80D5-4FCE-46B1-8746-4FA98821996E}resource=/System Reset;0;ReadMethodType=bool;WriteMethodType=bool{9FFE7949-F27F-4162-92E3-4E060024AECE}resource=/crio_Mod3/AO0;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{B83A6C6E-2856-4D72-A90B-2BABB8DF22DB}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod1/DIO2;0;ReadMethodType=bool;WriteMethodType=bool{BA5DACBD-0F4B-4C36-A215-B9F6925F9788}resource=/crio_Mod3/AO1;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{CD7EB185-1A87-4E78-8C08-5D9A1491F439}Actual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1{CD7EB185-1A87-4E78-8C08-5D9A1491F439}Actual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1{CD7EB185-1A87-4E78-8C08-5D9A1491F439}Actual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1{CD7EB185-1A87-4E78-8C08-5D9A1491F439}Actual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1{CD7EB185-1A87-4E78-8C08-5D9A1491F439}Actual Number of Elements=16384;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094002000349313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1{CDAE47FE-8F48-41BE-A3E6-51DC27FC4044}resource=/crio_Mod4/AI1;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{DBBAD34F-D2F4-4DE1-B51C-A8478A65B7EF}resource=/crio_Mod4/AI3;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{E02EAFFD-1D9B-4180-96F9-D04EDB150855}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod1/DIO4;0;ReadMethodType=bool;WriteMethodType=bool{E382FD64-972D-42D0-81C7-22A8F2E3177F}resource=/crio_Mod3/AO2;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{E70C4978-777B-4ECD-9083-D7A3AF0E01DC}resource=/crio_Mod4/AI2;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{EE46FA06-4F96-4142-A5E4-ABAFE53F3589}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{FF39C5C3-5C9B-4D58-ABD5-EBC5CB13389B}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod1/DIO1;0;ReadMethodType=bool;WriteMethodType=boolcRIO-9082/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9082FPGA_TARGET_FAMILYSPARTAN6TARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]</Property>
+					<Property Name="configString.name" Type="Str">40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;Cam ExhaustActual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1Cam IntakeActual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1Chassis Temperatureresource=/Chassis Temperature;0;ReadMethodType=i16Crank TempActual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1Crank VRActual Number of Elements=16384;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094002000349313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1CrankActual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1cRIO-9082/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9082FPGA_TARGET_FAMILYSPARTAN6TARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]DebugDMA"ControlLogic=0;NumberOfElements=1023;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;FIFO;DataType=100080000000000100094009000353474C000100000000000000000000;DisableOnOverflowUnderflow=FALSE"Mod1/DIO0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod1/DIO0;0;ReadMethodType=bool;WriteMethodType=boolMod1/DIO1ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod1/DIO1;0;ReadMethodType=bool;WriteMethodType=boolMod1/DIO2ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod1/DIO2;0;ReadMethodType=bool;WriteMethodType=boolMod1/DIO3ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod1/DIO3;0;ReadMethodType=bool;WriteMethodType=boolMod1/DIO4ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod1/DIO4;0;ReadMethodType=bool;WriteMethodType=boolMod1/DIO5ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod1/DIO5;0;ReadMethodType=bool;WriteMethodType=boolMod1/DIO6ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod1/DIO6;0;ReadMethodType=bool;WriteMethodType=boolMod1/DIO7ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod1/DIO7;0;ReadMethodType=bool;WriteMethodType=boolMod1[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 1,crio.Type=NI 9401,cRIOModule.DIO3_0InitialDir=1,cRIOModule.DIO7_4InitialDir=1,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.NumSyncRegs=11111111,cRIOModule.RsiAttributes=[crioConfig.End]Mod3/AO0resource=/crio_Mod3/AO0;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod3/AO1resource=/crio_Mod3/AO1;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod3/AO2resource=/crio_Mod3/AO2;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod3/AO3resource=/crio_Mod3/AO3;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod3[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 3,crio.Type=NI 9263,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.HotSwapMode=0,cRIOModule.RsiAttributes=[crioConfig.End]Mod4/AI0resource=/crio_Mod4/AI0;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod4/AI1resource=/crio_Mod4/AI1;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod4/AI2resource=/crio_Mod4/AI2;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod4/AI3resource=/crio_Mod4/AI3;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod4[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 4,crio.Type=NI 9215,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.RsiAttributes=[crioConfig.End]Scan Clockresource=/Scan Clock;0;ReadMethodType=boolSleepresource=/Sleep;0;ReadMethodType=bool;WriteMethodType=boolSystem Resetresource=/System Reset;0;ReadMethodType=bool;WriteMethodType=boolUSER FPGA LEDresource=/USER FPGA LED;0;ReadMethodType=u8;WriteMethodType=u8</Property>
+				</Item>
+				<Item Name="Dependencies" Type="Dependencies">
+					<Item Name="vi.lib" Type="Folder">
+						<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
+						<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
+					</Item>
+				</Item>
 				<Item Name="Build Specifications" Type="Build">
 					<Item Name="FPGA Target" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
 						<Property Name="AllowEnableRemoval" Type="Bool">false</Property>
@@ -1084,6 +1093,9 @@
 						<Property Name="TopLevelVI" Type="Ref"></Property>
 					</Item>
 				</Item>
+			</Item>
+			<Item Name="Real-Time Scan Resources" Type="Module Container">
+				<Property Name="crio.ModuleContainerType" Type="Str">crio.RSIModuleContainer</Property>
 			</Item>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies"/>
