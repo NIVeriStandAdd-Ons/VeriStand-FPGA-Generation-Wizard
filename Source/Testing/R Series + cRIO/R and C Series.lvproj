@@ -1,6 +1,14 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="19008000">
+<Project Type="Project" LVVersion="25008000">
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="IOScan.Faults" Type="Str"></Property>
+		<Property Name="IOScan.NetVarPeriod" Type="UInt">100</Property>
+		<Property Name="IOScan.NetWatchdogEnabled" Type="Bool">false</Property>
+		<Property Name="IOScan.Period" Type="UInt">10000</Property>
+		<Property Name="IOScan.PowerupMode" Type="UInt">0</Property>
+		<Property Name="IOScan.Priority" Type="UInt">9</Property>
+		<Property Name="IOScan.ReportModeConflict" Type="Bool">true</Property>
+		<Property Name="IOScan.StartEngineOnDeploy" Type="Bool">false</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -12,10 +20,10 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="FPGA Target 2" Type="FPGA Target">
 			<Property Name="AutoRun" Type="Bool">false</Property>
-			<Property Name="configString.guid" Type="Str">{03B30638-4BCD-4EB8-BCD5-C0CE2BE69BAA}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO6;0;ReadMethodType=bool;WriteMethodType=bool{074D638B-8CD1-4BCA-A2E8-F93FE6B270A3}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO9;0;ReadMethodType=bool;WriteMethodType=bool{0B806C97-0DBA-4806-B91A-3F7249AE1023}kIntCalDebugEn=0;kIntCalibrateData=0;kIntResChannel=5;kIntSimEnable=0;resource=/Connector1/AO5;0;WriteMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AoFxp.ctl{1268C206-55B6-418C-91CC-2288A42FF70E}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO7;0;ReadMethodType=bool;WriteMethodType=bool{16265825-9A3C-43F6-9FED-4BBF9CEF7C3F}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO2;0;ReadMethodType=bool;WriteMethodType=bool{18A4F01B-3B81-4FDB-A095-06783D0A4021}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO13;0;ReadMethodType=bool;WriteMethodType=bool{1F2B01FD-E62D-40BA-BEE9-8DB759025680}kIntCalDebugEn=0;kIntCalibrateData=0;kIntResChannel=6;kIntSimEnable=0;resource=/Connector1/AO6;0;WriteMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AoFxp.ctl{207F730A-24E5-4A08-8D2C-CDF26A9AB9D7}kIntCalDebugEn=0;kIntCalibrateData=0;kIntInitGain=0;kIntResChannel=4;kIntSimEnable=0;resource=/Connector1/AI4;0;ReadMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AiFxp.ctl{23B8A6F5-690E-4D4F-87A9-582BCD1194A4}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO21;0;ReadMethodType=bool;WriteMethodType=bool{2421A2E9-D19E-43BE-9A18-416D3DFB9877}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO0;0;ReadMethodType=bool;WriteMethodType=bool{25E74855-296E-492B-A583-40E95D8FE483}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO19;0;ReadMethodType=bool;WriteMethodType=bool{39BEB029-25E9-42EC-949A-503225F7A6B8}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO2;0;ReadMethodType=bool;WriteMethodType=bool{3A2D0ECA-847C-4C30-B9EB-120B1947946A}kIntCalDebugEn=0;kIntCalibrateData=0;kIntResChannel=1;kIntSimEnable=0;resource=/Connector1/AO1;0;WriteMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AoFxp.ctl{3A648013-0EB0-43AB-8657-4F9769838523}kIntCalDebugEn=0;kIntCalibrateData=0;kIntResChannel=7;kIntSimEnable=0;resource=/Connector1/AO7;0;WriteMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AoFxp.ctl{3EBF3687-E174-4DF0-9D1C-EC0F0B9A7119}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO15;0;ReadMethodType=bool;WriteMethodType=bool{43D2C6D9-9E30-4F2C-9E9A-27A6F06ED45E}"ControlLogic=0;NumberOfElements=1023;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;FIFO;DataType=100080000000000100094009000353474C000100000000000000000000;DisableOnOverflowUnderflow=FALSE"{448E8B7B-8860-4EC0-854A-E2F8F7A2E430}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO24;0;ReadMethodType=bool;WriteMethodType=bool{4616E199-0DC6-487C-A943-399AD9B7E76B}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO12;0;ReadMethodType=bool;WriteMethodType=bool{498EBBD6-D944-4FEC-B296-B763DF6C0BFB}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO12;0;ReadMethodType=bool;WriteMethodType=bool{4A5EB89A-DDF6-4E5F-A26C-38A7F40694A1}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO28;0;ReadMethodType=bool;WriteMethodType=bool{5CA81DB5-BED1-4432-B3D7-8B7D998B0FD1}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO4;0;ReadMethodType=bool;WriteMethodType=bool{5DAEDF50-890D-45FC-856D-4FF724C6EFC0}kIntCalDebugEn=0;kIntCalibrateData=0;kIntResChannel=0;kIntSimEnable=0;resource=/Connector1/AO0;0;WriteMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AoFxp.ctl{602F94CF-CB49-47B7-8C45-F6BD55F23F64}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO17;0;ReadMethodType=bool;WriteMethodType=bool{68D4C9F6-9F0C-46A9-AF2C-93AAACC5E488}kIntCalDebugEn=0;kIntCalibrateData=0;kIntInitGain=0;kIntResChannel=5;kIntSimEnable=0;resource=/Connector1/AI5;0;ReadMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AiFxp.ctl{6C18E2DC-840E-410B-B984-84CFBE6CB776}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO8;0;ReadMethodType=bool;WriteMethodType=bool{6C81F0FD-5C4D-4C62-8EF6-5833BF5B28F3}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO15;0;ReadMethodType=bool;WriteMethodType=bool{704F6AAD-134A-409E-8EAB-5F036123FCDD}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO18;0;ReadMethodType=bool;WriteMethodType=bool{74DA32C7-D239-4BB7-90B8-5483C65410E0}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO9;0;ReadMethodType=bool;WriteMethodType=bool{757526B1-7162-44CC-AA25-FA31E2B67F2B}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO30;0;ReadMethodType=bool;WriteMethodType=bool{7E90A7AD-6D91-47ED-BC5D-C53B6C7DFCE4}kIntCalDebugEn=0;kIntCalibrateData=0;kIntInitGain=0;kIntResChannel=0;kIntSimEnable=0;resource=/Connector1/AI0;0;ReadMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AiFxp.ctl{84F20AAD-7EE1-400B-B935-0859E3689840}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO16;0;ReadMethodType=bool;WriteMethodType=bool{8E78AD6A-D5E5-437E-817E-CF544788621E}kIntCalDebugEn=0;kIntCalibrateData=0;kIntInitGain=0;kIntResChannel=1;kIntSimEnable=0;resource=/Connector1/AI1;0;ReadMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AiFxp.ctl{8F8430F6-A340-46E2-BA92-4F14F17B04FC}kIntCalDebugEn=0;kIntCalibrateData=0;kIntInitGain=0;kIntResChannel=2;kIntSimEnable=0;resource=/Connector1/AI2;0;ReadMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AiFxp.ctl{903F32E6-1244-455B-BFEA-FE6E10304622}kIntCalDebugEn=0;kIntCalibrateData=0;kIntInitGain=0;kIntResChannel=6;kIntSimEnable=0;resource=/Connector1/AI6;0;ReadMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AiFxp.ctl{93512EDE-2864-4872-9C88-95ED7AFFBA1E}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO5;0;ReadMethodType=bool;WriteMethodType=bool{9AEE7F37-42EC-4CFB-92A5-56E33959C6E8}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO3;0;ReadMethodType=bool;WriteMethodType=bool{9C62FA1C-3CCC-4DB1-8A80-9BE2AC029918}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO10;0;ReadMethodType=bool;WriteMethodType=bool{A32010B9-0A6C-45BA-9032-A61C4756E0FB}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO8;0;ReadMethodType=bool;WriteMethodType=bool{A56AAFCB-9016-41FA-A477-DEED09A220C1}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO26;0;ReadMethodType=bool;WriteMethodType=bool{A62CE37B-609F-4DDF-8C2F-3D81D24E2CAF}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO14;0;ReadMethodType=bool;WriteMethodType=bool{A7620DAF-BFE3-48BF-A008-04B9E9ED4558}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO13;0;ReadMethodType=bool;WriteMethodType=bool{AC146EE5-BF0F-4379-867C-63ABAE3BBAF7}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO6;0;ReadMethodType=bool;WriteMethodType=bool{B2C61589-436A-45A1-8DCB-28CEF10E9794}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO25;0;ReadMethodType=bool;WriteMethodType=bool{BCE1C785-EC6F-409D-AEB7-1D2D4905EB30}kIntCalDebugEn=0;kIntCalibrateData=0;kIntInitGain=0;kIntResChannel=3;kIntSimEnable=0;resource=/Connector1/AI3;0;ReadMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AiFxp.ctl{BD5B71F3-DD6D-4FD9-8452-79A3384D97F8}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO29;0;ReadMethodType=bool;WriteMethodType=bool{C7579A93-C5EB-4580-AED6-76782D388C5A}kIntCalDebugEn=0;kIntCalibrateData=0;kIntResChannel=2;kIntSimEnable=0;resource=/Connector1/AO2;0;WriteMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AoFxp.ctl{CB1D0507-48F2-4A2F-967C-06A5FCCDFAD3}kIntCalDebugEn=0;kIntCalibrateData=0;kIntResChannel=4;kIntSimEnable=0;resource=/Connector1/AO4;0;WriteMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AoFxp.ctl{CB74C963-567E-43A2-9CE8-6B82E3ECBAFB}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO23;0;ReadMethodType=bool;WriteMethodType=bool{CD7EB185-1A87-4E78-8C08-5D9A1491F439}Actual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1{CD7EB185-1A87-4E78-8C08-5D9A1491F439}Actual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1{CD7EB185-1A87-4E78-8C08-5D9A1491F439}Actual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1{CD7EB185-1A87-4E78-8C08-5D9A1491F439}Actual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1{CD7EB185-1A87-4E78-8C08-5D9A1491F439}Actual Number of Elements=16384;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094002000349313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1{CD7EB185-1A87-4E78-8C08-5D9A1491F439}Actual Number of Elements=16384;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094002000349313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1{CE7BE6B1-3F31-48E3-8E8C-D9D65973A75E}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO14;0;ReadMethodType=bool;WriteMethodType=bool{D234307A-7F4A-4A71-A116-E32F9087BB64}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO4;0;ReadMethodType=bool;WriteMethodType=bool{D64F544D-E124-4456-B28C-AC2F6FC86717}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO5;0;ReadMethodType=bool;WriteMethodType=bool{D6C6BE25-A11E-426D-9A16-6090F939C893}kIntCalDebugEn=0;kIntCalibrateData=0;kIntResChannel=3;kIntSimEnable=0;resource=/Connector1/AO3;0;WriteMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AoFxp.ctl{D72FBC6E-26CE-4C28-AB4F-8CE4DF4E2FF8}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO27;0;ReadMethodType=bool;WriteMethodType=bool{D832709E-FA56-4E69-BC50-2116BB045068}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO11;0;ReadMethodType=bool;WriteMethodType=bool{D94DBA71-DC3D-45FB-BD40-D56BC5E41FDE}kIntCalDebugEn=0;kIntCalibrateData=0;kIntInitGain=0;kIntResChannel=7;kIntSimEnable=0;resource=/Connector1/AI7;0;ReadMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AiFxp.ctl{DA1F5E27-A51B-4518-A603-CD580B71B804}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO7;0;ReadMethodType=bool;WriteMethodType=bool{DC0BB273-602D-4123-9FB2-2420C64E30FA}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO22;0;ReadMethodType=bool;WriteMethodType=bool{E4B32B38-4A8C-4CFE-9B56-E069895E0048}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO1;0;ReadMethodType=bool;WriteMethodType=bool{E6F0CCD0-0DC5-406D-B8BA-1DFABAD0BDB0}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO10;0;ReadMethodType=bool;WriteMethodType=bool{E935B6C2-CFEE-4FAD-8804-94E54B98FB75}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO31;0;ReadMethodType=bool;WriteMethodType=bool{EA25B903-0140-4C1A-AAA2-1AD349E9E2B2}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=50.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{ED15327E-7949-46B3-A7CC-2054DD5BF528}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO1;0;ReadMethodType=bool;WriteMethodType=bool{EFAC8A4E-2B17-4695-A4A1-7C2774F2AEED}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO0;0;ReadMethodType=bool;WriteMethodType=bool{F9BB0644-D3B6-4C4C-80E3-58C5C47757D1}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO20;0;ReadMethodType=bool;WriteMethodType=bool{FD5F7D50-95DF-4520-B433-9ACA5CFCA6DA}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO3;0;ReadMethodType=bool;WriteMethodType=bool{FEEE0775-82DF-467C-A19B-616BC37EC327}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO11;0;ReadMethodType=bool;WriteMethodType=boolUSB-7856R/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSUSB_7856RFPGA_TARGET_FAMILYKINTEX7TARGET_TYPEFPGA/[rSeriesConfig.Begin]rseries.aio./Connector1/AI0=0,rseries.aio./Connector1/AI1=0,rseries.aio./Connector1/AI2=0,rseries.aio./Connector1/AI3=0,rseries.aio./Connector1/AI4=0,rseries.aio./Connector1/AI5=0,rseries.aio./Connector1/AI6=0,rseries.aio./Connector1/AI7=0,rseries.analogCalibratedType=1,rseries.hsdio=0,rseries.lsdio=0,rseries.terminalConfig=0[rSeriesConfig.End]</Property>
+			<Property Name="configString.guid" Type="Str">{086F2A56-A6CE-4DA9-A115-FC18644981BF}kIntCalDebugEn=0;kIntCalibrateData=0;kIntInitGain=0;kIntResChannel=1;kIntSimEnable=0;resource=/Connector1/AI1;0;ReadMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AiFxp.ctl{09BD7E87-D50C-49A5-BF69-2E68AC60A925}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO7;0;ReadMethodType=bool;WriteMethodType=bool{10BFD95B-4B6D-4D21-83FB-4D402A96F585}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO1;0;ReadMethodType=bool;WriteMethodType=bool{11142DF4-7CB7-41BC-9CBE-04389E44237D}kIntCalDebugEn=0;kIntCalibrateData=0;kIntInitGain=0;kIntResChannel=7;kIntSimEnable=0;resource=/Connector1/AI7;0;ReadMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AiFxp.ctl{113C8352-33CC-420D-B988-B1540AB86A3F}kIntCalDebugEn=0;kIntCalibrateData=0;kIntInitGain=0;kIntResChannel=6;kIntSimEnable=0;resource=/Connector1/AI6;0;ReadMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AiFxp.ctl{1720D22B-CF5E-404E-B5A0-777CA0080AC0}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO2;0;ReadMethodType=bool;WriteMethodType=bool{1906E561-AC65-475D-8392-9D6200D3A1C8}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO5;0;ReadMethodType=bool;WriteMethodType=bool{1C472669-2BFF-4BD9-B03A-57BE28AFD3EA}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO14;0;ReadMethodType=bool;WriteMethodType=bool{20CDBA2F-096F-40E4-97BA-4757F0CC5EBF}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO3;0;ReadMethodType=bool;WriteMethodType=bool{20F03639-49BA-43D9-8368-B74462B3E42F}kIntCalDebugEn=0;kIntCalibrateData=0;kIntInitGain=0;kIntResChannel=5;kIntSimEnable=0;resource=/Connector1/AI5;0;ReadMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AiFxp.ctl{243F6349-B8A6-4872-8004-50ED5BE7D4E7}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO13;0;ReadMethodType=bool;WriteMethodType=bool{25AF2926-3D59-46A7-BD9E-3B75B06D4245}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO19;0;ReadMethodType=bool;WriteMethodType=bool{25E18739-306D-4090-AE88-17554F9F2D1E}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO15;0;ReadMethodType=bool;WriteMethodType=bool{26B92F7D-2481-467F-B1CC-70AE3BE1B4B5}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO20;0;ReadMethodType=bool;WriteMethodType=bool{29330105-49C5-4D77-986E-1FD96E0941AE}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO24;0;ReadMethodType=bool;WriteMethodType=bool{296824CD-1A69-4B79-8EE1-9694A3CE5541}kIntCalDebugEn=0;kIntCalibrateData=0;kIntInitGain=0;kIntResChannel=2;kIntSimEnable=0;resource=/Connector1/AI2;0;ReadMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AiFxp.ctl{2B30CAF4-F5B1-4CD8-B026-02075B3A14D3}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO11;0;ReadMethodType=bool;WriteMethodType=bool{30306502-9B6E-4448-B396-D0CEE58B688E}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO3;0;ReadMethodType=bool;WriteMethodType=bool{3BBC3111-0709-418A-B281-9E3028A61E0A}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO4;0;ReadMethodType=bool;WriteMethodType=bool{3C0C0D11-2293-45D4-80E5-7E96895C679B}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO14;0;ReadMethodType=bool;WriteMethodType=bool{3D9A77CF-3BC5-454B-AFE5-0C5CF61671DD}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO4;0;ReadMethodType=bool;WriteMethodType=bool{43898AA7-6E82-4EB2-A14B-8E37E5EED903}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO31;0;ReadMethodType=bool;WriteMethodType=bool{43D2C6D9-9E30-4F2C-9E9A-27A6F06ED45E}"ControlLogic=0;NumberOfElements=1023;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;FIFO;DataType=100080000000000100094009000353474C000100000000000000000000;DisableOnOverflowUnderflow=FALSE"{4B0ACCDC-C09F-4733-89CA-C7CE621BFE59}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO22;0;ReadMethodType=bool;WriteMethodType=bool{4FDF1494-7324-4D04-8144-79C34C0A57E0}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO9;0;ReadMethodType=bool;WriteMethodType=bool{500284EC-CEFB-4BA4-9A77-F830599616FF}kIntCalDebugEn=0;kIntCalibrateData=0;kIntResChannel=5;kIntSimEnable=0;resource=/Connector1/AO5;0;WriteMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AoFxp.ctl{536207BC-0F4F-4BE2-9BCC-B5DB27E0758B}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO7;0;ReadMethodType=bool;WriteMethodType=bool{54E86928-A0FC-417E-B605-E46BB439745D}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO21;0;ReadMethodType=bool;WriteMethodType=bool{5514897D-D467-424F-AC36-261581773C6B}kIntCalDebugEn=0;kIntCalibrateData=0;kIntResChannel=6;kIntSimEnable=0;resource=/Connector1/AO6;0;WriteMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AoFxp.ctl{55BA25D5-E69E-4AEF-B024-BC088C108EC9}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO13;0;ReadMethodType=bool;WriteMethodType=bool{5A4C47FE-9BDD-4B0D-A432-3D2E2A657F08}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO12;0;ReadMethodType=bool;WriteMethodType=bool{6160781E-6F22-444F-BC5E-4647C7F7B1E6}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO18;0;ReadMethodType=bool;WriteMethodType=bool{639E4CE3-0A94-4EE4-8D03-F190C68C082E}kIntCalDebugEn=0;kIntCalibrateData=0;kIntInitGain=0;kIntResChannel=4;kIntSimEnable=0;resource=/Connector1/AI4;0;ReadMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AiFxp.ctl{646336D0-3236-410E-8CD2-343AD1AB5BDE}kIntCalDebugEn=0;kIntCalibrateData=0;kIntResChannel=3;kIntSimEnable=0;resource=/Connector1/AO3;0;WriteMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AoFxp.ctl{74E90BFF-1137-42CB-9172-0BA2F8C61FC5}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO6;0;ReadMethodType=bool;WriteMethodType=bool{755EE8DA-AB28-4CB0-81E1-AAF211E1203D}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO5;0;ReadMethodType=bool;WriteMethodType=bool{7B5B51F9-9577-48FE-BCD8-97CB9332183F}kIntCalDebugEn=0;kIntCalibrateData=0;kIntResChannel=1;kIntSimEnable=0;resource=/Connector1/AO1;0;WriteMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AoFxp.ctl{819FFF3D-EADE-4FD6-AA5C-EC375F2AE9FA}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=50.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{8303E2C8-10B0-46F4-8E60-85472B7C35D1}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO25;0;ReadMethodType=bool;WriteMethodType=bool{85C0C72C-3BBA-4CFA-84BE-918C55D53BA6}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO29;0;ReadMethodType=bool;WriteMethodType=bool{8DFA754A-F68A-443E-B405-EB7BDE75E0F6}kIntCalDebugEn=0;kIntCalibrateData=0;kIntResChannel=2;kIntSimEnable=0;resource=/Connector1/AO2;0;WriteMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AoFxp.ctl{9C8C0F52-6857-404D-8EF9-751FA9C9E9B1}kIntCalDebugEn=0;kIntCalibrateData=0;kIntInitGain=0;kIntResChannel=3;kIntSimEnable=0;resource=/Connector1/AI3;0;ReadMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AiFxp.ctl{A3665E4B-ED91-429C-ADF0-49A6EC550641}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO11;0;ReadMethodType=bool;WriteMethodType=bool{A3ADD4D2-B9EE-4BD5-A935-3EFF3B1978ED}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO0;0;ReadMethodType=bool;WriteMethodType=bool{A4A09595-61D2-48A1-B96A-E6FE52E18835}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO10;0;ReadMethodType=bool;WriteMethodType=bool{A8546E31-6649-4F76-8FC6-1A2A701B8DC8}kIntCalDebugEn=0;kIntCalibrateData=0;kIntResChannel=4;kIntSimEnable=0;resource=/Connector1/AO4;0;WriteMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AoFxp.ctl{ADF70D3A-43F6-424E-B1F7-3BCD023A31CC}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO15;0;ReadMethodType=bool;WriteMethodType=bool{B1107475-9A4D-4F4F-A034-97CFDD74FD00}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO9;0;ReadMethodType=bool;WriteMethodType=bool{B9435391-52C4-46BA-A931-A8A42AA3421E}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO8;0;ReadMethodType=bool;WriteMethodType=bool{BE4CFD15-BC9B-48D2-840E-2A27388818BE}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO8;0;ReadMethodType=bool;WriteMethodType=bool{BF2C0AD2-95B0-47F8-A3C9-081048135639}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO28;0;ReadMethodType=bool;WriteMethodType=bool{C53969EA-60E5-4881-8FF6-869194059DE4}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO27;0;ReadMethodType=bool;WriteMethodType=bool{CAA17E7E-DBCE-47F1-AFC7-D2797EB049FF}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO1;0;ReadMethodType=bool;WriteMethodType=bool{CB3F3674-6AA0-40B9-B780-C94AEA902B60}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO26;0;ReadMethodType=bool;WriteMethodType=bool{CD7EB185-1A87-4E78-8C08-5D9A1491F439}Actual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1{CD7EB185-1A87-4E78-8C08-5D9A1491F439}Actual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1{CD7EB185-1A87-4E78-8C08-5D9A1491F439}Actual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1{CD7EB185-1A87-4E78-8C08-5D9A1491F439}Actual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1{CD7EB185-1A87-4E78-8C08-5D9A1491F439}Actual Number of Elements=16384;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094002000349313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1{CD7EB185-1A87-4E78-8C08-5D9A1491F439}Actual Number of Elements=16384;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094002000349313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1{CEAE1487-A0CF-4F9B-845E-12207F0ED234}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO12;0;ReadMethodType=bool;WriteMethodType=bool{CEEA92D8-F630-4342-98A4-656C276E608E}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO2;0;ReadMethodType=bool;WriteMethodType=bool{D0A780BB-1E33-4220-B355-C1CE0E5D01AB}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO16;0;ReadMethodType=bool;WriteMethodType=bool{D0D0A2DE-790D-4D43-B8C5-4E3669F33B3B}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO6;0;ReadMethodType=bool;WriteMethodType=bool{D4F4C6E0-95A0-40B9-BC8F-533F12332F3A}kIntCalDebugEn=0;kIntCalibrateData=0;kIntResChannel=7;kIntSimEnable=0;resource=/Connector1/AO7;0;WriteMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AoFxp.ctl{DD163710-3D69-436A-B197-A391902776CB}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO0;0;ReadMethodType=bool;WriteMethodType=bool{DD8B38BA-72D2-486C-988D-7FBAA296F999}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO10;0;ReadMethodType=bool;WriteMethodType=bool{DFA4378B-8491-4ADA-A88D-580058AC6FE6}kIntCalDebugEn=0;kIntCalibrateData=0;kIntResChannel=0;kIntSimEnable=0;resource=/Connector1/AO0;0;WriteMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AoFxp.ctl{F26860E8-0A64-4247-98E6-147D485F5EFC}kIntCalDebugEn=0;kIntCalibrateData=0;kIntInitGain=0;kIntResChannel=0;kIntSimEnable=0;resource=/Connector1/AI0;0;ReadMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AiFxp.ctl{F98387B3-1CFA-43CE-9995-5C148AF9A0D3}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO17;0;ReadMethodType=bool;WriteMethodType=bool{FB619E79-A7BF-4295-9067-E72C81F90EB3}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO23;0;ReadMethodType=bool;WriteMethodType=bool{FCB9536E-7919-44F7-8C4D-92040B3BD9A9}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO30;0;ReadMethodType=bool;WriteMethodType=boolUSB-7856R/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSUSB_7856RFPGA_TARGET_FAMILYKINTEX7TARGET_TYPEFPGA/[rSeriesConfig.Begin]rseries.aio./Connector1/AI0=0,rseries.aio./Connector1/AI1=0,rseries.aio./Connector1/AI2=0,rseries.aio./Connector1/AI3=0,rseries.aio./Connector1/AI4=0,rseries.aio./Connector1/AI5=0,rseries.aio./Connector1/AI6=0,rseries.aio./Connector1/AI7=0,rseries.analogCalibratedType=1,rseries.hsdio=0,rseries.lsdio=0,rseries.terminalConfig=0[rSeriesConfig.End]</Property>
 			<Property Name="configString.name" Type="Str">40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=50.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;Connector0/DIO0ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO0;0;ReadMethodType=bool;WriteMethodType=boolConnector0/DIO10ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO10;0;ReadMethodType=bool;WriteMethodType=boolConnector0/DIO11ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO11;0;ReadMethodType=bool;WriteMethodType=boolConnector0/DIO12ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO12;0;ReadMethodType=bool;WriteMethodType=boolConnector0/DIO13ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO13;0;ReadMethodType=bool;WriteMethodType=boolConnector0/DIO14ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO14;0;ReadMethodType=bool;WriteMethodType=boolConnector0/DIO15ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO15;0;ReadMethodType=bool;WriteMethodType=boolConnector0/DIO16ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO16;0;ReadMethodType=bool;WriteMethodType=boolConnector0/DIO17ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO17;0;ReadMethodType=bool;WriteMethodType=boolConnector0/DIO18ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO18;0;ReadMethodType=bool;WriteMethodType=boolConnector0/DIO19ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO19;0;ReadMethodType=bool;WriteMethodType=boolConnector0/DIO1ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO1;0;ReadMethodType=bool;WriteMethodType=boolConnector0/DIO20ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO20;0;ReadMethodType=bool;WriteMethodType=boolConnector0/DIO21ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO21;0;ReadMethodType=bool;WriteMethodType=boolConnector0/DIO22ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO22;0;ReadMethodType=bool;WriteMethodType=boolConnector0/DIO23ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO23;0;ReadMethodType=bool;WriteMethodType=boolConnector0/DIO24ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO24;0;ReadMethodType=bool;WriteMethodType=boolConnector0/DIO25ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO25;0;ReadMethodType=bool;WriteMethodType=boolConnector0/DIO26ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO26;0;ReadMethodType=bool;WriteMethodType=boolConnector0/DIO27ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO27;0;ReadMethodType=bool;WriteMethodType=boolConnector0/DIO28ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO28;0;ReadMethodType=bool;WriteMethodType=boolConnector0/DIO29ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO29;0;ReadMethodType=bool;WriteMethodType=boolConnector0/DIO2ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO2;0;ReadMethodType=bool;WriteMethodType=boolConnector0/DIO30ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO30;0;ReadMethodType=bool;WriteMethodType=boolConnector0/DIO31ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO31;0;ReadMethodType=bool;WriteMethodType=boolConnector0/DIO3ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO3;0;ReadMethodType=bool;WriteMethodType=boolConnector0/DIO4ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO4;0;ReadMethodType=bool;WriteMethodType=boolConnector0/DIO5ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO5;0;ReadMethodType=bool;WriteMethodType=boolConnector0/DIO6ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO6;0;ReadMethodType=bool;WriteMethodType=boolConnector0/DIO7ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO7;0;ReadMethodType=bool;WriteMethodType=boolConnector0/DIO8ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO8;0;ReadMethodType=bool;WriteMethodType=boolConnector0/DIO9ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO9;0;ReadMethodType=bool;WriteMethodType=boolConnector1/AI0kIntCalDebugEn=0;kIntCalibrateData=0;kIntInitGain=0;kIntResChannel=0;kIntSimEnable=0;resource=/Connector1/AI0;0;ReadMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AiFxp.ctlConnector1/AI1kIntCalDebugEn=0;kIntCalibrateData=0;kIntInitGain=0;kIntResChannel=1;kIntSimEnable=0;resource=/Connector1/AI1;0;ReadMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AiFxp.ctlConnector1/AI2kIntCalDebugEn=0;kIntCalibrateData=0;kIntInitGain=0;kIntResChannel=2;kIntSimEnable=0;resource=/Connector1/AI2;0;ReadMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AiFxp.ctlConnector1/AI3kIntCalDebugEn=0;kIntCalibrateData=0;kIntInitGain=0;kIntResChannel=3;kIntSimEnable=0;resource=/Connector1/AI3;0;ReadMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AiFxp.ctlConnector1/AI4kIntCalDebugEn=0;kIntCalibrateData=0;kIntInitGain=0;kIntResChannel=4;kIntSimEnable=0;resource=/Connector1/AI4;0;ReadMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AiFxp.ctlConnector1/AI5kIntCalDebugEn=0;kIntCalibrateData=0;kIntInitGain=0;kIntResChannel=5;kIntSimEnable=0;resource=/Connector1/AI5;0;ReadMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AiFxp.ctlConnector1/AI6kIntCalDebugEn=0;kIntCalibrateData=0;kIntInitGain=0;kIntResChannel=6;kIntSimEnable=0;resource=/Connector1/AI6;0;ReadMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AiFxp.ctlConnector1/AI7kIntCalDebugEn=0;kIntCalibrateData=0;kIntInitGain=0;kIntResChannel=7;kIntSimEnable=0;resource=/Connector1/AI7;0;ReadMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AiFxp.ctlConnector1/AO0kIntCalDebugEn=0;kIntCalibrateData=0;kIntResChannel=0;kIntSimEnable=0;resource=/Connector1/AO0;0;WriteMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AoFxp.ctlConnector1/AO1kIntCalDebugEn=0;kIntCalibrateData=0;kIntResChannel=1;kIntSimEnable=0;resource=/Connector1/AO1;0;WriteMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AoFxp.ctlConnector1/AO2kIntCalDebugEn=0;kIntCalibrateData=0;kIntResChannel=2;kIntSimEnable=0;resource=/Connector1/AO2;0;WriteMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AoFxp.ctlConnector1/AO3kIntCalDebugEn=0;kIntCalibrateData=0;kIntResChannel=3;kIntSimEnable=0;resource=/Connector1/AO3;0;WriteMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AoFxp.ctlConnector1/AO4kIntCalDebugEn=0;kIntCalibrateData=0;kIntResChannel=4;kIntSimEnable=0;resource=/Connector1/AO4;0;WriteMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AoFxp.ctlConnector1/AO5kIntCalDebugEn=0;kIntCalibrateData=0;kIntResChannel=5;kIntSimEnable=0;resource=/Connector1/AO5;0;WriteMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AoFxp.ctlConnector1/AO6kIntCalDebugEn=0;kIntCalibrateData=0;kIntResChannel=6;kIntSimEnable=0;resource=/Connector1/AO6;0;WriteMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AoFxp.ctlConnector1/AO7kIntCalDebugEn=0;kIntCalibrateData=0;kIntResChannel=7;kIntSimEnable=0;resource=/Connector1/AO7;0;WriteMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AoFxp.ctlConnector1/DIO0ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO0;0;ReadMethodType=bool;WriteMethodType=boolConnector1/DIO10ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO10;0;ReadMethodType=bool;WriteMethodType=boolConnector1/DIO11ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO11;0;ReadMethodType=bool;WriteMethodType=boolConnector1/DIO12ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO12;0;ReadMethodType=bool;WriteMethodType=boolConnector1/DIO13ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO13;0;ReadMethodType=bool;WriteMethodType=boolConnector1/DIO14ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO14;0;ReadMethodType=bool;WriteMethodType=boolConnector1/DIO15ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO15;0;ReadMethodType=bool;WriteMethodType=boolConnector1/DIO1ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO1;0;ReadMethodType=bool;WriteMethodType=boolConnector1/DIO2ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO2;0;ReadMethodType=bool;WriteMethodType=boolConnector1/DIO3ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO3;0;ReadMethodType=bool;WriteMethodType=boolConnector1/DIO4ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO4;0;ReadMethodType=bool;WriteMethodType=boolConnector1/DIO5ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO5;0;ReadMethodType=bool;WriteMethodType=boolConnector1/DIO6ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO6;0;ReadMethodType=bool;WriteMethodType=boolConnector1/DIO7ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO7;0;ReadMethodType=bool;WriteMethodType=boolConnector1/DIO8ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO8;0;ReadMethodType=bool;WriteMethodType=boolConnector1/DIO9ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO9;0;ReadMethodType=bool;WriteMethodType=boolCrank_TempActual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1CrankActual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1DebugDMA"ControlLogic=0;NumberOfElements=1023;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;FIFO;DataType=100080000000000100094009000353474C000100000000000000000000;DisableOnOverflowUnderflow=FALSE"Exhaust CAM 1Actual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1Intake CAM 1Actual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1USB-7856R/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSUSB_7856RFPGA_TARGET_FAMILYKINTEX7TARGET_TYPEFPGA/[rSeriesConfig.Begin]rseries.aio./Connector1/AI0=0,rseries.aio./Connector1/AI1=0,rseries.aio./Connector1/AI2=0,rseries.aio./Connector1/AI3=0,rseries.aio./Connector1/AI4=0,rseries.aio./Connector1/AI5=0,rseries.aio./Connector1/AI6=0,rseries.aio./Connector1/AI7=0,rseries.analogCalibratedType=1,rseries.hsdio=0,rseries.lsdio=0,rseries.terminalConfig=0[rSeriesConfig.End]VR Sensor1Actual Number of Elements=16384;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094002000349313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1VR Sensor2Actual Number of Elements=16384;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094002000349313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1</Property>
 			<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">USB-7856R/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSUSB_7856RFPGA_TARGET_FAMILYKINTEX7TARGET_TYPEFPGA</Property>
-			<Property Name="NI.LV.FPGA.Version" Type="Int">6</Property>
+			<Property Name="NI.LV.FPGA.Version" Type="Int">8</Property>
 			<Property Name="Resource Name" Type="Str"></Property>
 			<Property Name="rseries.aio./Connector1/AI0" Type="Str">0</Property>
 			<Property Name="rseries.aio./Connector1/AI1" Type="Str">0</Property>
@@ -55,7 +63,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-					<Property Name="FPGA.PersistentID" Type="Str">{2421A2E9-D19E-43BE-9A18-416D3DFB9877}</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{DD163710-3D69-436A-B197-A391902776CB}</Property>
 				</Item>
 				<Item Name="Connector0/DIO1" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -79,7 +87,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-					<Property Name="FPGA.PersistentID" Type="Str">{ED15327E-7949-46B3-A7CC-2054DD5BF528}</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{CAA17E7E-DBCE-47F1-AFC7-D2797EB049FF}</Property>
 				</Item>
 				<Item Name="Connector0/DIO2" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -103,7 +111,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-					<Property Name="FPGA.PersistentID" Type="Str">{39BEB029-25E9-42EC-949A-503225F7A6B8}</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{1720D22B-CF5E-404E-B5A0-777CA0080AC0}</Property>
 				</Item>
 				<Item Name="Connector0/DIO3" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -127,7 +135,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-					<Property Name="FPGA.PersistentID" Type="Str">{FD5F7D50-95DF-4520-B433-9ACA5CFCA6DA}</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{30306502-9B6E-4448-B396-D0CEE58B688E}</Property>
 				</Item>
 				<Item Name="Connector0/DIO4" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -151,7 +159,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-					<Property Name="FPGA.PersistentID" Type="Str">{5CA81DB5-BED1-4432-B3D7-8B7D998B0FD1}</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{3BBC3111-0709-418A-B281-9E3028A61E0A}</Property>
 				</Item>
 				<Item Name="Connector0/DIO5" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -175,7 +183,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-					<Property Name="FPGA.PersistentID" Type="Str">{93512EDE-2864-4872-9C88-95ED7AFFBA1E}</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{755EE8DA-AB28-4CB0-81E1-AAF211E1203D}</Property>
 				</Item>
 				<Item Name="Connector0/DIO6" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -199,7 +207,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-					<Property Name="FPGA.PersistentID" Type="Str">{03B30638-4BCD-4EB8-BCD5-C0CE2BE69BAA}</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{74E90BFF-1137-42CB-9172-0BA2F8C61FC5}</Property>
 				</Item>
 				<Item Name="Connector0/DIO7" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -223,7 +231,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-					<Property Name="FPGA.PersistentID" Type="Str">{DA1F5E27-A51B-4518-A603-CD580B71B804}</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{09BD7E87-D50C-49A5-BF69-2E68AC60A925}</Property>
 				</Item>
 				<Item Name="Connector0/DIO8" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -247,7 +255,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-					<Property Name="FPGA.PersistentID" Type="Str">{A32010B9-0A6C-45BA-9032-A61C4756E0FB}</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{B9435391-52C4-46BA-A931-A8A42AA3421E}</Property>
 				</Item>
 				<Item Name="Connector0/DIO9" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -271,7 +279,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-					<Property Name="FPGA.PersistentID" Type="Str">{74DA32C7-D239-4BB7-90B8-5483C65410E0}</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{4FDF1494-7324-4D04-8144-79C34C0A57E0}</Property>
 				</Item>
 				<Item Name="Connector0/DIO10" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -295,7 +303,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-					<Property Name="FPGA.PersistentID" Type="Str">{9C62FA1C-3CCC-4DB1-8A80-9BE2AC029918}</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{DD8B38BA-72D2-486C-988D-7FBAA296F999}</Property>
 				</Item>
 				<Item Name="Connector0/DIO11" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -319,7 +327,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-					<Property Name="FPGA.PersistentID" Type="Str">{D832709E-FA56-4E69-BC50-2116BB045068}</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{2B30CAF4-F5B1-4CD8-B026-02075B3A14D3}</Property>
 				</Item>
 				<Item Name="Connector0/DIO12" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -343,7 +351,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-					<Property Name="FPGA.PersistentID" Type="Str">{498EBBD6-D944-4FEC-B296-B763DF6C0BFB}</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{CEAE1487-A0CF-4F9B-845E-12207F0ED234}</Property>
 				</Item>
 				<Item Name="Connector0/DIO13" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -367,7 +375,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-					<Property Name="FPGA.PersistentID" Type="Str">{18A4F01B-3B81-4FDB-A095-06783D0A4021}</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{55BA25D5-E69E-4AEF-B024-BC088C108EC9}</Property>
 				</Item>
 				<Item Name="Connector0/DIO14" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -391,7 +399,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-					<Property Name="FPGA.PersistentID" Type="Str">{CE7BE6B1-3F31-48E3-8E8C-D9D65973A75E}</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{1C472669-2BFF-4BD9-B03A-57BE28AFD3EA}</Property>
 				</Item>
 				<Item Name="Connector0/DIO15" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -415,7 +423,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-					<Property Name="FPGA.PersistentID" Type="Str">{3EBF3687-E174-4DF0-9D1C-EC0F0B9A7119}</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{ADF70D3A-43F6-424E-B1F7-3BCD023A31CC}</Property>
 				</Item>
 				<Item Name="Connector0/DIO16" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -439,7 +447,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-					<Property Name="FPGA.PersistentID" Type="Str">{84F20AAD-7EE1-400B-B935-0859E3689840}</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{D0A780BB-1E33-4220-B355-C1CE0E5D01AB}</Property>
 				</Item>
 				<Item Name="Connector0/DIO17" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -463,7 +471,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-					<Property Name="FPGA.PersistentID" Type="Str">{602F94CF-CB49-47B7-8C45-F6BD55F23F64}</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{F98387B3-1CFA-43CE-9995-5C148AF9A0D3}</Property>
 				</Item>
 				<Item Name="Connector0/DIO18" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -487,7 +495,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-					<Property Name="FPGA.PersistentID" Type="Str">{704F6AAD-134A-409E-8EAB-5F036123FCDD}</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{6160781E-6F22-444F-BC5E-4647C7F7B1E6}</Property>
 				</Item>
 				<Item Name="Connector0/DIO19" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -511,7 +519,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-					<Property Name="FPGA.PersistentID" Type="Str">{25E74855-296E-492B-A583-40E95D8FE483}</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{25AF2926-3D59-46A7-BD9E-3B75B06D4245}</Property>
 				</Item>
 				<Item Name="Connector0/DIO20" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -535,7 +543,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-					<Property Name="FPGA.PersistentID" Type="Str">{F9BB0644-D3B6-4C4C-80E3-58C5C47757D1}</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{26B92F7D-2481-467F-B1CC-70AE3BE1B4B5}</Property>
 				</Item>
 				<Item Name="Connector0/DIO21" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -559,7 +567,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-					<Property Name="FPGA.PersistentID" Type="Str">{23B8A6F5-690E-4D4F-87A9-582BCD1194A4}</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{54E86928-A0FC-417E-B605-E46BB439745D}</Property>
 				</Item>
 				<Item Name="Connector0/DIO22" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -583,7 +591,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-					<Property Name="FPGA.PersistentID" Type="Str">{DC0BB273-602D-4123-9FB2-2420C64E30FA}</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{4B0ACCDC-C09F-4733-89CA-C7CE621BFE59}</Property>
 				</Item>
 				<Item Name="Connector0/DIO23" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -607,7 +615,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-					<Property Name="FPGA.PersistentID" Type="Str">{CB74C963-567E-43A2-9CE8-6B82E3ECBAFB}</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{FB619E79-A7BF-4295-9067-E72C81F90EB3}</Property>
 				</Item>
 				<Item Name="Connector0/DIO24" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -631,7 +639,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-					<Property Name="FPGA.PersistentID" Type="Str">{448E8B7B-8860-4EC0-854A-E2F8F7A2E430}</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{29330105-49C5-4D77-986E-1FD96E0941AE}</Property>
 				</Item>
 				<Item Name="Connector0/DIO25" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -655,7 +663,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-					<Property Name="FPGA.PersistentID" Type="Str">{B2C61589-436A-45A1-8DCB-28CEF10E9794}</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{8303E2C8-10B0-46F4-8E60-85472B7C35D1}</Property>
 				</Item>
 				<Item Name="Connector0/DIO26" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -679,7 +687,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-					<Property Name="FPGA.PersistentID" Type="Str">{A56AAFCB-9016-41FA-A477-DEED09A220C1}</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{CB3F3674-6AA0-40B9-B780-C94AEA902B60}</Property>
 				</Item>
 				<Item Name="Connector0/DIO27" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -703,7 +711,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-					<Property Name="FPGA.PersistentID" Type="Str">{D72FBC6E-26CE-4C28-AB4F-8CE4DF4E2FF8}</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{C53969EA-60E5-4881-8FF6-869194059DE4}</Property>
 				</Item>
 				<Item Name="Connector0/DIO28" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -727,7 +735,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-					<Property Name="FPGA.PersistentID" Type="Str">{4A5EB89A-DDF6-4E5F-A26C-38A7F40694A1}</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{BF2C0AD2-95B0-47F8-A3C9-081048135639}</Property>
 				</Item>
 				<Item Name="Connector0/DIO29" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -751,7 +759,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-					<Property Name="FPGA.PersistentID" Type="Str">{BD5B71F3-DD6D-4FD9-8452-79A3384D97F8}</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{85C0C72C-3BBA-4CFA-84BE-918C55D53BA6}</Property>
 				</Item>
 				<Item Name="Connector0/DIO30" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -775,7 +783,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-					<Property Name="FPGA.PersistentID" Type="Str">{757526B1-7162-44CC-AA25-FA31E2B67F2B}</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{FCB9536E-7919-44F7-8C4D-92040B3BD9A9}</Property>
 				</Item>
 				<Item Name="Connector0/DIO31" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -799,7 +807,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-					<Property Name="FPGA.PersistentID" Type="Str">{E935B6C2-CFEE-4FAD-8804-94E54B98FB75}</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{43898AA7-6E82-4EB2-A14B-8E37E5EED903}</Property>
 				</Item>
 			</Item>
 			<Item Name="Connector1" Type="Folder">
@@ -825,7 +833,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-					<Property Name="FPGA.PersistentID" Type="Str">{7E90A7AD-6D91-47ED-BC5D-C53B6C7DFCE4}</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{F26860E8-0A64-4247-98E6-147D485F5EFC}</Property>
 				</Item>
 				<Item Name="Connector1/AI1" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -849,7 +857,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-					<Property Name="FPGA.PersistentID" Type="Str">{8E78AD6A-D5E5-437E-817E-CF544788621E}</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{086F2A56-A6CE-4DA9-A115-FC18644981BF}</Property>
 				</Item>
 				<Item Name="Connector1/AI2" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -873,7 +881,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-					<Property Name="FPGA.PersistentID" Type="Str">{8F8430F6-A340-46E2-BA92-4F14F17B04FC}</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{296824CD-1A69-4B79-8EE1-9694A3CE5541}</Property>
 				</Item>
 				<Item Name="Connector1/AI3" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -897,7 +905,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-					<Property Name="FPGA.PersistentID" Type="Str">{BCE1C785-EC6F-409D-AEB7-1D2D4905EB30}</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{9C8C0F52-6857-404D-8EF9-751FA9C9E9B1}</Property>
 				</Item>
 				<Item Name="Connector1/AI4" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -921,7 +929,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-					<Property Name="FPGA.PersistentID" Type="Str">{207F730A-24E5-4A08-8D2C-CDF26A9AB9D7}</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{639E4CE3-0A94-4EE4-8D03-F190C68C082E}</Property>
 				</Item>
 				<Item Name="Connector1/AI5" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -945,7 +953,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-					<Property Name="FPGA.PersistentID" Type="Str">{68D4C9F6-9F0C-46A9-AF2C-93AAACC5E488}</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{20F03639-49BA-43D9-8368-B74462B3E42F}</Property>
 				</Item>
 				<Item Name="Connector1/AI6" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -969,7 +977,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-					<Property Name="FPGA.PersistentID" Type="Str">{903F32E6-1244-455B-BFEA-FE6E10304622}</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{113C8352-33CC-420D-B988-B1540AB86A3F}</Property>
 				</Item>
 				<Item Name="Connector1/AI7" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -993,7 +1001,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-					<Property Name="FPGA.PersistentID" Type="Str">{D94DBA71-DC3D-45FB-BD40-D56BC5E41FDE}</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{11142DF4-7CB7-41BC-9CBE-04389E44237D}</Property>
 				</Item>
 				<Item Name="Connector1/AO0" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -1014,7 +1022,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-					<Property Name="FPGA.PersistentID" Type="Str">{5DAEDF50-890D-45FC-856D-4FF724C6EFC0}</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{DFA4378B-8491-4ADA-A88D-580058AC6FE6}</Property>
 				</Item>
 				<Item Name="Connector1/AO1" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -1035,7 +1043,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-					<Property Name="FPGA.PersistentID" Type="Str">{3A2D0ECA-847C-4C30-B9EB-120B1947946A}</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{7B5B51F9-9577-48FE-BCD8-97CB9332183F}</Property>
 				</Item>
 				<Item Name="Connector1/AO2" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -1056,7 +1064,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-					<Property Name="FPGA.PersistentID" Type="Str">{C7579A93-C5EB-4580-AED6-76782D388C5A}</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{8DFA754A-F68A-443E-B405-EB7BDE75E0F6}</Property>
 				</Item>
 				<Item Name="Connector1/AO3" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -1077,7 +1085,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-					<Property Name="FPGA.PersistentID" Type="Str">{D6C6BE25-A11E-426D-9A16-6090F939C893}</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{646336D0-3236-410E-8CD2-343AD1AB5BDE}</Property>
 				</Item>
 				<Item Name="Connector1/AO4" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -1098,7 +1106,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-					<Property Name="FPGA.PersistentID" Type="Str">{CB1D0507-48F2-4A2F-967C-06A5FCCDFAD3}</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{A8546E31-6649-4F76-8FC6-1A2A701B8DC8}</Property>
 				</Item>
 				<Item Name="Connector1/AO5" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -1119,7 +1127,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-					<Property Name="FPGA.PersistentID" Type="Str">{0B806C97-0DBA-4806-B91A-3F7249AE1023}</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{500284EC-CEFB-4BA4-9A77-F830599616FF}</Property>
 				</Item>
 				<Item Name="Connector1/AO6" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -1140,7 +1148,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-					<Property Name="FPGA.PersistentID" Type="Str">{1F2B01FD-E62D-40BA-BEE9-8DB759025680}</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{5514897D-D467-424F-AC36-261581773C6B}</Property>
 				</Item>
 				<Item Name="Connector1/AO7" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -1161,7 +1169,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-					<Property Name="FPGA.PersistentID" Type="Str">{3A648013-0EB0-43AB-8657-4F9769838523}</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{D4F4C6E0-95A0-40B9-BC8F-533F12332F3A}</Property>
 				</Item>
 				<Item Name="Connector1/DIO0" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -1185,7 +1193,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-					<Property Name="FPGA.PersistentID" Type="Str">{EFAC8A4E-2B17-4695-A4A1-7C2774F2AEED}</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{A3ADD4D2-B9EE-4BD5-A935-3EFF3B1978ED}</Property>
 				</Item>
 				<Item Name="Connector1/DIO1" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -1209,7 +1217,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-					<Property Name="FPGA.PersistentID" Type="Str">{E4B32B38-4A8C-4CFE-9B56-E069895E0048}</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{10BFD95B-4B6D-4D21-83FB-4D402A96F585}</Property>
 				</Item>
 				<Item Name="Connector1/DIO2" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -1233,7 +1241,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-					<Property Name="FPGA.PersistentID" Type="Str">{16265825-9A3C-43F6-9FED-4BBF9CEF7C3F}</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{CEEA92D8-F630-4342-98A4-656C276E608E}</Property>
 				</Item>
 				<Item Name="Connector1/DIO3" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -1257,7 +1265,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-					<Property Name="FPGA.PersistentID" Type="Str">{9AEE7F37-42EC-4CFB-92A5-56E33959C6E8}</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{20CDBA2F-096F-40E4-97BA-4757F0CC5EBF}</Property>
 				</Item>
 				<Item Name="Connector1/DIO4" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -1281,7 +1289,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-					<Property Name="FPGA.PersistentID" Type="Str">{D234307A-7F4A-4A71-A116-E32F9087BB64}</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{3D9A77CF-3BC5-454B-AFE5-0C5CF61671DD}</Property>
 				</Item>
 				<Item Name="Connector1/DIO5" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -1305,7 +1313,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-					<Property Name="FPGA.PersistentID" Type="Str">{D64F544D-E124-4456-B28C-AC2F6FC86717}</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{1906E561-AC65-475D-8392-9D6200D3A1C8}</Property>
 				</Item>
 				<Item Name="Connector1/DIO6" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -1329,7 +1337,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-					<Property Name="FPGA.PersistentID" Type="Str">{AC146EE5-BF0F-4379-867C-63ABAE3BBAF7}</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{D0D0A2DE-790D-4D43-B8C5-4E3669F33B3B}</Property>
 				</Item>
 				<Item Name="Connector1/DIO7" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -1353,7 +1361,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-					<Property Name="FPGA.PersistentID" Type="Str">{1268C206-55B6-418C-91CC-2288A42FF70E}</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{536207BC-0F4F-4BE2-9BCC-B5DB27E0758B}</Property>
 				</Item>
 				<Item Name="Connector1/DIO8" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -1377,7 +1385,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-					<Property Name="FPGA.PersistentID" Type="Str">{6C18E2DC-840E-410B-B984-84CFBE6CB776}</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{BE4CFD15-BC9B-48D2-840E-2A27388818BE}</Property>
 				</Item>
 				<Item Name="Connector1/DIO9" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -1401,7 +1409,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-					<Property Name="FPGA.PersistentID" Type="Str">{074D638B-8CD1-4BCA-A2E8-F93FE6B270A3}</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{B1107475-9A4D-4F4F-A034-97CFDD74FD00}</Property>
 				</Item>
 				<Item Name="Connector1/DIO10" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -1425,7 +1433,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-					<Property Name="FPGA.PersistentID" Type="Str">{E6F0CCD0-0DC5-406D-B8BA-1DFABAD0BDB0}</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{A4A09595-61D2-48A1-B96A-E6FE52E18835}</Property>
 				</Item>
 				<Item Name="Connector1/DIO11" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -1449,7 +1457,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-					<Property Name="FPGA.PersistentID" Type="Str">{FEEE0775-82DF-467C-A19B-616BC37EC327}</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{A3665E4B-ED91-429C-ADF0-49A6EC550641}</Property>
 				</Item>
 				<Item Name="Connector1/DIO12" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -1473,7 +1481,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-					<Property Name="FPGA.PersistentID" Type="Str">{4616E199-0DC6-487C-A943-399AD9B7E76B}</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{5A4C47FE-9BDD-4B0D-A432-3D2E2A657F08}</Property>
 				</Item>
 				<Item Name="Connector1/DIO13" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -1497,7 +1505,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-					<Property Name="FPGA.PersistentID" Type="Str">{A7620DAF-BFE3-48BF-A008-04B9E9ED4558}</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{243F6349-B8A6-4872-8004-50ED5BE7D4E7}</Property>
 				</Item>
 				<Item Name="Connector1/DIO14" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -1521,7 +1529,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-					<Property Name="FPGA.PersistentID" Type="Str">{A62CE37B-609F-4DDF-8C2F-3D81D24E2CAF}</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{3C0C0D11-2293-45D4-80E5-7E96895C679B}</Property>
 				</Item>
 				<Item Name="Connector1/DIO15" Type="Elemental IO">
 					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -1545,7 +1553,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-					<Property Name="FPGA.PersistentID" Type="Str">{6C81F0FD-5C4D-4C62-8EF6-5833BF5B28F3}</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{25E18739-306D-4090-AE88-17554F9F2D1E}</Property>
 				</Item>
 			</Item>
 			<Item Name="GeneratedFPGAItems" Type="Folder">
@@ -1716,7 +1724,7 @@
 				</Item>
 			</Item>
 			<Item Name="40 MHz Onboard Clock" Type="FPGA Base Clock">
-				<Property Name="FPGA.PersistentID" Type="Str">{EA25B903-0140-4C1A-AAA2-1AD349E9E2B2}</Property>
+				<Property Name="FPGA.PersistentID" Type="Str">{819FFF3D-EADE-4FD6-AA5C-EC375F2AE9FA}</Property>
 				<Property Name="NI.LV.FPGA.BaseTSConfig" Type="Str">ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=50.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;</Property>
 				<Property Name="NI.LV.FPGA.BaseTSConfig.Accuracy" Type="Dbl">50</Property>
 				<Property Name="NI.LV.FPGA.BaseTSConfig.ClockSignalName" Type="Str">Clk40</Property>
@@ -1734,28 +1742,16 @@
 				<Property Name="NI.LV.FPGA.Version" Type="Int">5</Property>
 			</Item>
 			<Item Name="FPGA Target 2.vi" Type="VI" URL="../FPGA Target 2.vi">
-				<Property Name="configString.guid" Type="Str">{03B30638-4BCD-4EB8-BCD5-C0CE2BE69BAA}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO6;0;ReadMethodType=bool;WriteMethodType=bool{074D638B-8CD1-4BCA-A2E8-F93FE6B270A3}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO9;0;ReadMethodType=bool;WriteMethodType=bool{0B806C97-0DBA-4806-B91A-3F7249AE1023}kIntCalDebugEn=0;kIntCalibrateData=0;kIntResChannel=5;kIntSimEnable=0;resource=/Connector1/AO5;0;WriteMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AoFxp.ctl{1268C206-55B6-418C-91CC-2288A42FF70E}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO7;0;ReadMethodType=bool;WriteMethodType=bool{16265825-9A3C-43F6-9FED-4BBF9CEF7C3F}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO2;0;ReadMethodType=bool;WriteMethodType=bool{18A4F01B-3B81-4FDB-A095-06783D0A4021}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO13;0;ReadMethodType=bool;WriteMethodType=bool{1F2B01FD-E62D-40BA-BEE9-8DB759025680}kIntCalDebugEn=0;kIntCalibrateData=0;kIntResChannel=6;kIntSimEnable=0;resource=/Connector1/AO6;0;WriteMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AoFxp.ctl{207F730A-24E5-4A08-8D2C-CDF26A9AB9D7}kIntCalDebugEn=0;kIntCalibrateData=0;kIntInitGain=0;kIntResChannel=4;kIntSimEnable=0;resource=/Connector1/AI4;0;ReadMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AiFxp.ctl{23B8A6F5-690E-4D4F-87A9-582BCD1194A4}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO21;0;ReadMethodType=bool;WriteMethodType=bool{2421A2E9-D19E-43BE-9A18-416D3DFB9877}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO0;0;ReadMethodType=bool;WriteMethodType=bool{25E74855-296E-492B-A583-40E95D8FE483}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO19;0;ReadMethodType=bool;WriteMethodType=bool{39BEB029-25E9-42EC-949A-503225F7A6B8}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO2;0;ReadMethodType=bool;WriteMethodType=bool{3A2D0ECA-847C-4C30-B9EB-120B1947946A}kIntCalDebugEn=0;kIntCalibrateData=0;kIntResChannel=1;kIntSimEnable=0;resource=/Connector1/AO1;0;WriteMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AoFxp.ctl{3A648013-0EB0-43AB-8657-4F9769838523}kIntCalDebugEn=0;kIntCalibrateData=0;kIntResChannel=7;kIntSimEnable=0;resource=/Connector1/AO7;0;WriteMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AoFxp.ctl{3EBF3687-E174-4DF0-9D1C-EC0F0B9A7119}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO15;0;ReadMethodType=bool;WriteMethodType=bool{43D2C6D9-9E30-4F2C-9E9A-27A6F06ED45E}"ControlLogic=0;NumberOfElements=1023;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;FIFO;DataType=100080000000000100094009000353474C000100000000000000000000;DisableOnOverflowUnderflow=FALSE"{448E8B7B-8860-4EC0-854A-E2F8F7A2E430}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO24;0;ReadMethodType=bool;WriteMethodType=bool{4616E199-0DC6-487C-A943-399AD9B7E76B}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO12;0;ReadMethodType=bool;WriteMethodType=bool{498EBBD6-D944-4FEC-B296-B763DF6C0BFB}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO12;0;ReadMethodType=bool;WriteMethodType=bool{4A5EB89A-DDF6-4E5F-A26C-38A7F40694A1}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO28;0;ReadMethodType=bool;WriteMethodType=bool{5CA81DB5-BED1-4432-B3D7-8B7D998B0FD1}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO4;0;ReadMethodType=bool;WriteMethodType=bool{5DAEDF50-890D-45FC-856D-4FF724C6EFC0}kIntCalDebugEn=0;kIntCalibrateData=0;kIntResChannel=0;kIntSimEnable=0;resource=/Connector1/AO0;0;WriteMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AoFxp.ctl{602F94CF-CB49-47B7-8C45-F6BD55F23F64}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO17;0;ReadMethodType=bool;WriteMethodType=bool{68D4C9F6-9F0C-46A9-AF2C-93AAACC5E488}kIntCalDebugEn=0;kIntCalibrateData=0;kIntInitGain=0;kIntResChannel=5;kIntSimEnable=0;resource=/Connector1/AI5;0;ReadMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AiFxp.ctl{6C18E2DC-840E-410B-B984-84CFBE6CB776}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO8;0;ReadMethodType=bool;WriteMethodType=bool{6C81F0FD-5C4D-4C62-8EF6-5833BF5B28F3}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO15;0;ReadMethodType=bool;WriteMethodType=bool{704F6AAD-134A-409E-8EAB-5F036123FCDD}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO18;0;ReadMethodType=bool;WriteMethodType=bool{74DA32C7-D239-4BB7-90B8-5483C65410E0}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO9;0;ReadMethodType=bool;WriteMethodType=bool{757526B1-7162-44CC-AA25-FA31E2B67F2B}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO30;0;ReadMethodType=bool;WriteMethodType=bool{7E90A7AD-6D91-47ED-BC5D-C53B6C7DFCE4}kIntCalDebugEn=0;kIntCalibrateData=0;kIntInitGain=0;kIntResChannel=0;kIntSimEnable=0;resource=/Connector1/AI0;0;ReadMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AiFxp.ctl{84F20AAD-7EE1-400B-B935-0859E3689840}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO16;0;ReadMethodType=bool;WriteMethodType=bool{8E78AD6A-D5E5-437E-817E-CF544788621E}kIntCalDebugEn=0;kIntCalibrateData=0;kIntInitGain=0;kIntResChannel=1;kIntSimEnable=0;resource=/Connector1/AI1;0;ReadMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AiFxp.ctl{8F8430F6-A340-46E2-BA92-4F14F17B04FC}kIntCalDebugEn=0;kIntCalibrateData=0;kIntInitGain=0;kIntResChannel=2;kIntSimEnable=0;resource=/Connector1/AI2;0;ReadMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AiFxp.ctl{903F32E6-1244-455B-BFEA-FE6E10304622}kIntCalDebugEn=0;kIntCalibrateData=0;kIntInitGain=0;kIntResChannel=6;kIntSimEnable=0;resource=/Connector1/AI6;0;ReadMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AiFxp.ctl{93512EDE-2864-4872-9C88-95ED7AFFBA1E}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO5;0;ReadMethodType=bool;WriteMethodType=bool{9AEE7F37-42EC-4CFB-92A5-56E33959C6E8}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO3;0;ReadMethodType=bool;WriteMethodType=bool{9C62FA1C-3CCC-4DB1-8A80-9BE2AC029918}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO10;0;ReadMethodType=bool;WriteMethodType=bool{A32010B9-0A6C-45BA-9032-A61C4756E0FB}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO8;0;ReadMethodType=bool;WriteMethodType=bool{A56AAFCB-9016-41FA-A477-DEED09A220C1}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO26;0;ReadMethodType=bool;WriteMethodType=bool{A62CE37B-609F-4DDF-8C2F-3D81D24E2CAF}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO14;0;ReadMethodType=bool;WriteMethodType=bool{A7620DAF-BFE3-48BF-A008-04B9E9ED4558}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO13;0;ReadMethodType=bool;WriteMethodType=bool{AC146EE5-BF0F-4379-867C-63ABAE3BBAF7}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO6;0;ReadMethodType=bool;WriteMethodType=bool{B2C61589-436A-45A1-8DCB-28CEF10E9794}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO25;0;ReadMethodType=bool;WriteMethodType=bool{BCE1C785-EC6F-409D-AEB7-1D2D4905EB30}kIntCalDebugEn=0;kIntCalibrateData=0;kIntInitGain=0;kIntResChannel=3;kIntSimEnable=0;resource=/Connector1/AI3;0;ReadMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AiFxp.ctl{BD5B71F3-DD6D-4FD9-8452-79A3384D97F8}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO29;0;ReadMethodType=bool;WriteMethodType=bool{C7579A93-C5EB-4580-AED6-76782D388C5A}kIntCalDebugEn=0;kIntCalibrateData=0;kIntResChannel=2;kIntSimEnable=0;resource=/Connector1/AO2;0;WriteMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AoFxp.ctl{CB1D0507-48F2-4A2F-967C-06A5FCCDFAD3}kIntCalDebugEn=0;kIntCalibrateData=0;kIntResChannel=4;kIntSimEnable=0;resource=/Connector1/AO4;0;WriteMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AoFxp.ctl{CB74C963-567E-43A2-9CE8-6B82E3ECBAFB}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO23;0;ReadMethodType=bool;WriteMethodType=bool{CD7EB185-1A87-4E78-8C08-5D9A1491F439}Actual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1{CD7EB185-1A87-4E78-8C08-5D9A1491F439}Actual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1{CD7EB185-1A87-4E78-8C08-5D9A1491F439}Actual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1{CD7EB185-1A87-4E78-8C08-5D9A1491F439}Actual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1{CD7EB185-1A87-4E78-8C08-5D9A1491F439}Actual Number of Elements=16384;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094002000349313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1{CD7EB185-1A87-4E78-8C08-5D9A1491F439}Actual Number of Elements=16384;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094002000349313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1{CE7BE6B1-3F31-48E3-8E8C-D9D65973A75E}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO14;0;ReadMethodType=bool;WriteMethodType=bool{D234307A-7F4A-4A71-A116-E32F9087BB64}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO4;0;ReadMethodType=bool;WriteMethodType=bool{D64F544D-E124-4456-B28C-AC2F6FC86717}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO5;0;ReadMethodType=bool;WriteMethodType=bool{D6C6BE25-A11E-426D-9A16-6090F939C893}kIntCalDebugEn=0;kIntCalibrateData=0;kIntResChannel=3;kIntSimEnable=0;resource=/Connector1/AO3;0;WriteMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AoFxp.ctl{D72FBC6E-26CE-4C28-AB4F-8CE4DF4E2FF8}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO27;0;ReadMethodType=bool;WriteMethodType=bool{D832709E-FA56-4E69-BC50-2116BB045068}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO11;0;ReadMethodType=bool;WriteMethodType=bool{D94DBA71-DC3D-45FB-BD40-D56BC5E41FDE}kIntCalDebugEn=0;kIntCalibrateData=0;kIntInitGain=0;kIntResChannel=7;kIntSimEnable=0;resource=/Connector1/AI7;0;ReadMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AiFxp.ctl{DA1F5E27-A51B-4518-A603-CD580B71B804}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO7;0;ReadMethodType=bool;WriteMethodType=bool{DC0BB273-602D-4123-9FB2-2420C64E30FA}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO22;0;ReadMethodType=bool;WriteMethodType=bool{E4B32B38-4A8C-4CFE-9B56-E069895E0048}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO1;0;ReadMethodType=bool;WriteMethodType=bool{E6F0CCD0-0DC5-406D-B8BA-1DFABAD0BDB0}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO10;0;ReadMethodType=bool;WriteMethodType=bool{E935B6C2-CFEE-4FAD-8804-94E54B98FB75}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO31;0;ReadMethodType=bool;WriteMethodType=bool{EA25B903-0140-4C1A-AAA2-1AD349E9E2B2}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=50.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{ED15327E-7949-46B3-A7CC-2054DD5BF528}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO1;0;ReadMethodType=bool;WriteMethodType=bool{EFAC8A4E-2B17-4695-A4A1-7C2774F2AEED}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO0;0;ReadMethodType=bool;WriteMethodType=bool{F9BB0644-D3B6-4C4C-80E3-58C5C47757D1}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO20;0;ReadMethodType=bool;WriteMethodType=bool{FD5F7D50-95DF-4520-B433-9ACA5CFCA6DA}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO3;0;ReadMethodType=bool;WriteMethodType=bool{FEEE0775-82DF-467C-A19B-616BC37EC327}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO11;0;ReadMethodType=bool;WriteMethodType=boolUSB-7856R/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSUSB_7856RFPGA_TARGET_FAMILYKINTEX7TARGET_TYPEFPGA/[rSeriesConfig.Begin]rseries.aio./Connector1/AI0=0,rseries.aio./Connector1/AI1=0,rseries.aio./Connector1/AI2=0,rseries.aio./Connector1/AI3=0,rseries.aio./Connector1/AI4=0,rseries.aio./Connector1/AI5=0,rseries.aio./Connector1/AI6=0,rseries.aio./Connector1/AI7=0,rseries.analogCalibratedType=1,rseries.hsdio=0,rseries.lsdio=0,rseries.terminalConfig=0[rSeriesConfig.End]</Property>
+				<Property Name="configString.guid" Type="Str">{086F2A56-A6CE-4DA9-A115-FC18644981BF}kIntCalDebugEn=0;kIntCalibrateData=0;kIntInitGain=0;kIntResChannel=1;kIntSimEnable=0;resource=/Connector1/AI1;0;ReadMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AiFxp.ctl{09BD7E87-D50C-49A5-BF69-2E68AC60A925}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO7;0;ReadMethodType=bool;WriteMethodType=bool{10BFD95B-4B6D-4D21-83FB-4D402A96F585}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO1;0;ReadMethodType=bool;WriteMethodType=bool{11142DF4-7CB7-41BC-9CBE-04389E44237D}kIntCalDebugEn=0;kIntCalibrateData=0;kIntInitGain=0;kIntResChannel=7;kIntSimEnable=0;resource=/Connector1/AI7;0;ReadMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AiFxp.ctl{113C8352-33CC-420D-B988-B1540AB86A3F}kIntCalDebugEn=0;kIntCalibrateData=0;kIntInitGain=0;kIntResChannel=6;kIntSimEnable=0;resource=/Connector1/AI6;0;ReadMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AiFxp.ctl{1720D22B-CF5E-404E-B5A0-777CA0080AC0}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO2;0;ReadMethodType=bool;WriteMethodType=bool{1906E561-AC65-475D-8392-9D6200D3A1C8}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO5;0;ReadMethodType=bool;WriteMethodType=bool{1C472669-2BFF-4BD9-B03A-57BE28AFD3EA}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO14;0;ReadMethodType=bool;WriteMethodType=bool{20CDBA2F-096F-40E4-97BA-4757F0CC5EBF}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO3;0;ReadMethodType=bool;WriteMethodType=bool{20F03639-49BA-43D9-8368-B74462B3E42F}kIntCalDebugEn=0;kIntCalibrateData=0;kIntInitGain=0;kIntResChannel=5;kIntSimEnable=0;resource=/Connector1/AI5;0;ReadMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AiFxp.ctl{243F6349-B8A6-4872-8004-50ED5BE7D4E7}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO13;0;ReadMethodType=bool;WriteMethodType=bool{25AF2926-3D59-46A7-BD9E-3B75B06D4245}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO19;0;ReadMethodType=bool;WriteMethodType=bool{25E18739-306D-4090-AE88-17554F9F2D1E}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO15;0;ReadMethodType=bool;WriteMethodType=bool{26B92F7D-2481-467F-B1CC-70AE3BE1B4B5}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO20;0;ReadMethodType=bool;WriteMethodType=bool{29330105-49C5-4D77-986E-1FD96E0941AE}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO24;0;ReadMethodType=bool;WriteMethodType=bool{296824CD-1A69-4B79-8EE1-9694A3CE5541}kIntCalDebugEn=0;kIntCalibrateData=0;kIntInitGain=0;kIntResChannel=2;kIntSimEnable=0;resource=/Connector1/AI2;0;ReadMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AiFxp.ctl{2B30CAF4-F5B1-4CD8-B026-02075B3A14D3}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO11;0;ReadMethodType=bool;WriteMethodType=bool{30306502-9B6E-4448-B396-D0CEE58B688E}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO3;0;ReadMethodType=bool;WriteMethodType=bool{3BBC3111-0709-418A-B281-9E3028A61E0A}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO4;0;ReadMethodType=bool;WriteMethodType=bool{3C0C0D11-2293-45D4-80E5-7E96895C679B}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO14;0;ReadMethodType=bool;WriteMethodType=bool{3D9A77CF-3BC5-454B-AFE5-0C5CF61671DD}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO4;0;ReadMethodType=bool;WriteMethodType=bool{43898AA7-6E82-4EB2-A14B-8E37E5EED903}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO31;0;ReadMethodType=bool;WriteMethodType=bool{43D2C6D9-9E30-4F2C-9E9A-27A6F06ED45E}"ControlLogic=0;NumberOfElements=1023;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;FIFO;DataType=100080000000000100094009000353474C000100000000000000000000;DisableOnOverflowUnderflow=FALSE"{4B0ACCDC-C09F-4733-89CA-C7CE621BFE59}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO22;0;ReadMethodType=bool;WriteMethodType=bool{4FDF1494-7324-4D04-8144-79C34C0A57E0}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO9;0;ReadMethodType=bool;WriteMethodType=bool{500284EC-CEFB-4BA4-9A77-F830599616FF}kIntCalDebugEn=0;kIntCalibrateData=0;kIntResChannel=5;kIntSimEnable=0;resource=/Connector1/AO5;0;WriteMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AoFxp.ctl{536207BC-0F4F-4BE2-9BCC-B5DB27E0758B}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO7;0;ReadMethodType=bool;WriteMethodType=bool{54E86928-A0FC-417E-B605-E46BB439745D}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO21;0;ReadMethodType=bool;WriteMethodType=bool{5514897D-D467-424F-AC36-261581773C6B}kIntCalDebugEn=0;kIntCalibrateData=0;kIntResChannel=6;kIntSimEnable=0;resource=/Connector1/AO6;0;WriteMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AoFxp.ctl{55BA25D5-E69E-4AEF-B024-BC088C108EC9}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO13;0;ReadMethodType=bool;WriteMethodType=bool{5A4C47FE-9BDD-4B0D-A432-3D2E2A657F08}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO12;0;ReadMethodType=bool;WriteMethodType=bool{6160781E-6F22-444F-BC5E-4647C7F7B1E6}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO18;0;ReadMethodType=bool;WriteMethodType=bool{639E4CE3-0A94-4EE4-8D03-F190C68C082E}kIntCalDebugEn=0;kIntCalibrateData=0;kIntInitGain=0;kIntResChannel=4;kIntSimEnable=0;resource=/Connector1/AI4;0;ReadMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AiFxp.ctl{646336D0-3236-410E-8CD2-343AD1AB5BDE}kIntCalDebugEn=0;kIntCalibrateData=0;kIntResChannel=3;kIntSimEnable=0;resource=/Connector1/AO3;0;WriteMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AoFxp.ctl{74E90BFF-1137-42CB-9172-0BA2F8C61FC5}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO6;0;ReadMethodType=bool;WriteMethodType=bool{755EE8DA-AB28-4CB0-81E1-AAF211E1203D}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO5;0;ReadMethodType=bool;WriteMethodType=bool{7B5B51F9-9577-48FE-BCD8-97CB9332183F}kIntCalDebugEn=0;kIntCalibrateData=0;kIntResChannel=1;kIntSimEnable=0;resource=/Connector1/AO1;0;WriteMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AoFxp.ctl{819FFF3D-EADE-4FD6-AA5C-EC375F2AE9FA}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=50.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{8303E2C8-10B0-46F4-8E60-85472B7C35D1}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO25;0;ReadMethodType=bool;WriteMethodType=bool{85C0C72C-3BBA-4CFA-84BE-918C55D53BA6}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO29;0;ReadMethodType=bool;WriteMethodType=bool{8DFA754A-F68A-443E-B405-EB7BDE75E0F6}kIntCalDebugEn=0;kIntCalibrateData=0;kIntResChannel=2;kIntSimEnable=0;resource=/Connector1/AO2;0;WriteMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AoFxp.ctl{9C8C0F52-6857-404D-8EF9-751FA9C9E9B1}kIntCalDebugEn=0;kIntCalibrateData=0;kIntInitGain=0;kIntResChannel=3;kIntSimEnable=0;resource=/Connector1/AI3;0;ReadMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AiFxp.ctl{A3665E4B-ED91-429C-ADF0-49A6EC550641}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO11;0;ReadMethodType=bool;WriteMethodType=bool{A3ADD4D2-B9EE-4BD5-A935-3EFF3B1978ED}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO0;0;ReadMethodType=bool;WriteMethodType=bool{A4A09595-61D2-48A1-B96A-E6FE52E18835}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO10;0;ReadMethodType=bool;WriteMethodType=bool{A8546E31-6649-4F76-8FC6-1A2A701B8DC8}kIntCalDebugEn=0;kIntCalibrateData=0;kIntResChannel=4;kIntSimEnable=0;resource=/Connector1/AO4;0;WriteMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AoFxp.ctl{ADF70D3A-43F6-424E-B1F7-3BCD023A31CC}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO15;0;ReadMethodType=bool;WriteMethodType=bool{B1107475-9A4D-4F4F-A034-97CFDD74FD00}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO9;0;ReadMethodType=bool;WriteMethodType=bool{B9435391-52C4-46BA-A931-A8A42AA3421E}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO8;0;ReadMethodType=bool;WriteMethodType=bool{BE4CFD15-BC9B-48D2-840E-2A27388818BE}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO8;0;ReadMethodType=bool;WriteMethodType=bool{BF2C0AD2-95B0-47F8-A3C9-081048135639}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO28;0;ReadMethodType=bool;WriteMethodType=bool{C53969EA-60E5-4881-8FF6-869194059DE4}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO27;0;ReadMethodType=bool;WriteMethodType=bool{CAA17E7E-DBCE-47F1-AFC7-D2797EB049FF}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO1;0;ReadMethodType=bool;WriteMethodType=bool{CB3F3674-6AA0-40B9-B780-C94AEA902B60}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO26;0;ReadMethodType=bool;WriteMethodType=bool{CD7EB185-1A87-4E78-8C08-5D9A1491F439}Actual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1{CD7EB185-1A87-4E78-8C08-5D9A1491F439}Actual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1{CD7EB185-1A87-4E78-8C08-5D9A1491F439}Actual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1{CD7EB185-1A87-4E78-8C08-5D9A1491F439}Actual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1{CD7EB185-1A87-4E78-8C08-5D9A1491F439}Actual Number of Elements=16384;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094002000349313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1{CD7EB185-1A87-4E78-8C08-5D9A1491F439}Actual Number of Elements=16384;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094002000349313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1{CEAE1487-A0CF-4F9B-845E-12207F0ED234}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO12;0;ReadMethodType=bool;WriteMethodType=bool{CEEA92D8-F630-4342-98A4-656C276E608E}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO2;0;ReadMethodType=bool;WriteMethodType=bool{D0A780BB-1E33-4220-B355-C1CE0E5D01AB}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO16;0;ReadMethodType=bool;WriteMethodType=bool{D0D0A2DE-790D-4D43-B8C5-4E3669F33B3B}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO6;0;ReadMethodType=bool;WriteMethodType=bool{D4F4C6E0-95A0-40B9-BC8F-533F12332F3A}kIntCalDebugEn=0;kIntCalibrateData=0;kIntResChannel=7;kIntSimEnable=0;resource=/Connector1/AO7;0;WriteMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AoFxp.ctl{DD163710-3D69-436A-B197-A391902776CB}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO0;0;ReadMethodType=bool;WriteMethodType=bool{DD8B38BA-72D2-486C-988D-7FBAA296F999}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO10;0;ReadMethodType=bool;WriteMethodType=bool{DFA4378B-8491-4ADA-A88D-580058AC6FE6}kIntCalDebugEn=0;kIntCalibrateData=0;kIntResChannel=0;kIntSimEnable=0;resource=/Connector1/AO0;0;WriteMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AoFxp.ctl{F26860E8-0A64-4247-98E6-147D485F5EFC}kIntCalDebugEn=0;kIntCalibrateData=0;kIntInitGain=0;kIntResChannel=0;kIntSimEnable=0;resource=/Connector1/AI0;0;ReadMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AiFxp.ctl{F98387B3-1CFA-43CE-9995-5C148AF9A0D3}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO17;0;ReadMethodType=bool;WriteMethodType=bool{FB619E79-A7BF-4295-9067-E72C81F90EB3}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO23;0;ReadMethodType=bool;WriteMethodType=bool{FCB9536E-7919-44F7-8C4D-92040B3BD9A9}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO30;0;ReadMethodType=bool;WriteMethodType=boolUSB-7856R/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSUSB_7856RFPGA_TARGET_FAMILYKINTEX7TARGET_TYPEFPGA/[rSeriesConfig.Begin]rseries.aio./Connector1/AI0=0,rseries.aio./Connector1/AI1=0,rseries.aio./Connector1/AI2=0,rseries.aio./Connector1/AI3=0,rseries.aio./Connector1/AI4=0,rseries.aio./Connector1/AI5=0,rseries.aio./Connector1/AI6=0,rseries.aio./Connector1/AI7=0,rseries.analogCalibratedType=1,rseries.hsdio=0,rseries.lsdio=0,rseries.terminalConfig=0[rSeriesConfig.End]</Property>
 				<Property Name="configString.name" Type="Str">40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=50.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;Connector0/DIO0ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO0;0;ReadMethodType=bool;WriteMethodType=boolConnector0/DIO10ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO10;0;ReadMethodType=bool;WriteMethodType=boolConnector0/DIO11ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO11;0;ReadMethodType=bool;WriteMethodType=boolConnector0/DIO12ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO12;0;ReadMethodType=bool;WriteMethodType=boolConnector0/DIO13ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO13;0;ReadMethodType=bool;WriteMethodType=boolConnector0/DIO14ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO14;0;ReadMethodType=bool;WriteMethodType=boolConnector0/DIO15ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO15;0;ReadMethodType=bool;WriteMethodType=boolConnector0/DIO16ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO16;0;ReadMethodType=bool;WriteMethodType=boolConnector0/DIO17ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO17;0;ReadMethodType=bool;WriteMethodType=boolConnector0/DIO18ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO18;0;ReadMethodType=bool;WriteMethodType=boolConnector0/DIO19ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO19;0;ReadMethodType=bool;WriteMethodType=boolConnector0/DIO1ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO1;0;ReadMethodType=bool;WriteMethodType=boolConnector0/DIO20ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO20;0;ReadMethodType=bool;WriteMethodType=boolConnector0/DIO21ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO21;0;ReadMethodType=bool;WriteMethodType=boolConnector0/DIO22ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO22;0;ReadMethodType=bool;WriteMethodType=boolConnector0/DIO23ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO23;0;ReadMethodType=bool;WriteMethodType=boolConnector0/DIO24ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO24;0;ReadMethodType=bool;WriteMethodType=boolConnector0/DIO25ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO25;0;ReadMethodType=bool;WriteMethodType=boolConnector0/DIO26ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO26;0;ReadMethodType=bool;WriteMethodType=boolConnector0/DIO27ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO27;0;ReadMethodType=bool;WriteMethodType=boolConnector0/DIO28ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO28;0;ReadMethodType=bool;WriteMethodType=boolConnector0/DIO29ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO29;0;ReadMethodType=bool;WriteMethodType=boolConnector0/DIO2ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO2;0;ReadMethodType=bool;WriteMethodType=boolConnector0/DIO30ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO30;0;ReadMethodType=bool;WriteMethodType=boolConnector0/DIO31ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO31;0;ReadMethodType=bool;WriteMethodType=boolConnector0/DIO3ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO3;0;ReadMethodType=bool;WriteMethodType=boolConnector0/DIO4ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO4;0;ReadMethodType=bool;WriteMethodType=boolConnector0/DIO5ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO5;0;ReadMethodType=bool;WriteMethodType=boolConnector0/DIO6ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO6;0;ReadMethodType=bool;WriteMethodType=boolConnector0/DIO7ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO7;0;ReadMethodType=bool;WriteMethodType=boolConnector0/DIO8ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO8;0;ReadMethodType=bool;WriteMethodType=boolConnector0/DIO9ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector0/DIO9;0;ReadMethodType=bool;WriteMethodType=boolConnector1/AI0kIntCalDebugEn=0;kIntCalibrateData=0;kIntInitGain=0;kIntResChannel=0;kIntSimEnable=0;resource=/Connector1/AI0;0;ReadMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AiFxp.ctlConnector1/AI1kIntCalDebugEn=0;kIntCalibrateData=0;kIntInitGain=0;kIntResChannel=1;kIntSimEnable=0;resource=/Connector1/AI1;0;ReadMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AiFxp.ctlConnector1/AI2kIntCalDebugEn=0;kIntCalibrateData=0;kIntInitGain=0;kIntResChannel=2;kIntSimEnable=0;resource=/Connector1/AI2;0;ReadMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AiFxp.ctlConnector1/AI3kIntCalDebugEn=0;kIntCalibrateData=0;kIntInitGain=0;kIntResChannel=3;kIntSimEnable=0;resource=/Connector1/AI3;0;ReadMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AiFxp.ctlConnector1/AI4kIntCalDebugEn=0;kIntCalibrateData=0;kIntInitGain=0;kIntResChannel=4;kIntSimEnable=0;resource=/Connector1/AI4;0;ReadMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AiFxp.ctlConnector1/AI5kIntCalDebugEn=0;kIntCalibrateData=0;kIntInitGain=0;kIntResChannel=5;kIntSimEnable=0;resource=/Connector1/AI5;0;ReadMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AiFxp.ctlConnector1/AI6kIntCalDebugEn=0;kIntCalibrateData=0;kIntInitGain=0;kIntResChannel=6;kIntSimEnable=0;resource=/Connector1/AI6;0;ReadMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AiFxp.ctlConnector1/AI7kIntCalDebugEn=0;kIntCalibrateData=0;kIntInitGain=0;kIntResChannel=7;kIntSimEnable=0;resource=/Connector1/AI7;0;ReadMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AiFxp.ctlConnector1/AO0kIntCalDebugEn=0;kIntCalibrateData=0;kIntResChannel=0;kIntSimEnable=0;resource=/Connector1/AO0;0;WriteMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AoFxp.ctlConnector1/AO1kIntCalDebugEn=0;kIntCalibrateData=0;kIntResChannel=1;kIntSimEnable=0;resource=/Connector1/AO1;0;WriteMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AoFxp.ctlConnector1/AO2kIntCalDebugEn=0;kIntCalibrateData=0;kIntResChannel=2;kIntSimEnable=0;resource=/Connector1/AO2;0;WriteMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AoFxp.ctlConnector1/AO3kIntCalDebugEn=0;kIntCalibrateData=0;kIntResChannel=3;kIntSimEnable=0;resource=/Connector1/AO3;0;WriteMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AoFxp.ctlConnector1/AO4kIntCalDebugEn=0;kIntCalibrateData=0;kIntResChannel=4;kIntSimEnable=0;resource=/Connector1/AO4;0;WriteMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AoFxp.ctlConnector1/AO5kIntCalDebugEn=0;kIntCalibrateData=0;kIntResChannel=5;kIntSimEnable=0;resource=/Connector1/AO5;0;WriteMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AoFxp.ctlConnector1/AO6kIntCalDebugEn=0;kIntCalibrateData=0;kIntResChannel=6;kIntSimEnable=0;resource=/Connector1/AO6;0;WriteMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AoFxp.ctlConnector1/AO7kIntCalDebugEn=0;kIntCalibrateData=0;kIntResChannel=7;kIntSimEnable=0;resource=/Connector1/AO7;0;WriteMethodType=Targets\NI\FPGA\RIO\R Series\78XXR\resource\USB-7855R\Usb7855AoFxp.ctlConnector1/DIO0ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO0;0;ReadMethodType=bool;WriteMethodType=boolConnector1/DIO10ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO10;0;ReadMethodType=bool;WriteMethodType=boolConnector1/DIO11ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO11;0;ReadMethodType=bool;WriteMethodType=boolConnector1/DIO12ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO12;0;ReadMethodType=bool;WriteMethodType=boolConnector1/DIO13ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO13;0;ReadMethodType=bool;WriteMethodType=boolConnector1/DIO14ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO14;0;ReadMethodType=bool;WriteMethodType=boolConnector1/DIO15ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO15;0;ReadMethodType=bool;WriteMethodType=boolConnector1/DIO1ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO1;0;ReadMethodType=bool;WriteMethodType=boolConnector1/DIO2ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO2;0;ReadMethodType=bool;WriteMethodType=boolConnector1/DIO3ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO3;0;ReadMethodType=bool;WriteMethodType=boolConnector1/DIO4ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO4;0;ReadMethodType=bool;WriteMethodType=boolConnector1/DIO5ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO5;0;ReadMethodType=bool;WriteMethodType=boolConnector1/DIO6ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO6;0;ReadMethodType=bool;WriteMethodType=boolConnector1/DIO7ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO7;0;ReadMethodType=bool;WriteMethodType=boolConnector1/DIO8ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO8;0;ReadMethodType=bool;WriteMethodType=boolConnector1/DIO9ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/Connector1/DIO9;0;ReadMethodType=bool;WriteMethodType=boolCrank_TempActual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1CrankActual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1DebugDMA"ControlLogic=0;NumberOfElements=1023;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;FIFO;DataType=100080000000000100094009000353474C000100000000000000000000;DisableOnOverflowUnderflow=FALSE"Exhaust CAM 1Actual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1Intake CAM 1Actual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1USB-7856R/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSUSB_7856RFPGA_TARGET_FAMILYKINTEX7TARGET_TYPEFPGA/[rSeriesConfig.Begin]rseries.aio./Connector1/AI0=0,rseries.aio./Connector1/AI1=0,rseries.aio./Connector1/AI2=0,rseries.aio./Connector1/AI3=0,rseries.aio./Connector1/AI4=0,rseries.aio./Connector1/AI5=0,rseries.aio./Connector1/AI6=0,rseries.aio./Connector1/AI7=0,rseries.analogCalibratedType=1,rseries.hsdio=0,rseries.lsdio=0,rseries.terminalConfig=0[rSeriesConfig.End]VR Sensor1Actual Number of Elements=16384;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094002000349313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1VR Sensor2Actual Number of Elements=16384;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094002000349313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1</Property>
 			</Item>
-			<Item Name="IP Builder" Type="IP Builder Target">
-				<Item Name="Dependencies" Type="Dependencies"/>
-				<Item Name="Build Specifications" Type="Build"/>
-			</Item>
-			<Item Name="Dependencies" Type="Dependencies">
-				<Item Name="vi.lib" Type="Folder">
-					<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
-					<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
-				</Item>
-				<Item Name="Engine Simulation Toolkit.lvlib" Type="Library" URL="../../../SubModules/Engine Simulation Toolkit FPGA IP/IP Source/Engine Simulation Toolkit.lvlib"/>
-				<Item Name="FPGA Wizard Templates.lvlib" Type="Library" URL="../../../Templates/FPGA Wizard Templates.lvlib"/>
-				<Item Name="Speciality FPGA IO.lvlib" Type="Library" URL="../../../SubModules/FPGA Addon Speciality IO/Source/Speciality FPGA IO.lvlib"/>
-			</Item>
+			<Item Name="Dependencies" Type="Dependencies"/>
 			<Item Name="Build Specifications" Type="Build">
 				<Item Name="FPGA Target 2" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
 					<Property Name="AllowEnableRemoval" Type="Bool">false</Property>
 					<Property Name="BuildSpecDecription" Type="Str"></Property>
 					<Property Name="BuildSpecName" Type="Str">FPGA Target 2</Property>
-					<Property Name="Comp.BitfileName" Type="Str">FPGAScripting_FPGATarget2_FPGATarget2_YXyAMWm7j0w.lvbitx</Property>
+					<Property Name="Comp.BitfileName" Type="Str">randcseries_FPGATarget2_FPGATarget2_Cek40BJV5YA.lvbitx</Property>
 					<Property Name="Comp.CustomXilinxParameters" Type="Str"></Property>
 					<Property Name="Comp.MaxFanout" Type="Int">-1</Property>
 					<Property Name="Comp.RandomSeed" Type="Bool">false</Property>
@@ -1779,9 +1775,9 @@
 					<Property Name="Comp.Xilinx.UseRecommended" Type="Bool">true</Property>
 					<Property Name="DefaultBuildSpec" Type="Bool">true</Property>
 					<Property Name="DestinationDirectory" Type="Path">FPGA Bitfiles</Property>
-					<Property Name="NI.LV.FPGA.LastCompiledBitfilePath" Type="Path">/C/Users/Administrator/Desktop/FPGA Wizard/FPGA Bitfiles/FPGAScripting_FPGATarget2_FPGATarget2_YXyAMWm7j0w.lvbitx</Property>
-					<Property Name="NI.LV.FPGA.LastCompiledBitfilePathRelativeToProject" Type="Path">FPGA Bitfiles/FPGAScripting_FPGATarget2_FPGATarget2_YXyAMWm7j0w.lvbitx</Property>
-					<Property Name="ProjectPath" Type="Path">/C/Users/Administrator/Desktop/FPGA Wizard/FPGA Scripting.lvproj</Property>
+					<Property Name="NI.LV.FPGA.LastCompiledBitfilePath" Type="Path">/C/Projects/VeriStand-FPGA-Generation-Wizard/Source/Testing/R Series + cRIO/FPGA Bitfiles/randcseries_FPGATarget2_FPGATarget2_Cek40BJV5YA.lvbitx</Property>
+					<Property Name="NI.LV.FPGA.LastCompiledBitfilePathRelativeToProject" Type="Path">FPGA Bitfiles/randcseries_FPGATarget2_FPGATarget2_Cek40BJV5YA.lvbitx</Property>
+					<Property Name="ProjectPath" Type="Path">/C/Projects/VeriStand-FPGA-Generation-Wizard/Source/Testing/R Series + cRIO/R and C Series.lvproj</Property>
 					<Property Name="RelativePath" Type="Bool">true</Property>
 					<Property Name="RunWhenLoaded" Type="Bool">false</Property>
 					<Property Name="SupportDownload" Type="Bool">true</Property>
@@ -1797,13 +1793,14 @@
 	<Item Name="RT CompactRIO Target" Type="RT CompactRIO">
 		<Property Name="alias.name" Type="Str">RT CompactRIO Target</Property>
 		<Property Name="alias.value" Type="Str">0.0.0.0</Property>
-		<Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,PharLap;CPU,x86;DeviceCode,753D;</Property>
-		<Property Name="crio.ControllerPID" Type="Str">753D</Property>
+		<Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,Linux;CPU,x64;DeviceCode,78E4;</Property>
+		<Property Name="crio.ControllerPID" Type="Str">78E4</Property>
 		<Property Name="host.ResponsivenessCheckEnabled" Type="Bool">true</Property>
 		<Property Name="host.ResponsivenessCheckPingDelay" Type="UInt">5000</Property>
 		<Property Name="host.ResponsivenessCheckPingTimeout" Type="UInt">1000</Property>
-		<Property Name="host.TargetCPUID" Type="UInt">3</Property>
-		<Property Name="host.TargetOSID" Type="UInt">15</Property>
+		<Property Name="host.TargetCPUID" Type="UInt">9</Property>
+		<Property Name="host.TargetOSID" Type="UInt">19</Property>
+		<Property Name="host.TargetUIEnabled" Type="Bool">false</Property>
 		<Property Name="target.cleanupVisa" Type="Bool">false</Property>
 		<Property Name="target.FPProtocolGlobals_ControlTimeLimit" Type="Int">300</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Port" Type="Int">80</Property>
@@ -1822,7 +1819,7 @@
 		<Property Name="target.RTTarget.EnableFileSharing" Type="Bool">true</Property>
 		<Property Name="target.RTTarget.IPAccess" Type="Str">+*</Property>
 		<Property Name="target.RTTarget.LaunchAppAtBoot" Type="Bool">false</Property>
-		<Property Name="target.RTTarget.VIPath" Type="Path">/c/ni-rt/startup</Property>
+		<Property Name="target.RTTarget.VIPath" Type="Path">/home/lvuser/natinst/bin</Property>
 		<Property Name="target.server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="target.server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="target.server.tcp.access" Type="Str">+*</Property>
@@ -1847,21 +1844,326 @@
 		<Item Name="Chassis" Type="cRIO Chassis">
 			<Property Name="crio.ProgrammingMode" Type="Str">fpga</Property>
 			<Property Name="crio.ResourceID" Type="Str">RIO0</Property>
-			<Property Name="crio.Type" Type="Str">cRIO-9082</Property>
+			<Property Name="crio.Type" Type="Str">cRIO-9045</Property>
 			<Property Name="NI.SortType" Type="Int">3</Property>
+			<Item Name="Real-Time Scan Resources" Type="Module Container">
+				<Property Name="crio.ModuleContainerType" Type="Str">crio.RSIModuleContainer</Property>
+			</Item>
+			<Item Name="Real-Time Resources" Type="Module Container">
+				<Property Name="crio.ModuleContainerType" Type="Str">crio.DAQModuleContainer</Property>
+			</Item>
 			<Item Name="FPGA Target" Type="FPGA Target">
 				<Property Name="AutoRun" Type="Bool">false</Property>
-				<Property Name="configString.guid" Type="Str">{0611599A-C17F-4817-B481-C064C7675E7A}resource=/crio_Mod2/AI2;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctl{159E0245-E07B-4315-8D37-1C5EC7CE4779}resource=/crio_Mod2/AI3;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctl{1825B143-C53F-4848-9300-A1A9546B106E}resource=/crio_Mod4/AO1;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{1A9953D3-AADB-4F50-8C34-127DC661D685}resource=/crio_Mod4/AO0;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{1C0B94E3-0D89-47D7-AF6B-BC8F097791F4}resource=/crio_Mod2/AI8;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctl{1C4EFB2E-C00A-4B24-94DE-2B9E4A1FDEAC}resource=/crio_Mod4/AO14;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{1D22EF1B-ACD8-420A-8B73-AA25026C6F1C}resource=/crio_Mod4/AO5;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{1FFD9497-4C05-46F2-AF83-E6600054D839}resource=/crio_Mod4/AO9;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{23CE9B1C-381A-40B2-B0B3-845F03855265}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod5/DIO2;0;ReadMethodType=bool;WriteMethodType=bool{23E254D7-57C6-4C6E-8801-8B2CE87500C2}resource=/crio_Mod4/AO6;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{2D29C7F3-F646-4712-B868-B6B50C2B8D1A}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Test/DIO7;0;ReadMethodType=bool;WriteMethodType=bool{301B32AE-DD3C-4AD0-9A28-E7773C635470}resource=/crio_Mod2/AI7;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctl{30BF8F85-D7EA-43AF-AD9F-EA7FA16E404C}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Test/DIO0;0;ReadMethodType=bool;WriteMethodType=bool{312105F5-2A4D-4B97-A0F7-476D21F0931C}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO5;0;ReadMethodType=bool;WriteMethodType=bool{33380254-EB2C-4A54-BFA9-858EC736028B}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod5/DIO3;0;ReadMethodType=bool;WriteMethodType=bool{3A4F4FEF-16FE-4234-9CA3-9833A9702048}resource=/crio_Mod4/AO3;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{3F7EE1EA-1772-4429-BFA6-B270662E78D3}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO4;0;ReadMethodType=bool;WriteMethodType=bool{434C34C2-6FCA-4942-8AD1-7D402B03490A}resource=/crio_Mod4/AO15;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{43D2C6D9-9E30-4F2C-9E9A-27A6F06ED45E}"ControlLogic=0;NumberOfElements=1023;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;FIFO;DataType=100080000000000100094009000353474C000100000000000000000000;DisableOnOverflowUnderflow=FALSE"{443F398E-72C9-4594-A595-98BB39328648}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod5/DIO4;0;ReadMethodType=bool;WriteMethodType=bool{48163D7D-D37C-4233-A215-B5FFE9C64B14}resource=/crio_Mod2/AI12;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctl{4A38F494-682D-4A4B-B5BE-F0B88F974DA5}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 2,crio.Type=NI 9220,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.RsiAttributes=[crioConfig.End]{4CCF3576-1F3D-466F-BDDE-A2287C85171F}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Test/DIO6;0;ReadMethodType=bool;WriteMethodType=bool{50B405A8-46CA-4751-8441-BA4B24017212}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO1;0;ReadMethodType=bool;WriteMethodType=bool{5CE76D08-1903-4567-96D1-4874D9C7A715}resource=/crio_Mod2/AI0;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctl{5DE6FEEA-E2F0-42A2-8832-278CD4563885}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Test/DIO3;0;ReadMethodType=bool;WriteMethodType=bool{60F866AB-1BE1-4C75-9423-C8CAAA28655C}resource=/crio_Mod2/AI6;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctl{60FB9DAB-AEAB-47CB-9BF5-340AB318807E}resource=/crio_Mod4/AO11;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{612D99F5-D03D-4112-84AC-34828E3B362C}resource=/crio_Mod2/AI13;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctl{660D4C45-7FA6-45E6-B727-C4BF6A91211E}resource=/crio_Mod4/AO2;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{6794E500-B784-4D85-8FF0-B0633F8F9876}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod5/DIO1;0;ReadMethodType=bool;WriteMethodType=bool{6C01F846-269D-4025-91DE-B4C70AA9F2B1}resource=/crio_Mod2/AI4;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctl{6D107D51-7B68-46DA-A8C8-A756280E19B5}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO2;0;ReadMethodType=bool;WriteMethodType=bool{750422B1-5DB7-4E69-936C-C24636727C9D}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 5,crio.Type=NI 9401,cRIOModule.DIO3_0InitialDir=0,cRIOModule.DIO7_4InitialDir=0,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.NumSyncRegs=11111111,cRIOModule.RsiAttributes=[crioConfig.End]{80E95FC5-831E-4F74-8434-9F3AFC54339F}resource=/crio_Mod2/AI5;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctl{88080E0E-7840-4FEA-9FF7-A3597AA58C64}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO6;0;ReadMethodType=bool;WriteMethodType=bool{8AE239B2-357A-4FC2-8ED5-6FE94F375294}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 4,crio.Type=NI 9264,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.HotSwapMode=0,cRIOModule.RsiAttributes=[crioConfig.End]{9719288C-4A8E-44BA-9F21-81F500A3059C}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod5/DIO6;0;ReadMethodType=bool;WriteMethodType=bool{9BC8DA74-A60A-4A1B-95B8-1D6A69C853DD}resource=/crio_Mod4/AO8;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{9F7819C3-7177-49CE-B911-92CD3B34DEAD}resource=/crio_Mod4/AO13;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{A2B95A78-0B1E-427C-9F2F-1D818790F5E0}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 3,crio.Type=NI 9401,cRIOModule.DIO3_0InitialDir=0,cRIOModule.DIO7_4InitialDir=0,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.NumSyncRegs=11111111,cRIOModule.RsiAttributes=[crioConfig.End]{A62527D2-023D-47EE-A23F-38542693EE60}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Test/DIO4;0;ReadMethodType=bool;WriteMethodType=bool{A8713610-2B50-4DF8-B74B-61312F91F7C3}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 1,crio.Type=NI 9401,cRIOModule.DIO3_0InitialDir=0,cRIOModule.DIO7_4InitialDir=0,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.NumSyncRegs=11111111,cRIOModule.RsiAttributes=[crioConfig.End]{AA432AE7-9355-4A2A-8D84-D6108D95F806}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Test/DIO5;0;ReadMethodType=bool;WriteMethodType=bool{AF95B395-06C7-4554-A2BD-EB01400565F6}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod5/DIO5;0;ReadMethodType=bool;WriteMethodType=bool{B3849DB3-6245-44B6-A652-398BA4EB248B}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod5/DIO7;0;ReadMethodType=bool;WriteMethodType=bool{BAADC5A8-F3E7-4FA4-B350-6B830D03ED94}resource=/crio_Mod2/AI11;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctl{BDFBFCD5-14EC-4D63-8F8A-E13B46A2F5EA}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO7;0;ReadMethodType=bool;WriteMethodType=bool{C0073639-B9D0-49CF-81D5-AC74C807CA85}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Test/DIO1;0;ReadMethodType=bool;WriteMethodType=bool{C2FDB5D2-C006-43C9-A346-FC1506E236B8}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{C7468848-CB19-48CC-9F6C-CB5CF46B8F3A}resource=/crio_Mod2/AI14;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctl{CD7EB185-1A87-4E78-8C08-5D9A1491F439}Actual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1{CD7EB185-1A87-4E78-8C08-5D9A1491F439}Actual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1{CD7EB185-1A87-4E78-8C08-5D9A1491F439}Actual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1{CD7EB185-1A87-4E78-8C08-5D9A1491F439}Actual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1{CD7EB185-1A87-4E78-8C08-5D9A1491F439}Actual Number of Elements=16384;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094002000349313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1{CD7EB185-1A87-4E78-8C08-5D9A1491F439}Actual Number of Elements=16384;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094002000349313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1{CD7EB185-1A87-4E78-8C08-5D9A1491F439}Actual Number of Elements=16384;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094002000349313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1{CD7EB185-1A87-4E78-8C08-5D9A1491F439}Actual Number of Elements=16384;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094002000349313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1{D0555E14-FC5E-4E6D-B52C-38692DF3E735}resource=/crio_Mod2/AI9;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctl{D908C53F-EC7F-4B60-94EA-8EFFE51606AF}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod5/DIO0;0;ReadMethodType=bool;WriteMethodType=bool{DD4558A4-285C-4B32-8210-B487214AF722}resource=/crio_Mod4/AO10;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{E3C05844-6C1A-412F-8261-A988180977D2}resource=/crio_Mod2/AI1;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctl{E505DEB4-0E7A-4BBD-8E4F-9666BDA93D3B}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO3;0;ReadMethodType=bool;WriteMethodType=bool{E52E830B-7D4B-443C-A18D-A745CC446442}resource=/crio_Mod4/AO12;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{EC44625E-3E7E-4456-8600-FE877F64AE8C}resource=/crio_Mod2/AI10;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctl{F13DB277-52C1-4F68-83B9-451C47B55D10}resource=/crio_Mod4/AO4;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{F2192E5D-4396-4992-8233-B1B744B0D214}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO0;0;ReadMethodType=bool;WriteMethodType=bool{F227918A-90A9-4F9D-B03E-8B817E8AFDCC}resource=/crio_Mod2/AI15;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctl{F381BA2D-FD2F-4625-A216-C8149B1F1C9A}resource=/crio_Mod4/AO7;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{FF3F6E0F-BB13-4E70-A03B-CC602F2E7FC5}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Test/DIO2;0;ReadMethodType=bool;WriteMethodType=boolcRIO-9082/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9082FPGA_TARGET_FAMILYSPARTAN6TARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]</Property>
-				<Property Name="configString.name" Type="Str">40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;Crank_TempActual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1CrankActual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1cRIO-9082/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9082FPGA_TARGET_FAMILYSPARTAN6TARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]DebugDMA"ControlLogic=0;NumberOfElements=1023;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;FIFO;DataType=100080000000000100094009000353474C000100000000000000000000;DisableOnOverflowUnderflow=FALSE"Exhaust CAM 1Actual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1Intake CAM 1Actual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1Mod1/DIO0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Test/DIO0;0;ReadMethodType=bool;WriteMethodType=boolMod1/DIO1ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Test/DIO1;0;ReadMethodType=bool;WriteMethodType=boolMod1/DIO2ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Test/DIO2;0;ReadMethodType=bool;WriteMethodType=boolMod1/DIO3ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Test/DIO3;0;ReadMethodType=bool;WriteMethodType=boolMod1/DIO4ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Test/DIO4;0;ReadMethodType=bool;WriteMethodType=boolMod1/DIO5ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Test/DIO5;0;ReadMethodType=bool;WriteMethodType=boolMod1/DIO6ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Test/DIO6;0;ReadMethodType=bool;WriteMethodType=boolMod1/DIO7ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Test/DIO7;0;ReadMethodType=bool;WriteMethodType=boolMod2/AI0resource=/crio_Mod2/AI0;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctlMod2/AI10resource=/crio_Mod2/AI10;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctlMod2/AI11resource=/crio_Mod2/AI11;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctlMod2/AI12resource=/crio_Mod2/AI12;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctlMod2/AI13resource=/crio_Mod2/AI13;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctlMod2/AI14resource=/crio_Mod2/AI14;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctlMod2/AI15resource=/crio_Mod2/AI15;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctlMod2/AI1resource=/crio_Mod2/AI1;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctlMod2/AI2resource=/crio_Mod2/AI2;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctlMod2/AI3resource=/crio_Mod2/AI3;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctlMod2/AI4resource=/crio_Mod2/AI4;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctlMod2/AI5resource=/crio_Mod2/AI5;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctlMod2/AI6resource=/crio_Mod2/AI6;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctlMod2/AI7resource=/crio_Mod2/AI7;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctlMod2/AI8resource=/crio_Mod2/AI8;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctlMod2/AI9resource=/crio_Mod2/AI9;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctlMod2[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 2,crio.Type=NI 9220,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.RsiAttributes=[crioConfig.End]Mod3/DIO0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO0;0;ReadMethodType=bool;WriteMethodType=boolMod3/DIO1ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO1;0;ReadMethodType=bool;WriteMethodType=boolMod3/DIO2ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO2;0;ReadMethodType=bool;WriteMethodType=boolMod3/DIO3ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO3;0;ReadMethodType=bool;WriteMethodType=boolMod3/DIO4ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO4;0;ReadMethodType=bool;WriteMethodType=boolMod3/DIO5ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO5;0;ReadMethodType=bool;WriteMethodType=boolMod3/DIO6ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO6;0;ReadMethodType=bool;WriteMethodType=boolMod3/DIO7ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO7;0;ReadMethodType=bool;WriteMethodType=boolMod3[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 3,crio.Type=NI 9401,cRIOModule.DIO3_0InitialDir=0,cRIOModule.DIO7_4InitialDir=0,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.NumSyncRegs=11111111,cRIOModule.RsiAttributes=[crioConfig.End]Mod4/AO0resource=/crio_Mod4/AO0;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod4/AO10resource=/crio_Mod4/AO10;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod4/AO11resource=/crio_Mod4/AO11;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod4/AO12resource=/crio_Mod4/AO12;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod4/AO13resource=/crio_Mod4/AO13;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod4/AO14resource=/crio_Mod4/AO14;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod4/AO15resource=/crio_Mod4/AO15;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod4/AO1resource=/crio_Mod4/AO1;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod4/AO2resource=/crio_Mod4/AO2;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod4/AO3resource=/crio_Mod4/AO3;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod4/AO4resource=/crio_Mod4/AO4;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod4/AO5resource=/crio_Mod4/AO5;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod4/AO6resource=/crio_Mod4/AO6;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod4/AO7resource=/crio_Mod4/AO7;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod4/AO8resource=/crio_Mod4/AO8;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod4/AO9resource=/crio_Mod4/AO9;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod4[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 4,crio.Type=NI 9264,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.HotSwapMode=0,cRIOModule.RsiAttributes=[crioConfig.End]Mod5/DIO0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod5/DIO0;0;ReadMethodType=bool;WriteMethodType=boolMod5/DIO1ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod5/DIO1;0;ReadMethodType=bool;WriteMethodType=boolMod5/DIO2ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod5/DIO2;0;ReadMethodType=bool;WriteMethodType=boolMod5/DIO3ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod5/DIO3;0;ReadMethodType=bool;WriteMethodType=boolMod5/DIO4ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod5/DIO4;0;ReadMethodType=bool;WriteMethodType=boolMod5/DIO5ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod5/DIO5;0;ReadMethodType=bool;WriteMethodType=boolMod5/DIO6ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod5/DIO6;0;ReadMethodType=bool;WriteMethodType=boolMod5/DIO7ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod5/DIO7;0;ReadMethodType=bool;WriteMethodType=boolMod5[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 5,crio.Type=NI 9401,cRIOModule.DIO3_0InitialDir=0,cRIOModule.DIO7_4InitialDir=0,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.NumSyncRegs=11111111,cRIOModule.RsiAttributes=[crioConfig.End]Test[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 1,crio.Type=NI 9401,cRIOModule.DIO3_0InitialDir=0,cRIOModule.DIO7_4InitialDir=0,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.NumSyncRegs=11111111,cRIOModule.RsiAttributes=[crioConfig.End]VR Sensor1Actual Number of Elements=16384;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094002000349313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1VR Sensor2Actual Number of Elements=16384;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094002000349313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1VR Sensor3Actual Number of Elements=16384;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094002000349313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1VR Sensor4Actual Number of Elements=16384;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094002000349313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1</Property>
-				<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">cRIO-9082/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9082FPGA_TARGET_FAMILYSPARTAN6TARGET_TYPEFPGA</Property>
-				<Property Name="NI.LV.FPGA.Version" Type="Int">6</Property>
-				<Property Name="NI.SortType" Type="Int">3</Property>
+				<Property Name="configString.guid" Type="Str">{02FC81C0-DC79-4CA2-A305-808B1FAA2FD5}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod5/DIO3:0;0;ReadMethodType=u8;WriteMethodType=u8{02FCD725-8F74-4419-A150-EC31AD7979ED}NumberOfSyncRegistersForReadInProject=Auto;resource=/cRIO_Trig/cRIO_Trig5;0;ReadMethodType=bool{0AF3E327-6020-4AE0-9FF8-BCD691500EF3}resource=/crio_Mod2/AI12;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctl{0BDDC342-C5DF-4FAA-A6F5-AAB090207953}NumberOfSyncRegistersForReadInProject=0;resource=/Time Synchronization/Time;0;ReadMethodType=u64{0F3EDD57-CB92-4437-8D5E-1104EECCB3DD}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Test/DIO4;0;ReadMethodType=bool;WriteMethodType=bool{0F5E1724-00C8-4DC8-BCDB-4F3A0162EEF7}NumberOfSyncRegistersForReadInProject=0;resource=/Time Synchronization/Offset from Time Reference Valid;0;ReadMethodType=bool{119254D8-1BC9-4619-A227-A6495474A6C5}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod5/DIO5;0;ReadMethodType=bool;WriteMethodType=bool{13805C54-E739-4DC3-AF85-C09E630F3320}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO5;0;ReadMethodType=bool;WriteMethodType=bool{142377F0-2172-491F-AA28-1F1191B87330}resource=/crio_Mod4/AO4;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{14908698-EB24-45F8-B974-A35923E3E6EF}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO3;0;ReadMethodType=bool;WriteMethodType=bool{16AA32D0-5E6A-49D5-8C1A-1533EB6F0F80}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Test/DIO7:4;0;ReadMethodType=u8;WriteMethodType=u8{175E1FF4-DF39-45CC-82C7-ECC6E6478EA0}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO7:0;0;ReadMethodType=u8;WriteMethodType=u8{26528D1A-247E-42FE-B762-345622E61E63}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Test/DIO6;0;ReadMethodType=bool;WriteMethodType=bool{2827A557-730C-4C46-8889-3B0EA492B9BD}NumberOfSyncRegistersForReadInProject=Auto;resource=/12.8 MHz Timebase;0;ReadMethodType=bool{2CA9787A-2574-4334-B28C-54F8A35940E3}resource=/crio_Mod4/AO14;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{2CF8BBBB-3ED4-4EFE-A0C2-E593B1B04877}NumberOfSyncRegistersForReadInProject=0;resource=/Time Synchronization/Offset from Time Reference;0;ReadMethodType=i32{2D09EB19-1E2D-49FF-B125-77F3FB8A1B39}resource=/Sleep;0;ReadMethodType=bool;WriteMethodType=bool{2EAA7858-A0C8-41C4-A050-6DB1F6512402}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod5/DIO4;0;ReadMethodType=bool;WriteMethodType=bool{36F36EBB-E723-4BA3-93BF-9EB958D65241}resource=/crio_Mod2/AI15;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctl{3781790B-004A-434C-857B-371B4E53B5D3}resource=/crio_Mod4/AO7;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{37E2C10D-9B79-4CD8-AFAD-B0BAE609FCE3}resource=/crio_Mod2/AI5;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctl{38A17A7D-4350-42F4-A898-731FDC51DBC1}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{3A900BAC-8A8D-4C8B-80BE-64A11E692577}resource=/crio_Mod2/AI0;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctl{3C771495-A931-42B5-9BC2-349E68CB9CFA}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod5/DIO2;0;ReadMethodType=bool;WriteMethodType=bool{3EA8C152-0D14-4EC1-AB37-17778143AC6F}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Test/DIO7;0;ReadMethodType=bool;WriteMethodType=bool{403C3C7E-6A3A-40F3-B997-8B01574AD4A6}resource=/crio_Mod4/AO13;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{42EC1853-2FD8-433B-A8C1-A76B34C6AA5B}resource=/crio_Mod2/AI13;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctl{43D2C6D9-9E30-4F2C-9E9A-27A6F06ED45E}"ControlLogic=0;NumberOfElements=1023;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;FIFO;DataType=100080000000000100094009000353474C000100000000000000000000;DisableOnOverflowUnderflow=FALSE"{45393FFB-8907-4A9D-B457-014B0124E0B6}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod5/DIO3;0;ReadMethodType=bool;WriteMethodType=bool{453FCA97-7BD2-42E9-9512-B87700C49223}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO4;0;ReadMethodType=bool;WriteMethodType=bool{47A30858-A72E-48DD-AABD-55B8AD42A755}resource=/crio_Mod4/AO12;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{4A38F494-682D-4A4B-B5BE-F0B88F974DA5}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 2,crio.Type=NI 9220,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.RsiAttributes=[crioConfig.End]{4AA777A8-3460-488E-94F3-8084D53D7284}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Test/DIO2;0;ReadMethodType=bool;WriteMethodType=bool{4B6B11BD-4E4B-4059-B736-2FDD3640F7C1}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/cRIO_Trig/cRIO_Trig0;0;ReadMethodType=bool;WriteMethodType=bool{4C56A409-C3A8-4D9E-9CE9-DE7BC85A2A5E}resource=/crio_Mod4/AO6;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{4CF661C5-F58D-4505-B62C-7AEA91983034}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/cRIO_Trig/cRIO_Trig1;0;ReadMethodType=bool;WriteMethodType=bool{4DA69BA5-23AE-4DF8-B815-9BFAF55C4D1D}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Test/DIO1;0;ReadMethodType=bool;WriteMethodType=bool{4DEF2DEE-46C4-4C7B-9688-A8A424AF9F4B}resource=/crio_Mod4/AO11;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{4ED7F632-DDCF-4F31-9B80-A47A2ACD966F}resource=/crio_Mod2/AI6;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctl{4F7796F0-3411-4773-83A0-DE57E4C3D71E}resource=/crio_Mod4/AO2;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{50C42212-D09A-4DBB-A1D9-33F78FBDFC8A}resource=/Chassis Temperature;0;ReadMethodType=i16{511CA6A7-0C36-446F-A764-3E223415B686}resource=/Reset RT App;0;WriteMethodType=bool{52123EB5-37AD-4AC0-99FB-4D2E33E113E3}resource=/crio_Mod2/AI4;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctl{5AFE89BA-5ED1-4D27-A5F9-746F979F0AD8}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod5/DIO1;0;ReadMethodType=bool;WriteMethodType=bool{5EE69EC9-778E-4095-A9D1-F98CACBCC930}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod5/DIO7:4;0;ReadMethodType=u8;WriteMethodType=u8{5FBC22C0-4587-4C75-B778-A142D2406BF2}resource=/crio_Mod4/AO8;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{6185114D-7759-41D5-8027-397550015587}NumberOfSyncRegistersForReadInProject=Auto;resource=/cRIO_Trig/cRIO_Trig6;0;ReadMethodType=bool{61A6B820-C2E5-45FA-AEFE-E756CA0B2DC7}resource=/crio_Mod2/AI2;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctl{67EDA5B7-BCBB-4F56-AC77-2F9C03E21FA7}resource=/crio_Mod4/AO1;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{694E5D28-4EB6-46B5-9D84-F0D3E97D3D33}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO3:0;0;ReadMethodType=u8;WriteMethodType=u8{750422B1-5DB7-4E69-936C-C24636727C9D}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 5,crio.Type=NI 9401,cRIOModule.DIO3_0InitialDir=0,cRIOModule.DIO7_4InitialDir=0,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.NumSyncRegs=11111111,cRIOModule.RsiAttributes=[crioConfig.End]{7B817481-88A3-4445-90CF-ACE128BC762E}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO7:4;0;ReadMethodType=u8;WriteMethodType=u8{8206D800-80EA-44E0-AFAF-D573E74F9886}resource=/crio_Mod4/AO15;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{837C1259-DF0F-41E4-9072-10AAE442DB65}resource=/crio_Mod2/AI10;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctl{85741A37-2B19-439E-BF55-60EA39579A68}resource=/crio_Mod4/AO0;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{8688DD31-39BD-4EB9-94A8-B0FC14740BBD}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO1;0;ReadMethodType=bool;WriteMethodType=bool{8AE239B2-357A-4FC2-8ED5-6FE94F375294}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 4,crio.Type=NI 9264,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.HotSwapMode=0,cRIOModule.RsiAttributes=[crioConfig.End]{8B53DE6F-3DF5-4513-945F-F7D66A4AFDCC}resource=/crio_Mod4/AO3;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{8F80D323-9F7F-4F10-BB6E-40ACD86E78BD}resource=/Scan Clock;0;ReadMethodType=bool{93DE308E-2FDA-4627-B88A-EBB0B19A1536}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/cRIO_Trig/cRIO_Trig2;0;ReadMethodType=bool;WriteMethodType=bool{9CC8A542-DD34-4FB4-A9B2-23ABFDDC20C2}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO2;0;ReadMethodType=bool;WriteMethodType=bool{A0DB269E-4BF9-4481-A4BD-5ED6C6EB766A}resource=/crio_Mod2/AI8;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctl{A22BFC80-805E-40F9-86DE-062A1E238A35}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Test/DIO3:0;0;ReadMethodType=u8;WriteMethodType=u8{A2B95A78-0B1E-427C-9F2F-1D818790F5E0}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 3,crio.Type=NI 9401,cRIOModule.DIO3_0InitialDir=0,cRIOModule.DIO7_4InitialDir=0,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.NumSyncRegs=11111111,cRIOModule.RsiAttributes=[crioConfig.End]{A41A2DAF-F2F2-4B4A-8AAC-D9911F04C276}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Test/DIO0;0;ReadMethodType=bool;WriteMethodType=bool{A568AA83-FDD0-4CDB-9FE0-6A8491883533}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Test/DIO3;0;ReadMethodType=bool;WriteMethodType=bool{A787B12E-0629-46D5-8248-8B4D4B848EE9}resource=/crio_Mod4/AO9;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{A813A328-DA88-45B9-9D19-DDD4E4510FF4}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod5/DIO7:0;0;ReadMethodType=u8;WriteMethodType=u8{A85C7714-17F6-42BE-BABE-399039509A1F}resource=/crio_Mod2/AI3;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctl{A8713610-2B50-4DF8-B74B-61312F91F7C3}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 1,crio.Type=NI 9401,cRIOModule.DIO3_0InitialDir=0,cRIOModule.DIO7_4InitialDir=0,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.NumSyncRegs=11111111,cRIOModule.RsiAttributes=[crioConfig.End]{AAEA4414-372E-4BF6-B760-25805DA35599}NumberOfSyncRegistersForReadInProject=Auto;resource=/System Watchdog Expired;0;ReadMethodType=bool{AED65432-86D4-4AAD-A6E2-E04C918AB91E}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO0;0;ReadMethodType=bool;WriteMethodType=bool{AEDC2D68-A4D4-4FE2-805F-17BE0907660E}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod5/DIO0;0;ReadMethodType=bool;WriteMethodType=bool{AF145D57-11B2-4937-A5A0-2D2636CB4B06}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Test/DIO5;0;ReadMethodType=bool;WriteMethodType=bool{AF8A3A7F-7300-4E70-9505-3F09A77853EA}resource=/crio_Mod2/AI9;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctl{AFBBA777-3225-4366-BDBF-B970810EF060}NumberOfSyncRegistersForReadInProject=Auto;resource=/10 MHz Timebase;0;ReadMethodType=bool{B0274044-71C4-4941-BFD3-EDA622DECACF}NumberOfSyncRegistersForReadInProject=Auto;resource=/13.1072 MHz Timebase;0;ReadMethodType=bool{B113FF97-4D97-4DB4-8FBD-B227A783AEDD}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO7;0;ReadMethodType=bool;WriteMethodType=bool{B7A26A73-AE43-4AC1-8672-2E68047B72EE}NumberOfSyncRegistersForReadInProject=Auto;resource=/cRIO_Trig/cRIO_Trig4;0;ReadMethodType=bool{C55ECA08-A3C8-458F-8C78-0832E48D6D61}resource=/crio_Mod2/AI14;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctl{CD7EB185-1A87-4E78-8C08-5D9A1491F439}Actual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1{CD7EB185-1A87-4E78-8C08-5D9A1491F439}Actual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1{CD7EB185-1A87-4E78-8C08-5D9A1491F439}Actual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1{CD7EB185-1A87-4E78-8C08-5D9A1491F439}Actual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1{CD7EB185-1A87-4E78-8C08-5D9A1491F439}Actual Number of Elements=16384;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094002000349313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1{CD7EB185-1A87-4E78-8C08-5D9A1491F439}Actual Number of Elements=16384;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094002000349313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1{CD7EB185-1A87-4E78-8C08-5D9A1491F439}Actual Number of Elements=16384;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094002000349313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1{CD7EB185-1A87-4E78-8C08-5D9A1491F439}Actual Number of Elements=16384;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094002000349313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1{D32576B2-5072-448C-87A4-7D17DC45B061}resource=/crio_Mod4/AO5;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{DBA72EEC-1E18-4364-A29E-89758831B69B}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod5/DIO7;0;ReadMethodType=bool;WriteMethodType=bool{DCB97F22-F7F4-45DE-8165-932C035DF763}NumberOfSyncRegistersForReadInProject=Auto;resource=/cRIO_Trig/cRIO_Trig7;0;ReadMethodType=bool{DE0CF8D8-2BB5-4975-9C63-48536611ECF4}resource=/crio_Mod2/AI1;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctl{DEB0D391-765D-42C1-89DD-F9461DE8E70B}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Test/DIO7:0;0;ReadMethodType=u8;WriteMethodType=u8{DF53EF93-3453-46E1-B8D6-CA041EF0379F}NumberOfSyncRegistersForReadInProject=0;resource=/USER Push Button;0;ReadMethodType=bool{E1DC73F4-05CC-4D8E-868F-86B688A88BE9}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/cRIO_Trig/cRIO_Trig3;0;ReadMethodType=bool;WriteMethodType=bool{EAF9E97B-5BE7-492C-8453-C3DEB41ED109}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO6;0;ReadMethodType=bool;WriteMethodType=bool{EFAE4080-BFA3-44F4-87AF-FF35A819293F}resource=/crio_Mod2/AI7;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctl{F01E58B2-44A5-4ABC-B9BE-3D503AFF2004}NumberOfSyncRegistersForReadInProject=0;resource=/Time Synchronization/Time Source;0;ReadMethodType=Targets\NI\FPGA\RIO\CompactRIO\Sync\SyncSource.ctl{F09AC706-2160-4802-9D13-F543B7CDEDED}resource=/USER FPGA LED;0;ReadMethodType=u8;WriteMethodType=u8{F14D6BC9-C253-493B-B9DC-466E75648ACC}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod5/DIO6;0;ReadMethodType=bool;WriteMethodType=bool{F38BA723-2498-41C5-AC01-D923D13AA98E}resource=/crio_Mod2/AI11;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctl{F85A7B0A-8C9C-4101-9C6F-35B7D444AE2C}resource=/System Reset;0;ReadMethodType=bool;WriteMethodType=bool{FC49CDE6-A47B-4810-B1E2-02FC395BEF4F}NumberOfSyncRegistersForReadInProject=0;resource=/Time Synchronization/Time Synchronization Fault;0;ReadMethodType=bool{FC8FE1D2-4639-4EEC-A4EC-612BFB331439}resource=/crio_Mod4/AO10;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlcRIO-9045/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9045FPGA_TARGET_FAMILYKINTEX7TARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]</Property>
+				<Property Name="configString.name" Type="Str">10 MHz TimebaseNumberOfSyncRegistersForReadInProject=Auto;resource=/10 MHz Timebase;0;ReadMethodType=bool12.8 MHz TimebaseNumberOfSyncRegistersForReadInProject=Auto;resource=/12.8 MHz Timebase;0;ReadMethodType=bool13.1072 MHz TimebaseNumberOfSyncRegistersForReadInProject=Auto;resource=/13.1072 MHz Timebase;0;ReadMethodType=bool40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;Chassis Temperatureresource=/Chassis Temperature;0;ReadMethodType=i16Crank_TempActual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1CrankActual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1cRIO_Trig0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/cRIO_Trig/cRIO_Trig0;0;ReadMethodType=bool;WriteMethodType=boolcRIO_Trig1ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/cRIO_Trig/cRIO_Trig1;0;ReadMethodType=bool;WriteMethodType=boolcRIO_Trig2ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/cRIO_Trig/cRIO_Trig2;0;ReadMethodType=bool;WriteMethodType=boolcRIO_Trig3ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/cRIO_Trig/cRIO_Trig3;0;ReadMethodType=bool;WriteMethodType=boolcRIO_Trig4NumberOfSyncRegistersForReadInProject=Auto;resource=/cRIO_Trig/cRIO_Trig4;0;ReadMethodType=boolcRIO_Trig5NumberOfSyncRegistersForReadInProject=Auto;resource=/cRIO_Trig/cRIO_Trig5;0;ReadMethodType=boolcRIO_Trig6NumberOfSyncRegistersForReadInProject=Auto;resource=/cRIO_Trig/cRIO_Trig6;0;ReadMethodType=boolcRIO_Trig7NumberOfSyncRegistersForReadInProject=Auto;resource=/cRIO_Trig/cRIO_Trig7;0;ReadMethodType=boolcRIO-9045/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9045FPGA_TARGET_FAMILYKINTEX7TARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]DebugDMA"ControlLogic=0;NumberOfElements=1023;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;FIFO;DataType=100080000000000100094009000353474C000100000000000000000000;DisableOnOverflowUnderflow=FALSE"Exhaust CAM 1Actual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1Intake CAM 1Actual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1Mod2/AI0resource=/crio_Mod2/AI0;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctlMod2/AI10resource=/crio_Mod2/AI10;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctlMod2/AI11resource=/crio_Mod2/AI11;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctlMod2/AI12resource=/crio_Mod2/AI12;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctlMod2/AI13resource=/crio_Mod2/AI13;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctlMod2/AI14resource=/crio_Mod2/AI14;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctlMod2/AI15resource=/crio_Mod2/AI15;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctlMod2/AI1resource=/crio_Mod2/AI1;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctlMod2/AI2resource=/crio_Mod2/AI2;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctlMod2/AI3resource=/crio_Mod2/AI3;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctlMod2/AI4resource=/crio_Mod2/AI4;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctlMod2/AI5resource=/crio_Mod2/AI5;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctlMod2/AI6resource=/crio_Mod2/AI6;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctlMod2/AI7resource=/crio_Mod2/AI7;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctlMod2/AI8resource=/crio_Mod2/AI8;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctlMod2/AI9resource=/crio_Mod2/AI9;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctlMod2[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 2,crio.Type=NI 9220,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.RsiAttributes=[crioConfig.End]Mod3/DIO0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO0;0;ReadMethodType=bool;WriteMethodType=boolMod3/DIO1ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO1;0;ReadMethodType=bool;WriteMethodType=boolMod3/DIO2ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO2;0;ReadMethodType=bool;WriteMethodType=boolMod3/DIO3:0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO3:0;0;ReadMethodType=u8;WriteMethodType=u8Mod3/DIO3ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO3;0;ReadMethodType=bool;WriteMethodType=boolMod3/DIO4ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO4;0;ReadMethodType=bool;WriteMethodType=boolMod3/DIO5ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO5;0;ReadMethodType=bool;WriteMethodType=boolMod3/DIO6ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO6;0;ReadMethodType=bool;WriteMethodType=boolMod3/DIO7:0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO7:0;0;ReadMethodType=u8;WriteMethodType=u8Mod3/DIO7:4ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO7:4;0;ReadMethodType=u8;WriteMethodType=u8Mod3/DIO7ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO7;0;ReadMethodType=bool;WriteMethodType=boolMod3[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 3,crio.Type=NI 9401,cRIOModule.DIO3_0InitialDir=0,cRIOModule.DIO7_4InitialDir=0,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.NumSyncRegs=11111111,cRIOModule.RsiAttributes=[crioConfig.End]Mod4/AO0resource=/crio_Mod4/AO0;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod4/AO10resource=/crio_Mod4/AO10;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod4/AO11resource=/crio_Mod4/AO11;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod4/AO12resource=/crio_Mod4/AO12;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod4/AO13resource=/crio_Mod4/AO13;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod4/AO14resource=/crio_Mod4/AO14;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod4/AO15resource=/crio_Mod4/AO15;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod4/AO1resource=/crio_Mod4/AO1;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod4/AO2resource=/crio_Mod4/AO2;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod4/AO3resource=/crio_Mod4/AO3;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod4/AO4resource=/crio_Mod4/AO4;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod4/AO5resource=/crio_Mod4/AO5;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod4/AO6resource=/crio_Mod4/AO6;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod4/AO7resource=/crio_Mod4/AO7;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod4/AO8resource=/crio_Mod4/AO8;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod4/AO9resource=/crio_Mod4/AO9;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod4[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 4,crio.Type=NI 9264,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.HotSwapMode=0,cRIOModule.RsiAttributes=[crioConfig.End]Mod5/DIO0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod5/DIO0;0;ReadMethodType=bool;WriteMethodType=boolMod5/DIO1ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod5/DIO1;0;ReadMethodType=bool;WriteMethodType=boolMod5/DIO2ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod5/DIO2;0;ReadMethodType=bool;WriteMethodType=boolMod5/DIO3:0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod5/DIO3:0;0;ReadMethodType=u8;WriteMethodType=u8Mod5/DIO3ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod5/DIO3;0;ReadMethodType=bool;WriteMethodType=boolMod5/DIO4ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod5/DIO4;0;ReadMethodType=bool;WriteMethodType=boolMod5/DIO5ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod5/DIO5;0;ReadMethodType=bool;WriteMethodType=boolMod5/DIO6ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod5/DIO6;0;ReadMethodType=bool;WriteMethodType=boolMod5/DIO7:0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod5/DIO7:0;0;ReadMethodType=u8;WriteMethodType=u8Mod5/DIO7:4ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod5/DIO7:4;0;ReadMethodType=u8;WriteMethodType=u8Mod5/DIO7ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod5/DIO7;0;ReadMethodType=bool;WriteMethodType=boolMod5[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 5,crio.Type=NI 9401,cRIOModule.DIO3_0InitialDir=0,cRIOModule.DIO7_4InitialDir=0,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.NumSyncRegs=11111111,cRIOModule.RsiAttributes=[crioConfig.End]Offset from Time Reference ValidNumberOfSyncRegistersForReadInProject=0;resource=/Time Synchronization/Offset from Time Reference Valid;0;ReadMethodType=boolOffset from Time ReferenceNumberOfSyncRegistersForReadInProject=0;resource=/Time Synchronization/Offset from Time Reference;0;ReadMethodType=i32Reset RT Appresource=/Reset RT App;0;WriteMethodType=boolScan Clockresource=/Scan Clock;0;ReadMethodType=boolSleepresource=/Sleep;0;ReadMethodType=bool;WriteMethodType=boolSystem Resetresource=/System Reset;0;ReadMethodType=bool;WriteMethodType=boolSystem Watchdog ExpiredNumberOfSyncRegistersForReadInProject=Auto;resource=/System Watchdog Expired;0;ReadMethodType=boolTest/DIO0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Test/DIO0;0;ReadMethodType=bool;WriteMethodType=boolTest/DIO1ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Test/DIO1;0;ReadMethodType=bool;WriteMethodType=boolTest/DIO2ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Test/DIO2;0;ReadMethodType=bool;WriteMethodType=boolTest/DIO3:0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Test/DIO3:0;0;ReadMethodType=u8;WriteMethodType=u8Test/DIO3ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Test/DIO3;0;ReadMethodType=bool;WriteMethodType=boolTest/DIO4ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Test/DIO4;0;ReadMethodType=bool;WriteMethodType=boolTest/DIO5ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Test/DIO5;0;ReadMethodType=bool;WriteMethodType=boolTest/DIO6ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Test/DIO6;0;ReadMethodType=bool;WriteMethodType=boolTest/DIO7:0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Test/DIO7:0;0;ReadMethodType=u8;WriteMethodType=u8Test/DIO7:4ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Test/DIO7:4;0;ReadMethodType=u8;WriteMethodType=u8Test/DIO7ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Test/DIO7;0;ReadMethodType=bool;WriteMethodType=boolTest[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 1,crio.Type=NI 9401,cRIOModule.DIO3_0InitialDir=0,cRIOModule.DIO7_4InitialDir=0,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.NumSyncRegs=11111111,cRIOModule.RsiAttributes=[crioConfig.End]Time SourceNumberOfSyncRegistersForReadInProject=0;resource=/Time Synchronization/Time Source;0;ReadMethodType=Targets\NI\FPGA\RIO\CompactRIO\Sync\SyncSource.ctlTime Synchronization FaultNumberOfSyncRegistersForReadInProject=0;resource=/Time Synchronization/Time Synchronization Fault;0;ReadMethodType=boolTimeNumberOfSyncRegistersForReadInProject=0;resource=/Time Synchronization/Time;0;ReadMethodType=u64USER FPGA LEDresource=/USER FPGA LED;0;ReadMethodType=u8;WriteMethodType=u8USER Push ButtonNumberOfSyncRegistersForReadInProject=0;resource=/USER Push Button;0;ReadMethodType=boolVR Sensor1Actual Number of Elements=16384;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094002000349313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1VR Sensor2Actual Number of Elements=16384;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094002000349313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1VR Sensor3Actual Number of Elements=16384;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094002000349313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1VR Sensor4Actual Number of Elements=16384;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094002000349313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1</Property>
+				<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">cRIO-9045/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9045FPGA_TARGET_FAMILYKINTEX7TARGET_TYPEFPGA</Property>
+				<Property Name="NI.LV.FPGA.Version" Type="Int">8</Property>
 				<Property Name="Resource Name" Type="Str">RIO0</Property>
-				<Property Name="Target Class" Type="Str">cRIO-9082</Property>
+				<Property Name="Target Class" Type="Str">cRIO-9045</Property>
 				<Property Name="Top-Level Timing Source" Type="Str">40 MHz Onboard Clock</Property>
 				<Property Name="Top-Level Timing Source Is Default" Type="Bool">true</Property>
-				<Item Name="Mod1" Type="Folder">
-					<Item Name="Mod1/DIO0" Type="Elemental IO">
+				<Item Name="Chassis I/O" Type="Folder">
+					<Item Name="Chassis Temperature" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="resource">
+   <Value>/Chassis Temperature</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{50C42212-D09A-4DBB-A1D9-33F78FBDFC8A}</Property>
+					</Item>
+					<Item Name="Sleep" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="resource">
+   <Value>/Sleep</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{2D09EB19-1E2D-49FF-B125-77F3FB8A1B39}</Property>
+					</Item>
+					<Item Name="System Reset" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="resource">
+   <Value>/System Reset</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{F85A7B0A-8C9C-4101-9C6F-35B7D444AE2C}</Property>
+					</Item>
+					<Item Name="USER FPGA LED" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="resource">
+   <Value>/USER FPGA LED</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{F09AC706-2160-4802-9D13-F543B7CDEDED}</Property>
+					</Item>
+					<Item Name="USER Push Button" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>0</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/USER Push Button</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{DF53EF93-3453-46E1-B8D6-CA041EF0379F}</Property>
+					</Item>
+					<Item Name="Scan Clock" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="resource">
+   <Value>/Scan Clock</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{8F80D323-9F7F-4F10-BB6E-40ACD86E78BD}</Property>
+					</Item>
+					<Item Name="Reset RT App" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="resource">
+   <Value>/Reset RT App</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{511CA6A7-0C36-446F-A764-3E223415B686}</Property>
+					</Item>
+					<Item Name="System Watchdog Expired" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>Auto</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/System Watchdog Expired</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{AAEA4414-372E-4BF6-B760-25805DA35599}</Property>
+					</Item>
+					<Item Name="12.8 MHz Timebase" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>Auto</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/12.8 MHz Timebase</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{2827A557-730C-4C46-8889-3B0EA492B9BD}</Property>
+					</Item>
+					<Item Name="13.1072 MHz Timebase" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>Auto</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/13.1072 MHz Timebase</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{B0274044-71C4-4941-BFD3-EDA622DECACF}</Property>
+					</Item>
+					<Item Name="10 MHz Timebase" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>Auto</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/10 MHz Timebase</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{AFBBA777-3225-4366-BDBF-B970810EF060}</Property>
+					</Item>
+				</Item>
+				<Item Name="cRIO_Trig" Type="Folder">
+					<Item Name="cRIO_Trig0" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="ArbitrationForOutputData">
+   <Value>NeverArbitrate</Value>
+   </Attribute>
+   <Attribute name="NumberOfSyncRegistersForOutputData">
+   <Value>1</Value>
+   </Attribute>
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>Auto</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/cRIO_Trig/cRIO_Trig0</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{4B6B11BD-4E4B-4059-B736-2FDD3640F7C1}</Property>
+					</Item>
+					<Item Name="cRIO_Trig1" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="ArbitrationForOutputData">
+   <Value>NeverArbitrate</Value>
+   </Attribute>
+   <Attribute name="NumberOfSyncRegistersForOutputData">
+   <Value>1</Value>
+   </Attribute>
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>Auto</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/cRIO_Trig/cRIO_Trig1</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{4CF661C5-F58D-4505-B62C-7AEA91983034}</Property>
+					</Item>
+					<Item Name="cRIO_Trig2" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="ArbitrationForOutputData">
+   <Value>NeverArbitrate</Value>
+   </Attribute>
+   <Attribute name="NumberOfSyncRegistersForOutputData">
+   <Value>1</Value>
+   </Attribute>
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>Auto</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/cRIO_Trig/cRIO_Trig2</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{93DE308E-2FDA-4627-B88A-EBB0B19A1536}</Property>
+					</Item>
+					<Item Name="cRIO_Trig3" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="ArbitrationForOutputData">
+   <Value>NeverArbitrate</Value>
+   </Attribute>
+   <Attribute name="NumberOfSyncRegistersForOutputData">
+   <Value>1</Value>
+   </Attribute>
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>Auto</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/cRIO_Trig/cRIO_Trig3</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{E1DC73F4-05CC-4D8E-868F-86B688A88BE9}</Property>
+					</Item>
+					<Item Name="cRIO_Trig4" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>Auto</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/cRIO_Trig/cRIO_Trig4</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{B7A26A73-AE43-4AC1-8672-2E68047B72EE}</Property>
+					</Item>
+					<Item Name="cRIO_Trig5" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>Auto</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/cRIO_Trig/cRIO_Trig5</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{02FCD725-8F74-4419-A150-EC31AD7979ED}</Property>
+					</Item>
+					<Item Name="cRIO_Trig6" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>Auto</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/cRIO_Trig/cRIO_Trig6</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{6185114D-7759-41D5-8027-397550015587}</Property>
+					</Item>
+					<Item Name="cRIO_Trig7" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>Auto</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/cRIO_Trig/cRIO_Trig7</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{DCB97F22-F7F4-45DE-8165-932C035DF763}</Property>
+					</Item>
+				</Item>
+				<Item Name="Time Synchronization" Type="Folder">
+					<Item Name="Time" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>0</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/Time Synchronization/Time</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{0BDDC342-C5DF-4FAA-A6F5-AAB090207953}</Property>
+					</Item>
+					<Item Name="Time Source" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>0</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/Time Synchronization/Time Source</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{F01E58B2-44A5-4ABC-B9BE-3D503AFF2004}</Property>
+					</Item>
+					<Item Name="Time Synchronization Fault" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>0</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/Time Synchronization/Time Synchronization Fault</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{FC49CDE6-A47B-4810-B1E2-02FC395BEF4F}</Property>
+					</Item>
+					<Item Name="Offset from Time Reference" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>0</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/Time Synchronization/Offset from Time Reference</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{2CF8BBBB-3ED4-4EFE-A0C2-E593B1B04877}</Property>
+					</Item>
+					<Item Name="Offset from Time Reference Valid" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>0</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/Time Synchronization/Offset from Time Reference Valid</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{0F5E1724-00C8-4DC8-BCDB-4F3A0162EEF7}</Property>
+					</Item>
+				</Item>
+				<Item Name="Test" Type="Folder">
+					<Item Name="Test/DIO0" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="ArbitrationForOutputData">
    <Value>NeverArbitrate</Value>
@@ -1874,9 +2176,9 @@
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{30BF8F85-D7EA-43AF-AD9F-EA7FA16E404C}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{A41A2DAF-F2F2-4B4A-8AAC-D9911F04C276}</Property>
 					</Item>
-					<Item Name="Mod1/DIO1" Type="Elemental IO">
+					<Item Name="Test/DIO1" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="ArbitrationForOutputData">
    <Value>NeverArbitrate</Value>
@@ -1889,9 +2191,9 @@
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{C0073639-B9D0-49CF-81D5-AC74C807CA85}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{4DA69BA5-23AE-4DF8-B815-9BFAF55C4D1D}</Property>
 					</Item>
-					<Item Name="Mod1/DIO2" Type="Elemental IO">
+					<Item Name="Test/DIO2" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="ArbitrationForOutputData">
    <Value>NeverArbitrate</Value>
@@ -1904,9 +2206,9 @@
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{FF3F6E0F-BB13-4E70-A03B-CC602F2E7FC5}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{4AA777A8-3460-488E-94F3-8084D53D7284}</Property>
 					</Item>
-					<Item Name="Mod1/DIO3" Type="Elemental IO">
+					<Item Name="Test/DIO3" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="ArbitrationForOutputData">
    <Value>NeverArbitrate</Value>
@@ -1919,9 +2221,9 @@
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{5DE6FEEA-E2F0-42A2-8832-278CD4563885}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{A568AA83-FDD0-4CDB-9FE0-6A8491883533}</Property>
 					</Item>
-					<Item Name="Mod1/DIO4" Type="Elemental IO">
+					<Item Name="Test/DIO4" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="ArbitrationForOutputData">
    <Value>NeverArbitrate</Value>
@@ -1934,9 +2236,9 @@
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{A62527D2-023D-47EE-A23F-38542693EE60}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{0F3EDD57-CB92-4437-8D5E-1104EECCB3DD}</Property>
 					</Item>
-					<Item Name="Mod1/DIO5" Type="Elemental IO">
+					<Item Name="Test/DIO5" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="ArbitrationForOutputData">
    <Value>NeverArbitrate</Value>
@@ -1949,9 +2251,9 @@
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{AA432AE7-9355-4A2A-8D84-D6108D95F806}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{AF145D57-11B2-4937-A5A0-2D2636CB4B06}</Property>
 					</Item>
-					<Item Name="Mod1/DIO6" Type="Elemental IO">
+					<Item Name="Test/DIO6" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="ArbitrationForOutputData">
    <Value>NeverArbitrate</Value>
@@ -1964,9 +2266,9 @@
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{4CCF3576-1F3D-466F-BDDE-A2287C85171F}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{26528D1A-247E-42FE-B762-345622E61E63}</Property>
 					</Item>
-					<Item Name="Mod1/DIO7" Type="Elemental IO">
+					<Item Name="Test/DIO7" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="ArbitrationForOutputData">
    <Value>NeverArbitrate</Value>
@@ -1979,7 +2281,52 @@
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{2D29C7F3-F646-4712-B868-B6B50C2B8D1A}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{3EA8C152-0D14-4EC1-AB37-17778143AC6F}</Property>
+					</Item>
+					<Item Name="Test/DIO3:0" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="ArbitrationForOutputData">
+   <Value>NeverArbitrate</Value>
+   </Attribute>
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>Auto</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/crio_Test/DIO3:0</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{A22BFC80-805E-40F9-86DE-062A1E238A35}</Property>
+					</Item>
+					<Item Name="Test/DIO7:4" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="ArbitrationForOutputData">
+   <Value>NeverArbitrate</Value>
+   </Attribute>
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>Auto</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/crio_Test/DIO7:4</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{16AA32D0-5E6A-49D5-8C1A-1533EB6F0F80}</Property>
+					</Item>
+					<Item Name="Test/DIO7:0" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="ArbitrationForOutputData">
+   <Value>NeverArbitrate</Value>
+   </Attribute>
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>Auto</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/crio_Test/DIO7:0</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{DEB0D391-765D-42C1-89DD-F9461DE8E70B}</Property>
 					</Item>
 				</Item>
 				<Item Name="Mod2" Type="Folder">
@@ -1990,7 +2337,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{5CE76D08-1903-4567-96D1-4874D9C7A715}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{3A900BAC-8A8D-4C8B-80BE-64A11E692577}</Property>
 					</Item>
 					<Item Name="Mod2/AI1" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -1999,7 +2346,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{E3C05844-6C1A-412F-8261-A988180977D2}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{DE0CF8D8-2BB5-4975-9C63-48536611ECF4}</Property>
 					</Item>
 					<Item Name="Mod2/AI2" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -2008,7 +2355,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{0611599A-C17F-4817-B481-C064C7675E7A}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{61A6B820-C2E5-45FA-AEFE-E756CA0B2DC7}</Property>
 					</Item>
 					<Item Name="Mod2/AI3" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -2017,7 +2364,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{159E0245-E07B-4315-8D37-1C5EC7CE4779}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{A85C7714-17F6-42BE-BABE-399039509A1F}</Property>
 					</Item>
 					<Item Name="Mod2/AI4" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -2026,7 +2373,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{6C01F846-269D-4025-91DE-B4C70AA9F2B1}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{52123EB5-37AD-4AC0-99FB-4D2E33E113E3}</Property>
 					</Item>
 					<Item Name="Mod2/AI5" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -2035,7 +2382,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{80E95FC5-831E-4F74-8434-9F3AFC54339F}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{37E2C10D-9B79-4CD8-AFAD-B0BAE609FCE3}</Property>
 					</Item>
 					<Item Name="Mod2/AI6" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -2044,7 +2391,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{60F866AB-1BE1-4C75-9423-C8CAAA28655C}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{4ED7F632-DDCF-4F31-9B80-A47A2ACD966F}</Property>
 					</Item>
 					<Item Name="Mod2/AI7" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -2053,7 +2400,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{301B32AE-DD3C-4AD0-9A28-E7773C635470}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{EFAE4080-BFA3-44F4-87AF-FF35A819293F}</Property>
 					</Item>
 					<Item Name="Mod2/AI8" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -2062,7 +2409,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{1C0B94E3-0D89-47D7-AF6B-BC8F097791F4}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{A0DB269E-4BF9-4481-A4BD-5ED6C6EB766A}</Property>
 					</Item>
 					<Item Name="Mod2/AI9" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -2071,7 +2418,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{D0555E14-FC5E-4E6D-B52C-38692DF3E735}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{AF8A3A7F-7300-4E70-9505-3F09A77853EA}</Property>
 					</Item>
 					<Item Name="Mod2/AI10" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -2080,7 +2427,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{EC44625E-3E7E-4456-8600-FE877F64AE8C}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{837C1259-DF0F-41E4-9072-10AAE442DB65}</Property>
 					</Item>
 					<Item Name="Mod2/AI11" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -2089,7 +2436,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{BAADC5A8-F3E7-4FA4-B350-6B830D03ED94}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{F38BA723-2498-41C5-AC01-D923D13AA98E}</Property>
 					</Item>
 					<Item Name="Mod2/AI12" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -2098,7 +2445,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{48163D7D-D37C-4233-A215-B5FFE9C64B14}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{0AF3E327-6020-4AE0-9FF8-BCD691500EF3}</Property>
 					</Item>
 					<Item Name="Mod2/AI13" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -2107,7 +2454,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{612D99F5-D03D-4112-84AC-34828E3B362C}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{42EC1853-2FD8-433B-A8C1-A76B34C6AA5B}</Property>
 					</Item>
 					<Item Name="Mod2/AI14" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -2116,7 +2463,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{C7468848-CB19-48CC-9F6C-CB5CF46B8F3A}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{C55ECA08-A3C8-458F-8C78-0832E48D6D61}</Property>
 					</Item>
 					<Item Name="Mod2/AI15" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -2125,7 +2472,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{F227918A-90A9-4F9D-B03E-8B817E8AFDCC}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{36F36EBB-E723-4BA3-93BF-9EB958D65241}</Property>
 					</Item>
 				</Item>
 				<Item Name="Mod4" Type="Folder">
@@ -2136,7 +2483,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{1A9953D3-AADB-4F50-8C34-127DC661D685}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{85741A37-2B19-439E-BF55-60EA39579A68}</Property>
 					</Item>
 					<Item Name="Mod4/AO1" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -2145,7 +2492,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{1825B143-C53F-4848-9300-A1A9546B106E}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{67EDA5B7-BCBB-4F56-AC77-2F9C03E21FA7}</Property>
 					</Item>
 					<Item Name="Mod4/AO2" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -2154,7 +2501,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{660D4C45-7FA6-45E6-B727-C4BF6A91211E}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{4F7796F0-3411-4773-83A0-DE57E4C3D71E}</Property>
 					</Item>
 					<Item Name="Mod4/AO3" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -2163,7 +2510,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{3A4F4FEF-16FE-4234-9CA3-9833A9702048}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{8B53DE6F-3DF5-4513-945F-F7D66A4AFDCC}</Property>
 					</Item>
 					<Item Name="Mod4/AO4" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -2172,7 +2519,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{F13DB277-52C1-4F68-83B9-451C47B55D10}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{142377F0-2172-491F-AA28-1F1191B87330}</Property>
 					</Item>
 					<Item Name="Mod4/AO5" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -2181,7 +2528,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{1D22EF1B-ACD8-420A-8B73-AA25026C6F1C}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{D32576B2-5072-448C-87A4-7D17DC45B061}</Property>
 					</Item>
 					<Item Name="Mod4/AO6" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -2190,7 +2537,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{23E254D7-57C6-4C6E-8801-8B2CE87500C2}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{4C56A409-C3A8-4D9E-9CE9-DE7BC85A2A5E}</Property>
 					</Item>
 					<Item Name="Mod4/AO7" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -2199,7 +2546,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{F381BA2D-FD2F-4625-A216-C8149B1F1C9A}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{3781790B-004A-434C-857B-371B4E53B5D3}</Property>
 					</Item>
 					<Item Name="Mod4/AO8" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -2208,7 +2555,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{9BC8DA74-A60A-4A1B-95B8-1D6A69C853DD}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{5FBC22C0-4587-4C75-B778-A142D2406BF2}</Property>
 					</Item>
 					<Item Name="Mod4/AO9" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -2217,7 +2564,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{1FFD9497-4C05-46F2-AF83-E6600054D839}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{A787B12E-0629-46D5-8248-8B4D4B848EE9}</Property>
 					</Item>
 					<Item Name="Mod4/AO10" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -2226,7 +2573,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{DD4558A4-285C-4B32-8210-B487214AF722}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{FC8FE1D2-4639-4EEC-A4EC-612BFB331439}</Property>
 					</Item>
 					<Item Name="Mod4/AO11" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -2235,7 +2582,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{60FB9DAB-AEAB-47CB-9BF5-340AB318807E}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{4DEF2DEE-46C4-4C7B-9688-A8A424AF9F4B}</Property>
 					</Item>
 					<Item Name="Mod4/AO12" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -2244,7 +2591,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{E52E830B-7D4B-443C-A18D-A745CC446442}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{47A30858-A72E-48DD-AABD-55B8AD42A755}</Property>
 					</Item>
 					<Item Name="Mod4/AO13" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -2253,7 +2600,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{9F7819C3-7177-49CE-B911-92CD3B34DEAD}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{403C3C7E-6A3A-40F3-B997-8B01574AD4A6}</Property>
 					</Item>
 					<Item Name="Mod4/AO14" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -2262,7 +2609,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{1C4EFB2E-C00A-4B24-94DE-2B9E4A1FDEAC}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{2CA9787A-2574-4334-B28C-54F8A35940E3}</Property>
 					</Item>
 					<Item Name="Mod4/AO15" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -2271,7 +2618,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{434C34C2-6FCA-4942-8AD1-7D402B03490A}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{8206D800-80EA-44E0-AFAF-D573E74F9886}</Property>
 					</Item>
 				</Item>
 				<Item Name="Mod3" Type="Folder">
@@ -2288,7 +2635,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{F2192E5D-4396-4992-8233-B1B744B0D214}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{AED65432-86D4-4AAD-A6E2-E04C918AB91E}</Property>
 					</Item>
 					<Item Name="Mod3/DIO1" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -2303,7 +2650,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{50B405A8-46CA-4751-8441-BA4B24017212}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{8688DD31-39BD-4EB9-94A8-B0FC14740BBD}</Property>
 					</Item>
 					<Item Name="Mod3/DIO2" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -2318,7 +2665,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{6D107D51-7B68-46DA-A8C8-A756280E19B5}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{9CC8A542-DD34-4FB4-A9B2-23ABFDDC20C2}</Property>
 					</Item>
 					<Item Name="Mod3/DIO3" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -2333,7 +2680,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{E505DEB4-0E7A-4BBD-8E4F-9666BDA93D3B}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{14908698-EB24-45F8-B974-A35923E3E6EF}</Property>
 					</Item>
 					<Item Name="Mod3/DIO4" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -2348,7 +2695,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{3F7EE1EA-1772-4429-BFA6-B270662E78D3}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{453FCA97-7BD2-42E9-9512-B87700C49223}</Property>
 					</Item>
 					<Item Name="Mod3/DIO5" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -2363,7 +2710,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{312105F5-2A4D-4B97-A0F7-476D21F0931C}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{13805C54-E739-4DC3-AF85-C09E630F3320}</Property>
 					</Item>
 					<Item Name="Mod3/DIO6" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -2378,7 +2725,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{88080E0E-7840-4FEA-9FF7-A3597AA58C64}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{EAF9E97B-5BE7-492C-8453-C3DEB41ED109}</Property>
 					</Item>
 					<Item Name="Mod3/DIO7" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -2393,7 +2740,52 @@
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{BDFBFCD5-14EC-4D63-8F8A-E13B46A2F5EA}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{B113FF97-4D97-4DB4-8FBD-B227A783AEDD}</Property>
+					</Item>
+					<Item Name="Mod3/DIO3:0" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="ArbitrationForOutputData">
+   <Value>NeverArbitrate</Value>
+   </Attribute>
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>Auto</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/crio_Mod3/DIO3:0</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{694E5D28-4EB6-46B5-9D84-F0D3E97D3D33}</Property>
+					</Item>
+					<Item Name="Mod3/DIO7:4" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="ArbitrationForOutputData">
+   <Value>NeverArbitrate</Value>
+   </Attribute>
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>Auto</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/crio_Mod3/DIO7:4</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{7B817481-88A3-4445-90CF-ACE128BC762E}</Property>
+					</Item>
+					<Item Name="Mod3/DIO7:0" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="ArbitrationForOutputData">
+   <Value>NeverArbitrate</Value>
+   </Attribute>
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>Auto</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/crio_Mod3/DIO7:0</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{175E1FF4-DF39-45CC-82C7-ECC6E6478EA0}</Property>
 					</Item>
 				</Item>
 				<Item Name="Mod5" Type="Folder">
@@ -2410,7 +2802,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{D908C53F-EC7F-4B60-94EA-8EFFE51606AF}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{AEDC2D68-A4D4-4FE2-805F-17BE0907660E}</Property>
 					</Item>
 					<Item Name="Mod5/DIO1" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -2425,7 +2817,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{6794E500-B784-4D85-8FF0-B0633F8F9876}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{5AFE89BA-5ED1-4D27-A5F9-746F979F0AD8}</Property>
 					</Item>
 					<Item Name="Mod5/DIO2" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -2440,7 +2832,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{23CE9B1C-381A-40B2-B0B3-845F03855265}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{3C771495-A931-42B5-9BC2-349E68CB9CFA}</Property>
 					</Item>
 					<Item Name="Mod5/DIO3" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -2455,7 +2847,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{33380254-EB2C-4A54-BFA9-858EC736028B}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{45393FFB-8907-4A9D-B457-014B0124E0B6}</Property>
 					</Item>
 					<Item Name="Mod5/DIO4" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -2470,7 +2862,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{443F398E-72C9-4594-A595-98BB39328648}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{2EAA7858-A0C8-41C4-A050-6DB1F6512402}</Property>
 					</Item>
 					<Item Name="Mod5/DIO5" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -2485,7 +2877,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{AF95B395-06C7-4554-A2BD-EB01400565F6}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{119254D8-1BC9-4619-A227-A6495474A6C5}</Property>
 					</Item>
 					<Item Name="Mod5/DIO6" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -2500,7 +2892,7 @@
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{9719288C-4A8E-44BA-9F21-81F500A3059C}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{F14D6BC9-C253-493B-B9DC-466E75648ACC}</Property>
 					</Item>
 					<Item Name="Mod5/DIO7" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -2515,7 +2907,52 @@
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{B3849DB3-6245-44B6-A652-398BA4EB248B}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{DBA72EEC-1E18-4364-A29E-89758831B69B}</Property>
+					</Item>
+					<Item Name="Mod5/DIO3:0" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="ArbitrationForOutputData">
+   <Value>NeverArbitrate</Value>
+   </Attribute>
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>Auto</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/crio_Mod5/DIO3:0</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{02FC81C0-DC79-4CA2-A305-808B1FAA2FD5}</Property>
+					</Item>
+					<Item Name="Mod5/DIO7:4" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="ArbitrationForOutputData">
+   <Value>NeverArbitrate</Value>
+   </Attribute>
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>Auto</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/crio_Mod5/DIO7:4</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{5EE69EC9-778E-4095-A9D1-F98CACBCC930}</Property>
+					</Item>
+					<Item Name="Mod5/DIO7:0" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="ArbitrationForOutputData">
+   <Value>NeverArbitrate</Value>
+   </Attribute>
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>Auto</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/crio_Mod5/DIO7:0</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{A813A328-DA88-45B9-9D19-DDD4E4510FF4}</Property>
 					</Item>
 				</Item>
 				<Item Name="GeneratedFPGAItems" Type="Folder">
@@ -2733,6 +3170,39 @@
 						<Property Name="Type Descriptor" Type="Str">100080000000000100094009000353474C000100000000000000000000</Property>
 					</Item>
 				</Item>
+				<Item Name="HostMemoryBuffer" Type="FPGA Component Level IP">
+					<Property Name="crio.OldestValidLabVIEWVersion" Type="Str">17</Property>
+					<Property Name="NI.LV.CLIP.DeclarationCategory" Type="Str"></Property>
+					<Property Name="NI.LV.CLIP.SocketedCLIP" Type="Bool">true</Property>
+					<Property Name="NI.LV.CLIP.SocketSelection" Type="Str">HostMemoryBuffer</Property>
+					<Property Name="NI.LV.FPGA.Valid" Type="Bool">true</Property>
+					<Property Name="NI.SortType" Type="Int">0</Property>
+				</Item>
+				<Item Name="LowLatencyBuffer" Type="FPGA Component Level IP">
+					<Property Name="NI.LV.CLIP.DeclarationCategory" Type="Str"></Property>
+					<Property Name="NI.LV.CLIP.SocketedCLIP" Type="Bool">true</Property>
+					<Property Name="NI.LV.CLIP.SocketSelection" Type="Str">LowLatencyBuffer</Property>
+					<Property Name="NI.LV.FPGA.Valid" Type="Bool">true</Property>
+					<Property Name="NI.SortType" Type="Int">0</Property>
+				</Item>
+				<Item Name="40 MHz Onboard Clock" Type="FPGA Base Clock">
+					<Property Name="FPGA.PersistentID" Type="Str">{38A17A7D-4350-42F4-A898-731FDC51DBC1}</Property>
+					<Property Name="NI.LV.FPGA.BaseTSConfig" Type="Str">ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;</Property>
+					<Property Name="NI.LV.FPGA.BaseTSConfig.Accuracy" Type="Dbl">100</Property>
+					<Property Name="NI.LV.FPGA.BaseTSConfig.ClockSignalName" Type="Str">Clk40</Property>
+					<Property Name="NI.LV.FPGA.BaseTSConfig.MaxDutyCycle" Type="Dbl">50</Property>
+					<Property Name="NI.LV.FPGA.BaseTSConfig.MaxFrequency" Type="Dbl">40000000</Property>
+					<Property Name="NI.LV.FPGA.BaseTSConfig.MinDutyCycle" Type="Dbl">50</Property>
+					<Property Name="NI.LV.FPGA.BaseTSConfig.MinFrequency" Type="Dbl">40000000</Property>
+					<Property Name="NI.LV.FPGA.BaseTSConfig.NominalFrequency" Type="Dbl">40000000</Property>
+					<Property Name="NI.LV.FPGA.BaseTSConfig.PeakPeriodJitter" Type="Dbl">250</Property>
+					<Property Name="NI.LV.FPGA.BaseTSConfig.ResourceName" Type="Str">40 MHz Onboard Clock</Property>
+					<Property Name="NI.LV.FPGA.BaseTSConfig.SupportAndRequireRuntimeEnableDisable" Type="Bool">false</Property>
+					<Property Name="NI.LV.FPGA.BaseTSConfig.TopSignalConnect" Type="Str">Clk40</Property>
+					<Property Name="NI.LV.FPGA.BaseTSConfig.VariableFrequency" Type="Bool">false</Property>
+					<Property Name="NI.LV.FPGA.Valid" Type="Bool">true</Property>
+					<Property Name="NI.LV.FPGA.Version" Type="Int">5</Property>
+				</Item>
 				<Item Name="Test" Type="RIO C Series Module">
 					<Property Name="crio.Calibration" Type="Str">1</Property>
 					<Property Name="crio.Location" Type="Str">Slot 1</Property>
@@ -2944,28 +3414,6 @@
 					<Property Name="cRIOModule.EnableSpecialtyDigital" Type="Str">false</Property>
 					<Property Name="cRIOModule.NumSyncRegs" Type="Str">11111111</Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{A8713610-2B50-4DF8-B74B-61312F91F7C3}</Property>
-				</Item>
-				<Item Name="40 MHz Onboard Clock" Type="FPGA Base Clock">
-					<Property Name="FPGA.PersistentID" Type="Str">{C2FDB5D2-C006-43C9-A346-FC1506E236B8}</Property>
-					<Property Name="NI.LV.FPGA.BaseTSConfig" Type="Str">ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;</Property>
-					<Property Name="NI.LV.FPGA.BaseTSConfig.Accuracy" Type="Dbl">100</Property>
-					<Property Name="NI.LV.FPGA.BaseTSConfig.ClockSignalName" Type="Str">Clk40</Property>
-					<Property Name="NI.LV.FPGA.BaseTSConfig.MaxDutyCycle" Type="Dbl">50</Property>
-					<Property Name="NI.LV.FPGA.BaseTSConfig.MaxFrequency" Type="Dbl">40000000</Property>
-					<Property Name="NI.LV.FPGA.BaseTSConfig.MinDutyCycle" Type="Dbl">50</Property>
-					<Property Name="NI.LV.FPGA.BaseTSConfig.MinFrequency" Type="Dbl">40000000</Property>
-					<Property Name="NI.LV.FPGA.BaseTSConfig.NominalFrequency" Type="Dbl">40000000</Property>
-					<Property Name="NI.LV.FPGA.BaseTSConfig.PeakPeriodJitter" Type="Dbl">250</Property>
-					<Property Name="NI.LV.FPGA.BaseTSConfig.ResourceName" Type="Str">40 MHz Onboard Clock</Property>
-					<Property Name="NI.LV.FPGA.BaseTSConfig.SupportAndRequireRuntimeEnableDisable" Type="Bool">false</Property>
-					<Property Name="NI.LV.FPGA.BaseTSConfig.TopSignalConnect" Type="Str">Clk40</Property>
-					<Property Name="NI.LV.FPGA.BaseTSConfig.VariableFrequency" Type="Bool">false</Property>
-					<Property Name="NI.LV.FPGA.Valid" Type="Bool">true</Property>
-					<Property Name="NI.LV.FPGA.Version" Type="Int">5</Property>
-				</Item>
-				<Item Name="IP Builder" Type="IP Builder Target">
-					<Item Name="Dependencies" Type="Dependencies"/>
-					<Item Name="Build Specifications" Type="Build"/>
 				</Item>
 				<Item Name="Mod2" Type="RIO C Series Module">
 					<Property Name="crio.Calibration" Type="Str">1</Property>
@@ -3419,61 +3867,11 @@
 					<Property Name="FPGA.PersistentID" Type="Str">{750422B1-5DB7-4E69-936C-C24636727C9D}</Property>
 				</Item>
 				<Item Name="FPGA Target.vi" Type="VI" URL="../FPGA Target.vi">
-					<Property Name="configString.guid" Type="Str">{0611599A-C17F-4817-B481-C064C7675E7A}resource=/crio_Mod2/AI2;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctl{159E0245-E07B-4315-8D37-1C5EC7CE4779}resource=/crio_Mod2/AI3;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctl{1825B143-C53F-4848-9300-A1A9546B106E}resource=/crio_Mod4/AO1;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{1A9953D3-AADB-4F50-8C34-127DC661D685}resource=/crio_Mod4/AO0;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{1C0B94E3-0D89-47D7-AF6B-BC8F097791F4}resource=/crio_Mod2/AI8;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctl{1C4EFB2E-C00A-4B24-94DE-2B9E4A1FDEAC}resource=/crio_Mod4/AO14;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{1D22EF1B-ACD8-420A-8B73-AA25026C6F1C}resource=/crio_Mod4/AO5;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{1FFD9497-4C05-46F2-AF83-E6600054D839}resource=/crio_Mod4/AO9;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{23CE9B1C-381A-40B2-B0B3-845F03855265}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod5/DIO2;0;ReadMethodType=bool;WriteMethodType=bool{23E254D7-57C6-4C6E-8801-8B2CE87500C2}resource=/crio_Mod4/AO6;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{2D29C7F3-F646-4712-B868-B6B50C2B8D1A}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Test/DIO7;0;ReadMethodType=bool;WriteMethodType=bool{301B32AE-DD3C-4AD0-9A28-E7773C635470}resource=/crio_Mod2/AI7;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctl{30BF8F85-D7EA-43AF-AD9F-EA7FA16E404C}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Test/DIO0;0;ReadMethodType=bool;WriteMethodType=bool{312105F5-2A4D-4B97-A0F7-476D21F0931C}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO5;0;ReadMethodType=bool;WriteMethodType=bool{33380254-EB2C-4A54-BFA9-858EC736028B}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod5/DIO3;0;ReadMethodType=bool;WriteMethodType=bool{3A4F4FEF-16FE-4234-9CA3-9833A9702048}resource=/crio_Mod4/AO3;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{3F7EE1EA-1772-4429-BFA6-B270662E78D3}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO4;0;ReadMethodType=bool;WriteMethodType=bool{434C34C2-6FCA-4942-8AD1-7D402B03490A}resource=/crio_Mod4/AO15;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{43D2C6D9-9E30-4F2C-9E9A-27A6F06ED45E}"ControlLogic=0;NumberOfElements=1023;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;FIFO;DataType=100080000000000100094009000353474C000100000000000000000000;DisableOnOverflowUnderflow=FALSE"{443F398E-72C9-4594-A595-98BB39328648}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod5/DIO4;0;ReadMethodType=bool;WriteMethodType=bool{48163D7D-D37C-4233-A215-B5FFE9C64B14}resource=/crio_Mod2/AI12;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctl{4A38F494-682D-4A4B-B5BE-F0B88F974DA5}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 2,crio.Type=NI 9220,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.RsiAttributes=[crioConfig.End]{4CCF3576-1F3D-466F-BDDE-A2287C85171F}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Test/DIO6;0;ReadMethodType=bool;WriteMethodType=bool{50B405A8-46CA-4751-8441-BA4B24017212}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO1;0;ReadMethodType=bool;WriteMethodType=bool{5CE76D08-1903-4567-96D1-4874D9C7A715}resource=/crio_Mod2/AI0;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctl{5DE6FEEA-E2F0-42A2-8832-278CD4563885}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Test/DIO3;0;ReadMethodType=bool;WriteMethodType=bool{60F866AB-1BE1-4C75-9423-C8CAAA28655C}resource=/crio_Mod2/AI6;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctl{60FB9DAB-AEAB-47CB-9BF5-340AB318807E}resource=/crio_Mod4/AO11;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{612D99F5-D03D-4112-84AC-34828E3B362C}resource=/crio_Mod2/AI13;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctl{660D4C45-7FA6-45E6-B727-C4BF6A91211E}resource=/crio_Mod4/AO2;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{6794E500-B784-4D85-8FF0-B0633F8F9876}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod5/DIO1;0;ReadMethodType=bool;WriteMethodType=bool{6C01F846-269D-4025-91DE-B4C70AA9F2B1}resource=/crio_Mod2/AI4;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctl{6D107D51-7B68-46DA-A8C8-A756280E19B5}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO2;0;ReadMethodType=bool;WriteMethodType=bool{750422B1-5DB7-4E69-936C-C24636727C9D}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 5,crio.Type=NI 9401,cRIOModule.DIO3_0InitialDir=0,cRIOModule.DIO7_4InitialDir=0,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.NumSyncRegs=11111111,cRIOModule.RsiAttributes=[crioConfig.End]{80E95FC5-831E-4F74-8434-9F3AFC54339F}resource=/crio_Mod2/AI5;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctl{88080E0E-7840-4FEA-9FF7-A3597AA58C64}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO6;0;ReadMethodType=bool;WriteMethodType=bool{8AE239B2-357A-4FC2-8ED5-6FE94F375294}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 4,crio.Type=NI 9264,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.HotSwapMode=0,cRIOModule.RsiAttributes=[crioConfig.End]{9719288C-4A8E-44BA-9F21-81F500A3059C}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod5/DIO6;0;ReadMethodType=bool;WriteMethodType=bool{9BC8DA74-A60A-4A1B-95B8-1D6A69C853DD}resource=/crio_Mod4/AO8;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{9F7819C3-7177-49CE-B911-92CD3B34DEAD}resource=/crio_Mod4/AO13;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{A2B95A78-0B1E-427C-9F2F-1D818790F5E0}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 3,crio.Type=NI 9401,cRIOModule.DIO3_0InitialDir=0,cRIOModule.DIO7_4InitialDir=0,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.NumSyncRegs=11111111,cRIOModule.RsiAttributes=[crioConfig.End]{A62527D2-023D-47EE-A23F-38542693EE60}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Test/DIO4;0;ReadMethodType=bool;WriteMethodType=bool{A8713610-2B50-4DF8-B74B-61312F91F7C3}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 1,crio.Type=NI 9401,cRIOModule.DIO3_0InitialDir=0,cRIOModule.DIO7_4InitialDir=0,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.NumSyncRegs=11111111,cRIOModule.RsiAttributes=[crioConfig.End]{AA432AE7-9355-4A2A-8D84-D6108D95F806}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Test/DIO5;0;ReadMethodType=bool;WriteMethodType=bool{AF95B395-06C7-4554-A2BD-EB01400565F6}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod5/DIO5;0;ReadMethodType=bool;WriteMethodType=bool{B3849DB3-6245-44B6-A652-398BA4EB248B}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod5/DIO7;0;ReadMethodType=bool;WriteMethodType=bool{BAADC5A8-F3E7-4FA4-B350-6B830D03ED94}resource=/crio_Mod2/AI11;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctl{BDFBFCD5-14EC-4D63-8F8A-E13B46A2F5EA}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO7;0;ReadMethodType=bool;WriteMethodType=bool{C0073639-B9D0-49CF-81D5-AC74C807CA85}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Test/DIO1;0;ReadMethodType=bool;WriteMethodType=bool{C2FDB5D2-C006-43C9-A346-FC1506E236B8}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{C7468848-CB19-48CC-9F6C-CB5CF46B8F3A}resource=/crio_Mod2/AI14;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctl{CD7EB185-1A87-4E78-8C08-5D9A1491F439}Actual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1{CD7EB185-1A87-4E78-8C08-5D9A1491F439}Actual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1{CD7EB185-1A87-4E78-8C08-5D9A1491F439}Actual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1{CD7EB185-1A87-4E78-8C08-5D9A1491F439}Actual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1{CD7EB185-1A87-4E78-8C08-5D9A1491F439}Actual Number of Elements=16384;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094002000349313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1{CD7EB185-1A87-4E78-8C08-5D9A1491F439}Actual Number of Elements=16384;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094002000349313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1{CD7EB185-1A87-4E78-8C08-5D9A1491F439}Actual Number of Elements=16384;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094002000349313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1{CD7EB185-1A87-4E78-8C08-5D9A1491F439}Actual Number of Elements=16384;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094002000349313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1{D0555E14-FC5E-4E6D-B52C-38692DF3E735}resource=/crio_Mod2/AI9;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctl{D908C53F-EC7F-4B60-94EA-8EFFE51606AF}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod5/DIO0;0;ReadMethodType=bool;WriteMethodType=bool{DD4558A4-285C-4B32-8210-B487214AF722}resource=/crio_Mod4/AO10;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{E3C05844-6C1A-412F-8261-A988180977D2}resource=/crio_Mod2/AI1;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctl{E505DEB4-0E7A-4BBD-8E4F-9666BDA93D3B}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO3;0;ReadMethodType=bool;WriteMethodType=bool{E52E830B-7D4B-443C-A18D-A745CC446442}resource=/crio_Mod4/AO12;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{EC44625E-3E7E-4456-8600-FE877F64AE8C}resource=/crio_Mod2/AI10;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctl{F13DB277-52C1-4F68-83B9-451C47B55D10}resource=/crio_Mod4/AO4;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{F2192E5D-4396-4992-8233-B1B744B0D214}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO0;0;ReadMethodType=bool;WriteMethodType=bool{F227918A-90A9-4F9D-B03E-8B817E8AFDCC}resource=/crio_Mod2/AI15;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctl{F381BA2D-FD2F-4625-A216-C8149B1F1C9A}resource=/crio_Mod4/AO7;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{FF3F6E0F-BB13-4E70-A03B-CC602F2E7FC5}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Test/DIO2;0;ReadMethodType=bool;WriteMethodType=boolcRIO-9082/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9082FPGA_TARGET_FAMILYSPARTAN6TARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]</Property>
-					<Property Name="configString.name" Type="Str">40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;Crank_TempActual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1CrankActual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1cRIO-9082/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9082FPGA_TARGET_FAMILYSPARTAN6TARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]DebugDMA"ControlLogic=0;NumberOfElements=1023;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;FIFO;DataType=100080000000000100094009000353474C000100000000000000000000;DisableOnOverflowUnderflow=FALSE"Exhaust CAM 1Actual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1Intake CAM 1Actual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1Mod1/DIO0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Test/DIO0;0;ReadMethodType=bool;WriteMethodType=boolMod1/DIO1ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Test/DIO1;0;ReadMethodType=bool;WriteMethodType=boolMod1/DIO2ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Test/DIO2;0;ReadMethodType=bool;WriteMethodType=boolMod1/DIO3ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Test/DIO3;0;ReadMethodType=bool;WriteMethodType=boolMod1/DIO4ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Test/DIO4;0;ReadMethodType=bool;WriteMethodType=boolMod1/DIO5ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Test/DIO5;0;ReadMethodType=bool;WriteMethodType=boolMod1/DIO6ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Test/DIO6;0;ReadMethodType=bool;WriteMethodType=boolMod1/DIO7ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Test/DIO7;0;ReadMethodType=bool;WriteMethodType=boolMod2/AI0resource=/crio_Mod2/AI0;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctlMod2/AI10resource=/crio_Mod2/AI10;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctlMod2/AI11resource=/crio_Mod2/AI11;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctlMod2/AI12resource=/crio_Mod2/AI12;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctlMod2/AI13resource=/crio_Mod2/AI13;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctlMod2/AI14resource=/crio_Mod2/AI14;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctlMod2/AI15resource=/crio_Mod2/AI15;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctlMod2/AI1resource=/crio_Mod2/AI1;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctlMod2/AI2resource=/crio_Mod2/AI2;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctlMod2/AI3resource=/crio_Mod2/AI3;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctlMod2/AI4resource=/crio_Mod2/AI4;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctlMod2/AI5resource=/crio_Mod2/AI5;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctlMod2/AI6resource=/crio_Mod2/AI6;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctlMod2/AI7resource=/crio_Mod2/AI7;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctlMod2/AI8resource=/crio_Mod2/AI8;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctlMod2/AI9resource=/crio_Mod2/AI9;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctlMod2[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 2,crio.Type=NI 9220,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.RsiAttributes=[crioConfig.End]Mod3/DIO0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO0;0;ReadMethodType=bool;WriteMethodType=boolMod3/DIO1ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO1;0;ReadMethodType=bool;WriteMethodType=boolMod3/DIO2ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO2;0;ReadMethodType=bool;WriteMethodType=boolMod3/DIO3ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO3;0;ReadMethodType=bool;WriteMethodType=boolMod3/DIO4ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO4;0;ReadMethodType=bool;WriteMethodType=boolMod3/DIO5ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO5;0;ReadMethodType=bool;WriteMethodType=boolMod3/DIO6ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO6;0;ReadMethodType=bool;WriteMethodType=boolMod3/DIO7ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO7;0;ReadMethodType=bool;WriteMethodType=boolMod3[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 3,crio.Type=NI 9401,cRIOModule.DIO3_0InitialDir=0,cRIOModule.DIO7_4InitialDir=0,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.NumSyncRegs=11111111,cRIOModule.RsiAttributes=[crioConfig.End]Mod4/AO0resource=/crio_Mod4/AO0;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod4/AO10resource=/crio_Mod4/AO10;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod4/AO11resource=/crio_Mod4/AO11;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod4/AO12resource=/crio_Mod4/AO12;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod4/AO13resource=/crio_Mod4/AO13;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod4/AO14resource=/crio_Mod4/AO14;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod4/AO15resource=/crio_Mod4/AO15;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod4/AO1resource=/crio_Mod4/AO1;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod4/AO2resource=/crio_Mod4/AO2;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod4/AO3resource=/crio_Mod4/AO3;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod4/AO4resource=/crio_Mod4/AO4;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod4/AO5resource=/crio_Mod4/AO5;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod4/AO6resource=/crio_Mod4/AO6;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod4/AO7resource=/crio_Mod4/AO7;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod4/AO8resource=/crio_Mod4/AO8;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod4/AO9resource=/crio_Mod4/AO9;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod4[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 4,crio.Type=NI 9264,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.HotSwapMode=0,cRIOModule.RsiAttributes=[crioConfig.End]Mod5/DIO0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod5/DIO0;0;ReadMethodType=bool;WriteMethodType=boolMod5/DIO1ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod5/DIO1;0;ReadMethodType=bool;WriteMethodType=boolMod5/DIO2ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod5/DIO2;0;ReadMethodType=bool;WriteMethodType=boolMod5/DIO3ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod5/DIO3;0;ReadMethodType=bool;WriteMethodType=boolMod5/DIO4ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod5/DIO4;0;ReadMethodType=bool;WriteMethodType=boolMod5/DIO5ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod5/DIO5;0;ReadMethodType=bool;WriteMethodType=boolMod5/DIO6ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod5/DIO6;0;ReadMethodType=bool;WriteMethodType=boolMod5/DIO7ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod5/DIO7;0;ReadMethodType=bool;WriteMethodType=boolMod5[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 5,crio.Type=NI 9401,cRIOModule.DIO3_0InitialDir=0,cRIOModule.DIO7_4InitialDir=0,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.NumSyncRegs=11111111,cRIOModule.RsiAttributes=[crioConfig.End]Test[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 1,crio.Type=NI 9401,cRIOModule.DIO3_0InitialDir=0,cRIOModule.DIO7_4InitialDir=0,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.NumSyncRegs=11111111,cRIOModule.RsiAttributes=[crioConfig.End]VR Sensor1Actual Number of Elements=16384;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094002000349313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1VR Sensor2Actual Number of Elements=16384;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094002000349313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1VR Sensor3Actual Number of Elements=16384;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094002000349313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1VR Sensor4Actual Number of Elements=16384;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094002000349313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1</Property>
+					<Property Name="configString.guid" Type="Str">{02FC81C0-DC79-4CA2-A305-808B1FAA2FD5}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod5/DIO3:0;0;ReadMethodType=u8;WriteMethodType=u8{02FCD725-8F74-4419-A150-EC31AD7979ED}NumberOfSyncRegistersForReadInProject=Auto;resource=/cRIO_Trig/cRIO_Trig5;0;ReadMethodType=bool{0AF3E327-6020-4AE0-9FF8-BCD691500EF3}resource=/crio_Mod2/AI12;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctl{0BDDC342-C5DF-4FAA-A6F5-AAB090207953}NumberOfSyncRegistersForReadInProject=0;resource=/Time Synchronization/Time;0;ReadMethodType=u64{0F3EDD57-CB92-4437-8D5E-1104EECCB3DD}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Test/DIO4;0;ReadMethodType=bool;WriteMethodType=bool{0F5E1724-00C8-4DC8-BCDB-4F3A0162EEF7}NumberOfSyncRegistersForReadInProject=0;resource=/Time Synchronization/Offset from Time Reference Valid;0;ReadMethodType=bool{119254D8-1BC9-4619-A227-A6495474A6C5}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod5/DIO5;0;ReadMethodType=bool;WriteMethodType=bool{13805C54-E739-4DC3-AF85-C09E630F3320}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO5;0;ReadMethodType=bool;WriteMethodType=bool{142377F0-2172-491F-AA28-1F1191B87330}resource=/crio_Mod4/AO4;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{14908698-EB24-45F8-B974-A35923E3E6EF}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO3;0;ReadMethodType=bool;WriteMethodType=bool{16AA32D0-5E6A-49D5-8C1A-1533EB6F0F80}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Test/DIO7:4;0;ReadMethodType=u8;WriteMethodType=u8{175E1FF4-DF39-45CC-82C7-ECC6E6478EA0}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO7:0;0;ReadMethodType=u8;WriteMethodType=u8{26528D1A-247E-42FE-B762-345622E61E63}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Test/DIO6;0;ReadMethodType=bool;WriteMethodType=bool{2827A557-730C-4C46-8889-3B0EA492B9BD}NumberOfSyncRegistersForReadInProject=Auto;resource=/12.8 MHz Timebase;0;ReadMethodType=bool{2CA9787A-2574-4334-B28C-54F8A35940E3}resource=/crio_Mod4/AO14;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{2CF8BBBB-3ED4-4EFE-A0C2-E593B1B04877}NumberOfSyncRegistersForReadInProject=0;resource=/Time Synchronization/Offset from Time Reference;0;ReadMethodType=i32{2D09EB19-1E2D-49FF-B125-77F3FB8A1B39}resource=/Sleep;0;ReadMethodType=bool;WriteMethodType=bool{2EAA7858-A0C8-41C4-A050-6DB1F6512402}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod5/DIO4;0;ReadMethodType=bool;WriteMethodType=bool{36F36EBB-E723-4BA3-93BF-9EB958D65241}resource=/crio_Mod2/AI15;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctl{3781790B-004A-434C-857B-371B4E53B5D3}resource=/crio_Mod4/AO7;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{37E2C10D-9B79-4CD8-AFAD-B0BAE609FCE3}resource=/crio_Mod2/AI5;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctl{38A17A7D-4350-42F4-A898-731FDC51DBC1}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{3A900BAC-8A8D-4C8B-80BE-64A11E692577}resource=/crio_Mod2/AI0;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctl{3C771495-A931-42B5-9BC2-349E68CB9CFA}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod5/DIO2;0;ReadMethodType=bool;WriteMethodType=bool{3EA8C152-0D14-4EC1-AB37-17778143AC6F}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Test/DIO7;0;ReadMethodType=bool;WriteMethodType=bool{403C3C7E-6A3A-40F3-B997-8B01574AD4A6}resource=/crio_Mod4/AO13;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{42EC1853-2FD8-433B-A8C1-A76B34C6AA5B}resource=/crio_Mod2/AI13;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctl{43D2C6D9-9E30-4F2C-9E9A-27A6F06ED45E}"ControlLogic=0;NumberOfElements=1023;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;FIFO;DataType=100080000000000100094009000353474C000100000000000000000000;DisableOnOverflowUnderflow=FALSE"{45393FFB-8907-4A9D-B457-014B0124E0B6}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod5/DIO3;0;ReadMethodType=bool;WriteMethodType=bool{453FCA97-7BD2-42E9-9512-B87700C49223}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO4;0;ReadMethodType=bool;WriteMethodType=bool{47A30858-A72E-48DD-AABD-55B8AD42A755}resource=/crio_Mod4/AO12;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{4A38F494-682D-4A4B-B5BE-F0B88F974DA5}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 2,crio.Type=NI 9220,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.RsiAttributes=[crioConfig.End]{4AA777A8-3460-488E-94F3-8084D53D7284}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Test/DIO2;0;ReadMethodType=bool;WriteMethodType=bool{4B6B11BD-4E4B-4059-B736-2FDD3640F7C1}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/cRIO_Trig/cRIO_Trig0;0;ReadMethodType=bool;WriteMethodType=bool{4C56A409-C3A8-4D9E-9CE9-DE7BC85A2A5E}resource=/crio_Mod4/AO6;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{4CF661C5-F58D-4505-B62C-7AEA91983034}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/cRIO_Trig/cRIO_Trig1;0;ReadMethodType=bool;WriteMethodType=bool{4DA69BA5-23AE-4DF8-B815-9BFAF55C4D1D}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Test/DIO1;0;ReadMethodType=bool;WriteMethodType=bool{4DEF2DEE-46C4-4C7B-9688-A8A424AF9F4B}resource=/crio_Mod4/AO11;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{4ED7F632-DDCF-4F31-9B80-A47A2ACD966F}resource=/crio_Mod2/AI6;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctl{4F7796F0-3411-4773-83A0-DE57E4C3D71E}resource=/crio_Mod4/AO2;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{50C42212-D09A-4DBB-A1D9-33F78FBDFC8A}resource=/Chassis Temperature;0;ReadMethodType=i16{511CA6A7-0C36-446F-A764-3E223415B686}resource=/Reset RT App;0;WriteMethodType=bool{52123EB5-37AD-4AC0-99FB-4D2E33E113E3}resource=/crio_Mod2/AI4;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctl{5AFE89BA-5ED1-4D27-A5F9-746F979F0AD8}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod5/DIO1;0;ReadMethodType=bool;WriteMethodType=bool{5EE69EC9-778E-4095-A9D1-F98CACBCC930}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod5/DIO7:4;0;ReadMethodType=u8;WriteMethodType=u8{5FBC22C0-4587-4C75-B778-A142D2406BF2}resource=/crio_Mod4/AO8;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{6185114D-7759-41D5-8027-397550015587}NumberOfSyncRegistersForReadInProject=Auto;resource=/cRIO_Trig/cRIO_Trig6;0;ReadMethodType=bool{61A6B820-C2E5-45FA-AEFE-E756CA0B2DC7}resource=/crio_Mod2/AI2;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctl{67EDA5B7-BCBB-4F56-AC77-2F9C03E21FA7}resource=/crio_Mod4/AO1;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{694E5D28-4EB6-46B5-9D84-F0D3E97D3D33}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO3:0;0;ReadMethodType=u8;WriteMethodType=u8{750422B1-5DB7-4E69-936C-C24636727C9D}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 5,crio.Type=NI 9401,cRIOModule.DIO3_0InitialDir=0,cRIOModule.DIO7_4InitialDir=0,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.NumSyncRegs=11111111,cRIOModule.RsiAttributes=[crioConfig.End]{7B817481-88A3-4445-90CF-ACE128BC762E}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO7:4;0;ReadMethodType=u8;WriteMethodType=u8{8206D800-80EA-44E0-AFAF-D573E74F9886}resource=/crio_Mod4/AO15;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{837C1259-DF0F-41E4-9072-10AAE442DB65}resource=/crio_Mod2/AI10;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctl{85741A37-2B19-439E-BF55-60EA39579A68}resource=/crio_Mod4/AO0;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{8688DD31-39BD-4EB9-94A8-B0FC14740BBD}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO1;0;ReadMethodType=bool;WriteMethodType=bool{8AE239B2-357A-4FC2-8ED5-6FE94F375294}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 4,crio.Type=NI 9264,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.HotSwapMode=0,cRIOModule.RsiAttributes=[crioConfig.End]{8B53DE6F-3DF5-4513-945F-F7D66A4AFDCC}resource=/crio_Mod4/AO3;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{8F80D323-9F7F-4F10-BB6E-40ACD86E78BD}resource=/Scan Clock;0;ReadMethodType=bool{93DE308E-2FDA-4627-B88A-EBB0B19A1536}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/cRIO_Trig/cRIO_Trig2;0;ReadMethodType=bool;WriteMethodType=bool{9CC8A542-DD34-4FB4-A9B2-23ABFDDC20C2}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO2;0;ReadMethodType=bool;WriteMethodType=bool{A0DB269E-4BF9-4481-A4BD-5ED6C6EB766A}resource=/crio_Mod2/AI8;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctl{A22BFC80-805E-40F9-86DE-062A1E238A35}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Test/DIO3:0;0;ReadMethodType=u8;WriteMethodType=u8{A2B95A78-0B1E-427C-9F2F-1D818790F5E0}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 3,crio.Type=NI 9401,cRIOModule.DIO3_0InitialDir=0,cRIOModule.DIO7_4InitialDir=0,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.NumSyncRegs=11111111,cRIOModule.RsiAttributes=[crioConfig.End]{A41A2DAF-F2F2-4B4A-8AAC-D9911F04C276}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Test/DIO0;0;ReadMethodType=bool;WriteMethodType=bool{A568AA83-FDD0-4CDB-9FE0-6A8491883533}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Test/DIO3;0;ReadMethodType=bool;WriteMethodType=bool{A787B12E-0629-46D5-8248-8B4D4B848EE9}resource=/crio_Mod4/AO9;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{A813A328-DA88-45B9-9D19-DDD4E4510FF4}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod5/DIO7:0;0;ReadMethodType=u8;WriteMethodType=u8{A85C7714-17F6-42BE-BABE-399039509A1F}resource=/crio_Mod2/AI3;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctl{A8713610-2B50-4DF8-B74B-61312F91F7C3}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 1,crio.Type=NI 9401,cRIOModule.DIO3_0InitialDir=0,cRIOModule.DIO7_4InitialDir=0,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.NumSyncRegs=11111111,cRIOModule.RsiAttributes=[crioConfig.End]{AAEA4414-372E-4BF6-B760-25805DA35599}NumberOfSyncRegistersForReadInProject=Auto;resource=/System Watchdog Expired;0;ReadMethodType=bool{AED65432-86D4-4AAD-A6E2-E04C918AB91E}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO0;0;ReadMethodType=bool;WriteMethodType=bool{AEDC2D68-A4D4-4FE2-805F-17BE0907660E}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod5/DIO0;0;ReadMethodType=bool;WriteMethodType=bool{AF145D57-11B2-4937-A5A0-2D2636CB4B06}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Test/DIO5;0;ReadMethodType=bool;WriteMethodType=bool{AF8A3A7F-7300-4E70-9505-3F09A77853EA}resource=/crio_Mod2/AI9;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctl{AFBBA777-3225-4366-BDBF-B970810EF060}NumberOfSyncRegistersForReadInProject=Auto;resource=/10 MHz Timebase;0;ReadMethodType=bool{B0274044-71C4-4941-BFD3-EDA622DECACF}NumberOfSyncRegistersForReadInProject=Auto;resource=/13.1072 MHz Timebase;0;ReadMethodType=bool{B113FF97-4D97-4DB4-8FBD-B227A783AEDD}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO7;0;ReadMethodType=bool;WriteMethodType=bool{B7A26A73-AE43-4AC1-8672-2E68047B72EE}NumberOfSyncRegistersForReadInProject=Auto;resource=/cRIO_Trig/cRIO_Trig4;0;ReadMethodType=bool{C55ECA08-A3C8-458F-8C78-0832E48D6D61}resource=/crio_Mod2/AI14;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctl{CD7EB185-1A87-4E78-8C08-5D9A1491F439}Actual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1{CD7EB185-1A87-4E78-8C08-5D9A1491F439}Actual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1{CD7EB185-1A87-4E78-8C08-5D9A1491F439}Actual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1{CD7EB185-1A87-4E78-8C08-5D9A1491F439}Actual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1{CD7EB185-1A87-4E78-8C08-5D9A1491F439}Actual Number of Elements=16384;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094002000349313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1{CD7EB185-1A87-4E78-8C08-5D9A1491F439}Actual Number of Elements=16384;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094002000349313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1{CD7EB185-1A87-4E78-8C08-5D9A1491F439}Actual Number of Elements=16384;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094002000349313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1{CD7EB185-1A87-4E78-8C08-5D9A1491F439}Actual Number of Elements=16384;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094002000349313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1{D32576B2-5072-448C-87A4-7D17DC45B061}resource=/crio_Mod4/AO5;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{DBA72EEC-1E18-4364-A29E-89758831B69B}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod5/DIO7;0;ReadMethodType=bool;WriteMethodType=bool{DCB97F22-F7F4-45DE-8165-932C035DF763}NumberOfSyncRegistersForReadInProject=Auto;resource=/cRIO_Trig/cRIO_Trig7;0;ReadMethodType=bool{DE0CF8D8-2BB5-4975-9C63-48536611ECF4}resource=/crio_Mod2/AI1;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctl{DEB0D391-765D-42C1-89DD-F9461DE8E70B}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Test/DIO7:0;0;ReadMethodType=u8;WriteMethodType=u8{DF53EF93-3453-46E1-B8D6-CA041EF0379F}NumberOfSyncRegistersForReadInProject=0;resource=/USER Push Button;0;ReadMethodType=bool{E1DC73F4-05CC-4D8E-868F-86B688A88BE9}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/cRIO_Trig/cRIO_Trig3;0;ReadMethodType=bool;WriteMethodType=bool{EAF9E97B-5BE7-492C-8453-C3DEB41ED109}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO6;0;ReadMethodType=bool;WriteMethodType=bool{EFAE4080-BFA3-44F4-87AF-FF35A819293F}resource=/crio_Mod2/AI7;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctl{F01E58B2-44A5-4ABC-B9BE-3D503AFF2004}NumberOfSyncRegistersForReadInProject=0;resource=/Time Synchronization/Time Source;0;ReadMethodType=Targets\NI\FPGA\RIO\CompactRIO\Sync\SyncSource.ctl{F09AC706-2160-4802-9D13-F543B7CDEDED}resource=/USER FPGA LED;0;ReadMethodType=u8;WriteMethodType=u8{F14D6BC9-C253-493B-B9DC-466E75648ACC}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod5/DIO6;0;ReadMethodType=bool;WriteMethodType=bool{F38BA723-2498-41C5-AC01-D923D13AA98E}resource=/crio_Mod2/AI11;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctl{F85A7B0A-8C9C-4101-9C6F-35B7D444AE2C}resource=/System Reset;0;ReadMethodType=bool;WriteMethodType=bool{FC49CDE6-A47B-4810-B1E2-02FC395BEF4F}NumberOfSyncRegistersForReadInProject=0;resource=/Time Synchronization/Time Synchronization Fault;0;ReadMethodType=bool{FC8FE1D2-4639-4EEC-A4EC-612BFB331439}resource=/crio_Mod4/AO10;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlcRIO-9045/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9045FPGA_TARGET_FAMILYKINTEX7TARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]</Property>
+					<Property Name="configString.name" Type="Str">10 MHz TimebaseNumberOfSyncRegistersForReadInProject=Auto;resource=/10 MHz Timebase;0;ReadMethodType=bool12.8 MHz TimebaseNumberOfSyncRegistersForReadInProject=Auto;resource=/12.8 MHz Timebase;0;ReadMethodType=bool13.1072 MHz TimebaseNumberOfSyncRegistersForReadInProject=Auto;resource=/13.1072 MHz Timebase;0;ReadMethodType=bool40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;Chassis Temperatureresource=/Chassis Temperature;0;ReadMethodType=i16Crank_TempActual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1CrankActual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1cRIO_Trig0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/cRIO_Trig/cRIO_Trig0;0;ReadMethodType=bool;WriteMethodType=boolcRIO_Trig1ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/cRIO_Trig/cRIO_Trig1;0;ReadMethodType=bool;WriteMethodType=boolcRIO_Trig2ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/cRIO_Trig/cRIO_Trig2;0;ReadMethodType=bool;WriteMethodType=boolcRIO_Trig3ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/cRIO_Trig/cRIO_Trig3;0;ReadMethodType=bool;WriteMethodType=boolcRIO_Trig4NumberOfSyncRegistersForReadInProject=Auto;resource=/cRIO_Trig/cRIO_Trig4;0;ReadMethodType=boolcRIO_Trig5NumberOfSyncRegistersForReadInProject=Auto;resource=/cRIO_Trig/cRIO_Trig5;0;ReadMethodType=boolcRIO_Trig6NumberOfSyncRegistersForReadInProject=Auto;resource=/cRIO_Trig/cRIO_Trig6;0;ReadMethodType=boolcRIO_Trig7NumberOfSyncRegistersForReadInProject=Auto;resource=/cRIO_Trig/cRIO_Trig7;0;ReadMethodType=boolcRIO-9045/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9045FPGA_TARGET_FAMILYKINTEX7TARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]DebugDMA"ControlLogic=0;NumberOfElements=1023;Type=2;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;FIFO;DataType=100080000000000100094009000353474C000100000000000000000000;DisableOnOverflowUnderflow=FALSE"Exhaust CAM 1Actual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1Intake CAM 1Actual Number of Elements=1024;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094006000355313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1Mod2/AI0resource=/crio_Mod2/AI0;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctlMod2/AI10resource=/crio_Mod2/AI10;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctlMod2/AI11resource=/crio_Mod2/AI11;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctlMod2/AI12resource=/crio_Mod2/AI12;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctlMod2/AI13resource=/crio_Mod2/AI13;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctlMod2/AI14resource=/crio_Mod2/AI14;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctlMod2/AI15resource=/crio_Mod2/AI15;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctlMod2/AI1resource=/crio_Mod2/AI1;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctlMod2/AI2resource=/crio_Mod2/AI2;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctlMod2/AI3resource=/crio_Mod2/AI3;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctlMod2/AI4resource=/crio_Mod2/AI4;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctlMod2/AI5resource=/crio_Mod2/AI5;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctlMod2/AI6resource=/crio_Mod2/AI6;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctlMod2/AI7resource=/crio_Mod2/AI7;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctlMod2/AI8resource=/crio_Mod2/AI8;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctlMod2/AI9resource=/crio_Mod2/AI9;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_24_5.ctlMod2[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 2,crio.Type=NI 9220,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.RsiAttributes=[crioConfig.End]Mod3/DIO0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO0;0;ReadMethodType=bool;WriteMethodType=boolMod3/DIO1ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO1;0;ReadMethodType=bool;WriteMethodType=boolMod3/DIO2ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO2;0;ReadMethodType=bool;WriteMethodType=boolMod3/DIO3:0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO3:0;0;ReadMethodType=u8;WriteMethodType=u8Mod3/DIO3ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO3;0;ReadMethodType=bool;WriteMethodType=boolMod3/DIO4ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO4;0;ReadMethodType=bool;WriteMethodType=boolMod3/DIO5ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO5;0;ReadMethodType=bool;WriteMethodType=boolMod3/DIO6ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO6;0;ReadMethodType=bool;WriteMethodType=boolMod3/DIO7:0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO7:0;0;ReadMethodType=u8;WriteMethodType=u8Mod3/DIO7:4ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO7:4;0;ReadMethodType=u8;WriteMethodType=u8Mod3/DIO7ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod3/DIO7;0;ReadMethodType=bool;WriteMethodType=boolMod3[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 3,crio.Type=NI 9401,cRIOModule.DIO3_0InitialDir=0,cRIOModule.DIO7_4InitialDir=0,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.NumSyncRegs=11111111,cRIOModule.RsiAttributes=[crioConfig.End]Mod4/AO0resource=/crio_Mod4/AO0;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod4/AO10resource=/crio_Mod4/AO10;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod4/AO11resource=/crio_Mod4/AO11;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod4/AO12resource=/crio_Mod4/AO12;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod4/AO13resource=/crio_Mod4/AO13;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod4/AO14resource=/crio_Mod4/AO14;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod4/AO15resource=/crio_Mod4/AO15;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod4/AO1resource=/crio_Mod4/AO1;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod4/AO2resource=/crio_Mod4/AO2;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod4/AO3resource=/crio_Mod4/AO3;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod4/AO4resource=/crio_Mod4/AO4;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod4/AO5resource=/crio_Mod4/AO5;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod4/AO6resource=/crio_Mod4/AO6;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod4/AO7resource=/crio_Mod4/AO7;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod4/AO8resource=/crio_Mod4/AO8;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod4/AO9resource=/crio_Mod4/AO9;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod4[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 4,crio.Type=NI 9264,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.HotSwapMode=0,cRIOModule.RsiAttributes=[crioConfig.End]Mod5/DIO0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod5/DIO0;0;ReadMethodType=bool;WriteMethodType=boolMod5/DIO1ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod5/DIO1;0;ReadMethodType=bool;WriteMethodType=boolMod5/DIO2ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod5/DIO2;0;ReadMethodType=bool;WriteMethodType=boolMod5/DIO3:0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod5/DIO3:0;0;ReadMethodType=u8;WriteMethodType=u8Mod5/DIO3ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod5/DIO3;0;ReadMethodType=bool;WriteMethodType=boolMod5/DIO4ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod5/DIO4;0;ReadMethodType=bool;WriteMethodType=boolMod5/DIO5ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod5/DIO5;0;ReadMethodType=bool;WriteMethodType=boolMod5/DIO6ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod5/DIO6;0;ReadMethodType=bool;WriteMethodType=boolMod5/DIO7:0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod5/DIO7:0;0;ReadMethodType=u8;WriteMethodType=u8Mod5/DIO7:4ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod5/DIO7:4;0;ReadMethodType=u8;WriteMethodType=u8Mod5/DIO7ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Mod5/DIO7;0;ReadMethodType=bool;WriteMethodType=boolMod5[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 5,crio.Type=NI 9401,cRIOModule.DIO3_0InitialDir=0,cRIOModule.DIO7_4InitialDir=0,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.NumSyncRegs=11111111,cRIOModule.RsiAttributes=[crioConfig.End]Offset from Time Reference ValidNumberOfSyncRegistersForReadInProject=0;resource=/Time Synchronization/Offset from Time Reference Valid;0;ReadMethodType=boolOffset from Time ReferenceNumberOfSyncRegistersForReadInProject=0;resource=/Time Synchronization/Offset from Time Reference;0;ReadMethodType=i32Reset RT Appresource=/Reset RT App;0;WriteMethodType=boolScan Clockresource=/Scan Clock;0;ReadMethodType=boolSleepresource=/Sleep;0;ReadMethodType=bool;WriteMethodType=boolSystem Resetresource=/System Reset;0;ReadMethodType=bool;WriteMethodType=boolSystem Watchdog ExpiredNumberOfSyncRegistersForReadInProject=Auto;resource=/System Watchdog Expired;0;ReadMethodType=boolTest/DIO0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Test/DIO0;0;ReadMethodType=bool;WriteMethodType=boolTest/DIO1ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Test/DIO1;0;ReadMethodType=bool;WriteMethodType=boolTest/DIO2ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Test/DIO2;0;ReadMethodType=bool;WriteMethodType=boolTest/DIO3:0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Test/DIO3:0;0;ReadMethodType=u8;WriteMethodType=u8Test/DIO3ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Test/DIO3;0;ReadMethodType=bool;WriteMethodType=boolTest/DIO4ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Test/DIO4;0;ReadMethodType=bool;WriteMethodType=boolTest/DIO5ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Test/DIO5;0;ReadMethodType=bool;WriteMethodType=boolTest/DIO6ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Test/DIO6;0;ReadMethodType=bool;WriteMethodType=boolTest/DIO7:0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Test/DIO7:0;0;ReadMethodType=u8;WriteMethodType=u8Test/DIO7:4ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Test/DIO7:4;0;ReadMethodType=u8;WriteMethodType=u8Test/DIO7ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForReadInProject=Auto;resource=/crio_Test/DIO7;0;ReadMethodType=bool;WriteMethodType=boolTest[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 1,crio.Type=NI 9401,cRIOModule.DIO3_0InitialDir=0,cRIOModule.DIO7_4InitialDir=0,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.NumSyncRegs=11111111,cRIOModule.RsiAttributes=[crioConfig.End]Time SourceNumberOfSyncRegistersForReadInProject=0;resource=/Time Synchronization/Time Source;0;ReadMethodType=Targets\NI\FPGA\RIO\CompactRIO\Sync\SyncSource.ctlTime Synchronization FaultNumberOfSyncRegistersForReadInProject=0;resource=/Time Synchronization/Time Synchronization Fault;0;ReadMethodType=boolTimeNumberOfSyncRegistersForReadInProject=0;resource=/Time Synchronization/Time;0;ReadMethodType=u64USER FPGA LEDresource=/USER FPGA LED;0;ReadMethodType=u8;WriteMethodType=u8USER Push ButtonNumberOfSyncRegistersForReadInProject=0;resource=/USER Push Button;0;ReadMethodType=boolVR Sensor1Actual Number of Elements=16384;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094002000349313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1VR Sensor2Actual Number of Elements=16384;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094002000349313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1VR Sensor3Actual Number of Elements=16384;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094002000349313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1VR Sensor4Actual Number of Elements=16384;ReadArbs=2;WriteArbs=2;Implementation=2;DataType=100080000000000100094002000349313600010000000000000000;InitDataHash=;DRAM Selection=DramBank0;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=50;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=1</Property>
 				</Item>
-				<Item Name="Dependencies" Type="Dependencies">
-					<Item Name="vi.lib" Type="Folder">
-						<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
-						<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
-					</Item>
-					<Item Name="FPGA Wizard Templates.lvlib" Type="Library" URL="../../../Templates/FPGA Wizard Templates.lvlib"/>
-					<Item Name="Engine Simulation Toolkit.lvlib" Type="Library" URL="../../../SubModules/Engine Simulation Toolkit FPGA IP/IP Source/Engine Simulation Toolkit.lvlib"/>
-					<Item Name="Speciality FPGA IO.lvlib" Type="Library" URL="../../../SubModules/FPGA Addon Speciality IO/Source/Speciality FPGA IO.lvlib"/>
-				</Item>
-				<Item Name="Build Specifications" Type="Build">
-					<Item Name="FPGA Target" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
-						<Property Name="AllowEnableRemoval" Type="Bool">false</Property>
-						<Property Name="BuildSpecDecription" Type="Str"></Property>
-						<Property Name="BuildSpecName" Type="Str">FPGA Target</Property>
-						<Property Name="Comp.BitfileName" Type="Str">FPGAScripting_FPGATarget_FPGATarget_oVhKbQOZwA8.lvbitx</Property>
-						<Property Name="Comp.CustomXilinxParameters" Type="Str"></Property>
-						<Property Name="Comp.MaxFanout" Type="Int">-1</Property>
-						<Property Name="Comp.RandomSeed" Type="Bool">false</Property>
-						<Property Name="Comp.Version.Build" Type="Int">0</Property>
-						<Property Name="Comp.Version.Fix" Type="Int">0</Property>
-						<Property Name="Comp.Version.Major" Type="Int">1</Property>
-						<Property Name="Comp.Version.Minor" Type="Int">0</Property>
-						<Property Name="Comp.VersionAutoIncrement" Type="Bool">false</Property>
-						<Property Name="Comp.Vivado.EnableMultiThreading" Type="Bool">true</Property>
-						<Property Name="Comp.Vivado.OptDirective" Type="Str"></Property>
-						<Property Name="Comp.Vivado.PhysOptDirective" Type="Str"></Property>
-						<Property Name="Comp.Vivado.PlaceDirective" Type="Str"></Property>
-						<Property Name="Comp.Vivado.RouteDirective" Type="Str"></Property>
-						<Property Name="Comp.Vivado.RunPowerOpt" Type="Bool">false</Property>
-						<Property Name="Comp.Vivado.Strategy" Type="Str">Default</Property>
-						<Property Name="Comp.Xilinx.DesignStrategy" Type="Str">balanced</Property>
-						<Property Name="Comp.Xilinx.MapEffort" Type="Str">high(timing)</Property>
-						<Property Name="Comp.Xilinx.ParEffort" Type="Str">standard</Property>
-						<Property Name="Comp.Xilinx.SynthEffort" Type="Str">normal</Property>
-						<Property Name="Comp.Xilinx.SynthGoal" Type="Str">speed</Property>
-						<Property Name="Comp.Xilinx.UseRecommended" Type="Bool">true</Property>
-						<Property Name="DefaultBuildSpec" Type="Bool">true</Property>
-						<Property Name="DestinationDirectory" Type="Path">FPGA Bitfiles</Property>
-						<Property Name="NI.LV.FPGA.LastCompiledBitfilePath" Type="Path">/C/Users/Administrator/Desktop/FPGA Wizard/FPGA Bitfiles/FPGAScripting_FPGATarget_FPGATarget_oVhKbQOZwA8.lvbitx</Property>
-						<Property Name="NI.LV.FPGA.LastCompiledBitfilePathRelativeToProject" Type="Path">FPGA Bitfiles/FPGAScripting_FPGATarget_FPGATarget_oVhKbQOZwA8.lvbitx</Property>
-						<Property Name="ProjectPath" Type="Path">/C/Users/Administrator/Desktop/FPGA Wizard/FPGA Scripting.lvproj</Property>
-						<Property Name="RelativePath" Type="Bool">true</Property>
-						<Property Name="RunWhenLoaded" Type="Bool">false</Property>
-						<Property Name="SupportDownload" Type="Bool">true</Property>
-						<Property Name="SupportResourceEstimation" Type="Bool">true</Property>
-						<Property Name="TargetName" Type="Str">FPGA Target</Property>
-						<Property Name="TopLevelVI" Type="Ref"></Property>
-					</Item>
-				</Item>
-			</Item>
-			<Item Name="Real-Time Scan Resources" Type="Module Container">
-				<Property Name="crio.ModuleContainerType" Type="Str">crio.RSIModuleContainer</Property>
+				<Item Name="Dependencies" Type="Dependencies"/>
+				<Item Name="Build Specifications" Type="Build"/>
 			</Item>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies"/>

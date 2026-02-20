@@ -28,9 +28,9 @@ NI RIO 18.0
 
 SubModules: 
 
-FPGA Addon Speciality IO (https://github.com/NIVeriStandAdd-Ons/FPGA-Addon-Speciality-IO)
+FPGA Addon Speciality IO (https://github.com/ni/niveristand-fpga-addon-speciality-io)
 
-Engine Simulation Toolkit FPGA IP (https://github.com/NIVeriStandAdd-Ons/Engine-Simulation-Toolkit-FPGA-IP)
+Engine Simulation Toolkit FPGA IP (https://github.com/ni/niveristand-engine-simulation-toolkit-fpga-ip)
 
 ### License ###
 

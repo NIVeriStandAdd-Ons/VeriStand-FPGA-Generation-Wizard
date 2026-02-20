@@ -15,3 +15,87 @@ Mod3/CH4,Power 12
 Mod3/CH5,Power 13
 Mod3/CH6,Power 14
 Mod3/CH7,Power 15
+Mod6/DIO0,PWM Out 1
+Mod6/DIO1,PWM Out 2
+Mod6/DIO2,PWM Out 3
+Mod6/DIO3,PWM Out 4
+Mod6/DIO4,PWM Out 5
+Mod6/DIO5,PWM Out 6
+Mod6/DIO6,PWM Out 7
+Mod6/DIO7,PWM Out 8
+Mod6/DIO8,PWM Out 9
+Mod6/DIO9,PWM Out 10
+Mod6/DIO10,PWM Out 11
+Mod6/DIO11,PWM Out 12
+Mod6/DIO12,PWM Out 13
+Mod6/DIO13,PWM Out 14
+Mod6/DIO14,PWM Out 15
+Mod6/DIO15,PWM Out 16
+Mod6/DIO16,PWM Out 17
+Mod6/DIO17,PWM Out 18
+Mod6/DIO18,PWM Out 19
+Mod6/DIO19,PWM Out 20
+Mod6/DIO20,PWM Out 21
+Mod6/DIO21,PWM Out 22
+Mod6/DIO22,PWM Out 23
+Mod6/DIO23,PWM Out 24
+Mod6/DIO24,PWM Out 25
+Mod6/DIO25,PWM Out 26
+Mod6/DIO26,PWM Out 27
+Mod6/DIO27,Output 0
+Mod6/DIO28,Output 1
+Mod6/DIO29,Output 2
+Mod6/DIO30,Output 3
+Mod6/DIO31,Output 4
+Mod7/DI0,PWM IN 3
+Mod7/DI1,PWM IN 4
+Mod7/DI2,PWM IN 5
+Mod7/DI3,PWM IN 6
+Mod7/DI4,State 0
+Mod7/DI5,State 1
+Mod7/DI6,State 2
+Mod7/DI7,State 3
+Mod8/DI0,State 4
+Mod8/DI1,State 5
+Mod8/DI2,State 6
+Mod8/DI3,State 7
+Mod8/DI4,State 8
+Mod8/DI5,State 9
+Mod8/DI6,State 10
+Mod8/DI7,State 11
+Mod8/DI8,State 12
+Mod8/DI9,State 13
+Mod8/DI10,State 14
+Mod8/DI11,State 15
+Mod8/DI12,State 16
+Mod8/DI13,State 17
+Mod8/DI14,State 18
+Mod8/DI15,State 19
+Mod8/DI16,State 20
+Mod8/DI17,State 21
+Mod8/DI18,State 22
+Mod8/DI19,State 23
+Mod8/DI20,State 24
+Mod8/DI21,State 25
+Mod8/DI22,State 26
+Mod8/DI23,State 27
+Mod8/DI24,State 28
+Mod8/DI25,State 29
+Mod8/DI26,State 30
+Mod8/DI27,State 31
+Mod8/DI28,State 32
+Mod8/DI29,State 33
+Mod8/DI30,State 34
+Mod8/DI31,State 35
+Mod4/DIO0,PWM Out 1
+Mod4/DIO1,PWM Out 2
+Mod4/DIO2,Intake CAM 1
+Mod4/DIO3,Exhaust CAM 1
+Mod4/DIO4,Front Driver WS_0
+Mod4/DIO5,Front Driver WS_1
+Mod4/DIO6,Crank_Temp
+Mod4/DIO7,Crank
+Mod5/DIO0,PWM IN 1
+Mod5/DIO1,PWM IN 2
+Mod5/DIO2,Cyl Inj 1
+Mod5/DIO3,Cyl Inj 2
