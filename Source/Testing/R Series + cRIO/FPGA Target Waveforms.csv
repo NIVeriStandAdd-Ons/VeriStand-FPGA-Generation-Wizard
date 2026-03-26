@@ -47,11 +47,11 @@ Mod5/DIO4,Rear Driver WS_0
 Mod5/DIO5,Rear Driver WS_1
 Mod5/DIO6,Read Passenger WS_0
 Mod5/DIO7,Read Passenger WS_1
-Mod1/DIO0,Relay State
-Mod1/DIO1,Switch State
-Mod1/DIO2,Key State
-Mod1/DIO3,PWM IN 1
-Mod1/DIO4,PWM IN 2
-Mod1/DIO5,Cyl Inj 1
-Mod1/DIO6,Cyl Inj 2
-Mod1/DIO7,Cyl Inj 3
+Test/DIO0,Relay State
+Test/DIO1,Switch State
+Test/DIO2,Key State
+Test/DIO3,PWM IN 1
+Test/DIO4,PWM IN 2
+Test/DIO5,Cyl Inj 1
+Test/DIO6,Cyl Inj 2
+Test/DIO7,Cyl Inj 3

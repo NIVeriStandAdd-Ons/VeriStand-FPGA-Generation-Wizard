@@ -8,7 +8,7 @@ View the help file @ \Source\Help\VeriStand FPGA Wizard Help.chm
 
 ### LabVIEW Version ###
 
-LabVIEW 2015
+LabVIEW 2026
 
 ### Built Availability ###
 
@@ -20,11 +20,11 @@ IP has been tested by developer. It meets coding best practices. It is considere
 
 ### Source Dependencies ###
 
-LabVIEW 2015 or later
+LabVIEW 2026 or later
 
-LabVIEW FPGA 2015 or later
+LabVIEW FPGA 2026 or later
 
-NI RIO 18.0
+NI RIO 26.0
 
 SubModules: 
 

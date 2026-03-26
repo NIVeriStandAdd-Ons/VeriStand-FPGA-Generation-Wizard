@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="25008000">
+<Project Type="Project" LVVersion="26008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
 		<Property Name="IOScan.NetVarPeriod" Type="UInt">100</Property>
@@ -60,6 +60,7 @@
 		</Item>
 		<Item Name="Project" Type="Folder">
 			<Item Name="Project.lvclass" Type="LVClass" URL="../Classes/Project/Project.lvclass"/>
+			<Item Name="VI.lvclass" Type="LVClass" URL="../Classes/VI/VI/VI.lvclass"/>
 		</Item>
 		<Item Name="Structures" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
@@ -67,11 +68,10 @@
 				<Item Name="Digital High Speed Loop.lvclass" Type="LVClass" URL="../Classes/VI/Digital High Speed Loop/Digital High Speed Loop.lvclass"/>
 				<Item Name="DMA Loop.lvclass" Type="LVClass" URL="../Classes/VI/DMA Loop/DMA Loop.lvclass"/>
 				<Item Name="Module Loop.lvclass" Type="LVClass" URL="../Classes/VI/Module Loop/Module Loop.lvclass"/>
-				<Item Name="Loop.lvclass" Type="LVClass" URL="../Classes/VI/Loop/Loop.lvclass"/>
 			</Item>
 			<Item Name="Main Sequence.lvclass" Type="LVClass" URL="../Classes/VI/Main Sequence/Main Sequence.lvclass"/>
 			<Item Name="Structures.lvclass" Type="LVClass" URL="../Classes/VI/Structures/Structures.lvclass"/>
-			<Item Name="VI.lvclass" Type="LVClass" URL="../Classes/VI/VI/VI.lvclass"/>
+			<Item Name="Loop.lvclass" Type="LVClass" URL="../Classes/VI/Loop/Loop.lvclass"/>
 		</Item>
 		<Item Name="FPGA Target" Type="FPGA Target">
 			<Property Name="AutoRun" Type="Bool">false</Property>
